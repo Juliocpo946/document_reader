@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 
 class AppTheme {
-  static const Color pdfColor = Color(0xFFE53935);
-  static const Color wordColor = Color(0xFF1E88E5);
-  static const Color excelColor = Color(0xFF43A047);
-  static const Color textColor = Color(0xFF8D6E63);
+  static const Color pdfColor = Color(0xFFD32F2F);
+  static const Color wordColor = Color(0xFF1976D2);
+  static const Color excelColor = Color(0xFF388E3C);
+  static const Color powerpointColor = Color(0xFFD85D01);
+  static const Color textColor = Color(0xFF616161);
 
   static final ThemeData lightTheme = _buildTheme(Brightness.light);
   static final ThemeData darkTheme = _buildTheme(Brightness.dark);

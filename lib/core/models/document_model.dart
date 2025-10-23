@@ -3,7 +3,7 @@ import 'package:path/path.dart' as p;
 import 'package:intl/intl.dart';
 import '../utils/app_theme.dart';
 
-enum DocumentType { pdf, word, excel, text, unknown }
+enum DocumentType { pdf, word, excel, powerpoint, text, unknown }
 
 extension DocumentTypeExtension on DocumentType {
   Color get color {
@@ -11,6 +11,7 @@ extension DocumentTypeExtension on DocumentType {
       case DocumentType.pdf: return AppTheme.pdfColor;
       case DocumentType.word: return AppTheme.wordColor;
       case DocumentType.excel: return AppTheme.excelColor;
+      case DocumentType.powerpoint: return AppTheme.powerpointColor;
       case DocumentType.text: return AppTheme.textColor;
       default: return Colors.grey.shade600;
     }
@@ -21,6 +22,7 @@ extension DocumentTypeExtension on DocumentType {
       case DocumentType.pdf: return Icons.picture_as_pdf_rounded;
       case DocumentType.word: return Icons.description_rounded;
       case DocumentType.excel: return Icons.table_chart_rounded;
+      case DocumentType.powerpoint: return Icons.slideshow_rounded;
       case DocumentType.text: return Icons.article_rounded;
       default: return Icons.insert_drive_file_rounded;
     }
@@ -62,6 +64,7 @@ class Document {
       case '.pdf': type = DocumentType.pdf; break;
       case '.doc': case '.docx': type = DocumentType.word; break;
       case '.xls': case '.xlsx': type = DocumentType.excel; break;
+      case '.ppt': case '.pptx': type = DocumentType.powerpoint; break;
       case '.txt': type = DocumentType.text; break;
       default: type = DocumentType.unknown;
     }

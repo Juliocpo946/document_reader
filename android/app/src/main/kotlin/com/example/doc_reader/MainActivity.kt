@@ -29,13 +29,15 @@ class MainActivity: FlutterActivity() {
             MediaStore.Files.FileColumns.SIZE,
             MediaStore.Files.FileColumns.DATE_MODIFIED
         )
-        val selection = MediaStore.Files.FileColumns.MIME_TYPE + " IN (?, ?, ?, ?, ?, ?)"
+        val selection = MediaStore.Files.FileColumns.MIME_TYPE + " IN (?, ?, ?, ?, ?, ?, ?, ?)"
         val selectionArgs = arrayOf(
             "application/pdf",
             "application/msword",
             "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
             "application/vnd.ms-excel",
             "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "application/vnd.ms-powerpoint",
+            "application/vnd.openxmlformats-officedocument.presentationml.presentation",
             "text/plain"
         )
 
