@@ -3,7 +3,6 @@ package com.example.doc_reader
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.MethodChannel
-import android.os.Environment
 import android.provider.MediaStore
 import java.io.File
 
@@ -23,9 +22,13 @@ class MainActivity: FlutterActivity() {
         }
     }
 
-    private fun scanForDocuments(): List<String> {
-        val fileList = mutableListOf<String>()
-        val projection = arrayOf(MediaStore.Files.FileColumns.DATA)
+    private fun scanForDocuments(): List<Map<String, Any>> {
+        val fileList = mutableListOf<Map<String, Any>>()
+        val projection = arrayOf(
+            MediaStore.Files.FileColumns.DATA,
+            MediaStore.Files.FileColumns.SIZE,
+            MediaStore.Files.FileColumns.DATE_MODIFIED
+        )
         val selection = MediaStore.Files.FileColumns.MIME_TYPE + " IN (?, ?, ?, ?, ?, ?)"
         val selectionArgs = arrayOf(
             "application/pdf",
@@ -45,10 +48,21 @@ class MainActivity: FlutterActivity() {
         )
 
         cursor?.use {
-            val columnIndex = it.getColumnIndexOrThrow(MediaStore.Files.FileColumns.DATA)
+            val dataIndex = it.getColumnIndexOrThrow(MediaStore.Files.FileColumns.DATA)
+            val sizeIndex = it.getColumnIndexOrThrow(MediaStore.Files.FileColumns.SIZE)
+            val modifiedIndex = it.getColumnIndexOrThrow(MediaStore.Files.FileColumns.DATE_MODIFIED)
+
             while (it.moveToNext()) {
-                val path = it.getString(columnIndex)
-                fileList.add(path)
+                val path = it.getString(dataIndex)
+                val size = it.getLong(sizeIndex)
+                val modified = it.getLong(modifiedIndex)
+
+                val fileMap = mapOf(
+                    "path" to path,
+                    "size" to size,
+                    "modified" to modified
+                )
+                fileList.add(fileMap)
             }
         }
         return fileList
