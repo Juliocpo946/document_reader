@@ -6,8 +6,7 @@ plugins {
 
 android {
     namespace = "com.example.doc_reader"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    compileSdk = 35
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -20,10 +19,10 @@ android {
 
     defaultConfig {
         applicationId = "com.example.doc_reader"
-        minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
-        versionCode = flutter.versionCode
-        versionName = flutter.versionName
+        minSdk = 23
+        targetSdk = 35
+        versionCode = 1
+        versionName = "1.0.0"
     }
 
     buildTypes {
