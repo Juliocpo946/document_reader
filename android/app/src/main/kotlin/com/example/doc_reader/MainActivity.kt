@@ -1,23 +1,30 @@
 package com.example.doc_reader
 
+import android.provider.MediaStore
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.MethodChannel
-import android.provider.MediaStore
 
 class MainActivity: FlutterActivity() {
     private val CHANNEL = "com.example.doc_reader/files"
 
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
-        MethodChannel(flutterEngine.dartExecutor.binaryMessenger, CHANNEL).setMethodCallHandler { call, result ->
-            if (call.method == "scanFiles") {
-                val files = scanForDocuments()
-                result.success(files)
-            } else {
-                result.notImplemented()
+
+        MethodChannel(flutterEngine.dartExecutor.binaryMessenger, CHANNEL)
+            .setMethodCallHandler { call, result ->
+                when (call.method) {
+                    "scanFiles" -> {
+                        try {
+                            val files = scanForDocuments()
+                            result.success(files)
+                        } catch (e: Exception) {
+                            result.error("SCAN_ERROR", e.message, null)
+                        }
+                    }
+                    else -> result.notImplemented()
+                }
             }
-        }
     }
 
     private fun scanForDocuments(): List<Map<String, Any>> {
@@ -39,28 +46,22 @@ class MainActivity: FlutterActivity() {
             "text/plain"
         )
 
-        val cursor = contentResolver.query(
+        contentResolver.query(
             MediaStore.Files.getContentUri("external"),
             projection,
             selection,
             selectionArgs,
-            null
-        )
+            "${MediaStore.Files.FileColumns.DATE_MODIFIED} DESC"
+        )?.use { cursor ->
+            val dataIndex = cursor.getColumnIndexOrThrow(MediaStore.Files.FileColumns.DATA)
+            val sizeIndex = cursor.getColumnIndexOrThrow(MediaStore.Files.FileColumns.SIZE)
+            val modifiedIndex = cursor.getColumnIndexOrThrow(MediaStore.Files.FileColumns.DATE_MODIFIED)
 
-        cursor?.use {
-            val dataIndex = it.getColumnIndexOrThrow(MediaStore.Files.FileColumns.DATA)
-            val sizeIndex = it.getColumnIndexOrThrow(MediaStore.Files.FileColumns.SIZE)
-            val modifiedIndex = it.getColumnIndexOrThrow(MediaStore.Files.FileColumns.DATE_MODIFIED)
-
-            while (it.moveToNext()) {
-                val path = it.getString(dataIndex)
-                val size = it.getLong(sizeIndex)
-                val modified = it.getLong(modifiedIndex)
-
+            while (cursor.moveToNext()) {
                 fileList.add(mapOf(
-                    "path" to path,
-                    "size" to size,
-                    "modified" to modified
+                    "path" to cursor.getString(dataIndex),
+                    "size" to cursor.getLong(sizeIndex),
+                    "modified" to cursor.getLong(modifiedIndex)
                 ))
             }
         }
