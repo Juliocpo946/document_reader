@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="docx-preview.js"></script>
+    <script src="xlsx.full.min.js"></script>
+    <script src="pptx.js"></script>
+    <style>
+        body { margin: 0; background-color: #f0f0f0; }
+        #container { margin: 10px auto; }
+        .docx-wrapper { background-color: white !important; padding: 20px !important; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        table { border-collapse: collapse; width: 100%; font-size: 14px; background-color: white;}
+        th, td { border: 1px solid #cccccc; text-align: left; padding: 8px; white-space: nowrap; }
+        thead > tr > th { background-color: #f2f2f2; position: sticky; top: 0; z-index: 1;}
+        #pptx-container { width: 100%; max-width: 900px; margin: auto; }
+    </style>
+</head>
+<body>
+<div id="container"></div>
+
+<script>
+    function renderDocx(data) {
+        const arrayBuffer = Uint8Array.from(atob(data), c => c.charCodeAt(0));
+        docx.renderAsync(arrayBuffer, document.getElementById("container"));
+    }
+
+    function renderXlsx(data) {
+        const workbook = XLSX.read(atob(data), {type: 'binary'});
+        const firstSheetName = workbook.SheetNames[0];
+        const worksheet = workbook.Sheets[firstSheetName];
+        const html = XLSX.utils.sheet_to_html(worksheet);
+        document.getElementById("container").innerHTML = html;
+    }
+
+    function renderPptx(data) {
+        document.getElementById("container").id = "pptx-container";
+        window.pptxgen.load(atob(data), {type: 'binary'}).render({target: document.getElementById("pptx-container")});
+    }
+</script>
+</body>
+</html>
