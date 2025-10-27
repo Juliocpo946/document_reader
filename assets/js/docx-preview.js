@@ -1,224 +1,224 @@
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("jszip"));
-	else if(typeof define === 'function' && define.amd)
-		define(["jszip"], factory);
-	else if(typeof exports === 'object')
-		exports["docx"] = factory(require("jszip"));
-	else
-		root["docx"] = factory(root["JSZip"]);
-})(globalThis, (__WEBPACK_EXTERNAL_MODULE_jszip__) => {
-return /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
-/******/ 	var __webpack_modules__ = ({
+(función webpackUniversalModuleDefinition(raíz, fábrica) {
+	si (tipo de exportaciones === 'objeto' y tipo de módulo === 'objeto')
+		módulo.exports = fábrica(require("jszip"));
+	de lo contrario si (tipo de define === 'función' && define.amd)
+		define(["jszip"], fábrica);
+	de lo contrario si (tipo de exportaciones === 'objeto')
+		exportaciones["docx"] = fábrica(require("jszip"));
+	demás
+		raíz["docx"] = fábrica(raíz["JSZip"]);
+})(globalThis, (__MÓDULO EXTERNO DEL PAQUETE WEB_jszip__) => {
+devolver /******/ (() => { // webpackBootstrap
+/******/ "uso estricto";
+/******/ var __webpack_modules__ = ({
 
 /***/ "./src/mathml.scss":
 /*!*************************!*\
   !*** ./src/mathml.scss ***!
   \*************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
+/***/ ((módulo, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
-// Imports
+/* exportación de armonía */ __webpack_require__.d(__webpack_exports__, {
+/* exportación de armonía */ "predeterminado": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* exportación de armonía */ });
+/* importación de armonía */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* importación de armonía */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* importación de armonía */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* importación de armonía */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* importación de armonía */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* importación de armonía */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
+// Importaciones
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 20 100%27 preserveAspectRatio=%27none%27%3E%3Cpath d=%27m0,75 l5,0 l5,25 l10,-100%27 stroke=%27black%27 fill=%27none%27 vector-effect=%27non-scaling-stroke%27/%3E%3C/svg%3E */ "data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 20 100%27 preserveAspectRatio=%27none%27%3E%3Cpath d=%27m0,75 l5,0 l5,25 l10,-100%27 stroke=%27black%27 fill=%27none%27 vector-effect=%27non-scaling-stroke%27/%3E%3C/svg%3E"), __webpack_require__.b);
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_IMPORT_0___ = nueva URL(/* importación de activos */ __webpack_require__(/*! datos:imagen/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 20 100%27 preserveAspectRatio=%27none%27%3E%3Cpath d=%27m0,75 l5,0 l5,25 l10,-100%27 trazo=%27negro%27 relleno=%27none%27 efecto vectorial=%27trazo sin escala%27/%3E%3C/svg%3E */ "datos:imagen/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 20 100%27 preserveAspectRatio=%27none%27%3E%3Cpath d=%27m0,75 l5,0 l5,25 l10,-100%27 trazo=%27negro%27 relleno=%27none%27 efecto vectorial=%27trazo sin escala%27/%3E%3C/svg%3E"), __webpack_require__.b);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___predeterminado()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___predeterminado()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, "@namespace \"http://www.w3.org/1998/Math/MathML\";\nmath {\n  display: inline-block;\n  line-height: initial;\n}\n\nmfrac {\n  display: inline-block;\n  vertical-align: -50%;\n  text-align: center;\n}\nmfrac > :first-child {\n  border-bottom: solid thin currentColor;\n}\nmfrac > * {\n  display: block;\n}\n\nmsub > :nth-child(2) {\n  font-size: smaller;\n  vertical-align: sub;\n}\n\nmsup > :nth-child(2) {\n  font-size: smaller;\n  vertical-align: super;\n}\n\nmunder, mover, munderover {\n  display: inline-flex;\n  flex-flow: column nowrap;\n  vertical-align: middle;\n  text-align: center;\n}\nmunder > :not(:first-child), mover > :not(:first-child), munderover > :not(:first-child) {\n  font-size: smaller;\n}\n\nmunderover > :last-child {\n  order: -1;\n}\n\nmroot, msqrt {\n  position: relative;\n  display: inline-block;\n  border-top: solid thin currentColor;\n  margin-top: 0.5px;\n  vertical-align: middle;\n  margin-left: 1ch;\n}\nmroot:before, msqrt:before {\n  content: \"\";\n  display: inline-block;\n  position: absolute;\n  width: 1ch;\n  left: -1ch;\n  top: -1px;\n  bottom: 0;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}", "",{"version":3,"sources":["webpack://./src/mathml.scss"],"names":[],"mappings":"AAAA,+CAAA;AAEA;EACI,qBAAA;EACA,oBAAA;AAAJ;;AAGA;EACI,qBAAA;EACA,oBAAA;EACA,kBAAA;AAAJ;AAEI;EACI,sCAAA;AAAR;AAGI;EACI,cAAA;AADR;;AAMI;EACI,kBAAA;EACA,mBAAA;AAHR;;AAQI;EACI,kBAAA;EACA,qBAAA;AALR;;AASA;EACI,oBAAA;EACA,wBAAA;EACA,sBAAA;EACA,kBAAA;AANJ;AAQI;EACI,kBAAA;AANR;;AAWI;EAAgB,SAAA;AAPpB;;AAUA;EACI,kBAAA;EACA,qBAAA;EACA,mCAAA;EACA,iBAAA;EACA,sBAAA;EACA,gBAAA;AAPJ;AASI;EACI,WAAA;EACA,qBAAA;EACA,kBAAA;EACA,UAAA;EACA,UAAA;EACA,SAAA;EACA,SAAA;EACA,yDAAA;AAPR","sourcesContent":["@namespace \"http://www.w3.org/1998/Math/MathML\";\r\n\r\nmath {\r\n    display: inline-block;\r\n    line-height: initial;\r\n}\r\n\r\nmfrac {\r\n    display: inline-block;\r\n    vertical-align: -50%;\r\n    text-align: center;\r\n\r\n    &>:first-child {\r\n        border-bottom: solid thin currentColor;\r\n    }\r\n\r\n    &>* {\r\n        display: block;\r\n    }\r\n}\r\n\r\nmsub {\r\n    &>:nth-child(2) {\r\n        font-size: smaller;\r\n        vertical-align: sub;\r\n    }\r\n}\r\n\r\nmsup {\r\n    &>:nth-child(2) {\r\n        font-size: smaller;\r\n        vertical-align: super;\r\n    }\r\n}\r\n\r\nmunder, mover, munderover {\r\n    display: inline-flex;\r\n    flex-flow: column nowrap;\r\n    vertical-align: middle;\r\n    text-align: center;\r\n\r\n    &>:not(:first-child) {\r\n        font-size: smaller;\r\n    }\r\n}\r\n\r\nmunderover {\r\n    &>:last-child { order: -1; }\r\n}\r\n\r\nmroot, msqrt {\r\n    position: relative;\r\n    display: inline-block;\r\n    border-top: solid thin currentColor;  \r\n    margin-top: 0.5px;\r\n    vertical-align: middle;  \r\n    margin-left: 1ch; \r\n\r\n    &:before {\r\n        content: \"\";\r\n        display: inline-block;\r\n        position: absolute;\r\n        width: 1ch;\r\n        left: -1ch;\r\n        top: -1px;\r\n        bottom: 0;\r\n        background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 100' preserveAspectRatio='none'%3E%3Cpath d='m0,75 l5,0 l5,25 l10,-100' stroke='black' fill='none' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E\");\r\n    }\r\n}"],"sourceRoot":""}]);
-// Exports
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___.toString());
+// Módulo
+___CSS_LOADER_EXPORT___.push([module.id, "@namespace \"http://www.w3.org/1998/Math/MathML\";\nmath {\n mostrar: bloque en línea;\n altura de línea: inicial;\n}\n\nmfrac {\n mostrar: bloque en línea;\n alineación vertical: -50%;\n alineación de texto: centro;\n}\nmfrac > :first-child {\n borde inferior: sólido delgado color actual;\n}\nmfrac > * {\n mostrar: bloque;\n}\n\nmsub > :nth-child(2) {\n tamaño de fuente: menor;\n alineación vertical: sub;\n}\n\nmsup > :nth-child(2) {\n tamaño de fuente: menor;\n alineación vertical: super;\n}\n\nmunder, mover, munderover {\n display: inline-flex;\n flex-flow: column nowrap;\n vertical-align: middle;\n text-align: center;\n}\nmunder > :not(:first-child), mover > :not(:first-child), munderover > :not(:first-child) {\n font-size: lowest;\n}\n\nmunderover > :last-child {\n order: -1;\n}\n\nmroot, msqrt {\n position: relative;\n display: inline-block;\n border-top: solid thin currentColor;\n margin-top: 0.5px;\n vertical-align: middle;\n margin-left: 1ch;\n}\nmroot:before, msqrt:before {\n content: \"\";\n display: inline-block;\n position: absolute;\n width: 1ch;\n left: -1ch;\n top: -1px;\n abajo: 0;\n imagen de fondo: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}", "",{"versión":3,"fuentes":["webpack://./src/mathml.scss"],"nombres":[],"mappings":"AAAA,+CAAA;AAEA;EACI,qBAAA;EACA,oBAAA;AAAJ;;AAGA;EACI,qBAAA;EA CA,oBAAA;EACA,kBAAA;AAAJ;AAEI;EACI,sCAAA;AAAR;AAGI;EACI,cAAA;AADR;;AAMI;EACI,kBAAA;EACA,mBAAA;AAHR;;AAQI;EACI,kBAAA;EACA,qBAAA;AALR;;AASA;EACI,o BAAA;EACA,wBAAA;EACA,sBAAA;EACA,kBAAA;AANJ;AAQI;EACI,kBAAA;AANR;;AAWI;EAAgB,SAAA;AAPpB;;AAUA;EACI,kBAAA;EACA,qBAAA;EACA,mCAAA;EACA,iBAAA;EACA,s BAAA;EACA,gBAAA;AAPJ;AASI;EACI,WAAA;EACA,qBAAA;EACA,kBAAA;EACA,UAAA;EACA,UAAA;EACA,SAAA;EACA,SAAA;EACA,yDAAA;AAPR","sourcesContent":["@namespace \"http://www.w3.org/1998/Math/MathML\";\r\n\r\nmath {\r\n mostrar: bloque en línea;\r\n altura de línea: inicial;\r\n}\r\n\r\nmfrac {\r\n mostrar: bloque en línea;\r\n alineación vertical: -50%;\r\n alineación de texto: centro;\r\n\r\n &>:first-child {\r\n borde inferior: sólido delgado currentColor;\r\n }\r\n\r\n &>* {\r\n mostrar: bloque;\r\n }\r\n}\r\n\r\nmsub {\r\n &>:nth-child(2) {\r\n tamaño de fuente: menor;\r\n alineación vertical: sub;\r\n }\r\n}\r\n\r\nmsup {\r\n &>:nth-child(2) {\r\n tamaño de fuente: menor;\r\n alineación vertical: super;\r\n }\r\n}\r\n\r\nmunder, mover, munderover {\r\n visualización: inline-flex;\r\n flex-flow: columna nowrap;\r\n alineación vertical: medio;\r\n alineación de texto: centro;\r\n\r\n &>:not(:first-child) {\r\n tamaño de fuente: menor;\r\n }\r\n}\r\n\r\nmunderover {\r\n &>:last-child { orden: -1; }\r\n}\r\n\r\nmroot, msqrt {\r\n posición: relativa;\r\n visualización: inline-block;\r\n borde superior:sólido delgado currentColor; \r\n margen superior: 0.5px;\r\n alineación vertical: medio; \r\n margen izquierdo: 1ch; \r\n\r\n &:before {\r\n contenido: \"\";\r\n visualización: bloque en línea;\r\n posición: absoluta;\r\n ancho: 1 canal;\r\n izquierda: -1 canal;\r\n superior: -1 px;\r\n inferior: 0;\r\n imagen de fondo: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 100' preserveAspectRatio='none'%3E%3Cpath d='m0,75 l5,0 l5,25 l10,-100' trazo='negro' relleno='none' efecto vectorial='trazo sin escala'/%3E%3C/svg%3E\");\r\n }\r\n}"],"sourceRoot":""}]);
+// Exportaciones
+/* exportación predeterminada de armonía */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___.toString());
 
 
 /***/ }),
 
 /***/ "./node_modules/css-loader/dist/runtime/api.js":
-/*!*****************************************************!*\
+/*!******************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/api.js ***!
-  \*****************************************************/
-/***/ ((module) => {
+  \******************************************************/
+/***/ ((módulo) => {
 
 
 
 /*
-  MIT License http://www.opensource.org/licenses/mit-license.php
-  Author Tobias Koppers @sokra
+  Licencia MIT http://www.opensource.org/licenses/mit-license.php
+  Autor Tobias Koppers @sokra
 */
-module.exports = function (cssWithMappingToString) {
-  var list = []; // return the list of modules as css string
+módulo.exports = función (cssWithMappingToString) {
+  var list = []; // devuelve la lista de módulos como cadena CSS
 
-  list.toString = function toString() {
-    return this.map(function (item) {
-      var content = "";
-      var needLayer = typeof item[5] !== "undefined";
+  lista.toString = función toString() {
+    devuelve este.map(función (elemento) {
+      var contenido = "";
+      var needLayer = typeof item[5] !== "indefinido";
 
-      if (item[4]) {
-        content += "@supports (".concat(item[4], ") {");
+      si (elemento[4]) {
+        contenido += "@supports (".concat(item[4], ") {");
       }
 
-      if (item[2]) {
-        content += "@media ".concat(item[2], " {");
+      si (elemento[2]) {
+        contenido += "@media ".concat(item[2], " {");
       }
 
-      if (needLayer) {
-        content += "@layer".concat(item[5].length > 0 ? " ".concat(item[5]) : "", " {");
+      si (necesitaCapa) {
+        contenido += "@layer".concat(item[5].length > 0 ? " ".concat(item[5]) : "", " {");
       }
 
-      content += cssWithMappingToString(item);
+      contenido += cssWithMappingToString(item);
 
-      if (needLayer) {
-        content += "}";
+      si (necesitaCapa) {
+        contenido += "}";
       }
 
-      if (item[2]) {
-        content += "}";
+      si (elemento[2]) {
+        contenido += "}";
       }
 
-      if (item[4]) {
-        content += "}";
+      si (elemento[4]) {
+        contenido += "}";
       }
 
-      return content;
-    }).join("");
-  }; // import a list of modules into the list
+      devolver contenido;
+    }).unirse("");
+  }; // importar una lista de módulos a la lista
 
 
-  list.i = function i(modules, media, dedupe, supports, layer) {
-    if (typeof modules === "string") {
-      modules = [[null, modules, undefined]];
+  lista.i = función i(módulos, medios, deduplicación, soportes, capa) {
+    si (tipo de módulos === "cadena") {
+      módulos = [[null, módulos, indefinido]];
     }
 
-    var alreadyImportedModules = {};
+    var yaImportedModules = {};
 
-    if (dedupe) {
-      for (var k = 0; k < this.length; k++) {
-        var id = this[k][0];
+    si (deduplicar) {
+      para (var k = 0; k < this.length; k++) {
+        var id = esto[k][0];
 
-        if (id != null) {
-          alreadyImportedModules[id] = true;
+        si (id != nulo) {
+          yaImportedModules[id] = verdadero;
         }
       }
     }
 
-    for (var _k = 0; _k < modules.length; _k++) {
-      var item = [].concat(modules[_k]);
+    para (var _k = 0; _k < módulos.longitud; _k++) {
+      var item = [].concat(módulos[_k]);
 
-      if (dedupe && alreadyImportedModules[item[0]]) {
-        continue;
+      si (deduplicar && yaImportedModules[item[0]]) {
+        continuar;
       }
 
-      if (typeof layer !== "undefined") {
-        if (typeof item[5] === "undefined") {
-          item[5] = layer;
-        } else {
-          item[1] = "@layer".concat(item[5].length > 0 ? " ".concat(item[5]) : "", " {").concat(item[1], "}");
-          item[5] = layer;
+      si (tipo de capa !== "indefinido") {
+        si (tipo de elemento[5] === "indefinido") {
+          elemento[5] = capa;
+        } demás {
+          elemento[1] = "@layer".concat(elemento[5].length > 0 ? " ".concat(elemento[5]) : "", " {").concat(elemento[1], "}");
+          elemento[5] = capa;
         }
       }
 
-      if (media) {
-        if (!item[2]) {
-          item[2] = media;
-        } else {
-          item[1] = "@media ".concat(item[2], " {").concat(item[1], "}");
-          item[2] = media;
+      si (medios) {
+        si (!item[2]) {
+          elemento[2] = medios;
+        } demás {
+          elemento[1] = "@media ".concat(elemento[2], " {").concat(elemento[1], "}");
+          elemento[2] = medios;
         }
       }
 
-      if (supports) {
-        if (!item[4]) {
-          item[4] = "".concat(supports);
-        } else {
-          item[1] = "@supports (".concat(item[4], ") {").concat(item[1], "}");
-          item[4] = supports;
+      si (soporta) {
+        si (!item[4]) {
+          elemento[4] = "".concat(soporta);
+        } demás {
+          elemento[1] = "@supports (".concat(elemento[4], ") {").concat(elemento[1], "}");
+          item[4] = soporta;
         }
       }
 
-      list.push(item);
+      lista.push(elemento);
     }
   };
 
-  return list;
+  lista de retorno;
 };
 
 /***/ }),
 
 /***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
-/*!********************************************************!*\
+/*!*********************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
-  \********************************************************/
-/***/ ((module) => {
+  \*********************************************************/
+/***/ ((módulo) => {
 
 
 
-module.exports = function (url, options) {
-  if (!options) {
-    options = {};
+módulo.exports = función (url, opciones) {
+  si (!opciones) {
+    opciones = {};
   }
 
-  if (!url) {
-    return url;
+  si (!url) {
+    URL de retorno;
   }
 
-  url = String(url.__esModule ? url.default : url); // If url is already wrapped in quotes, remove them
+  url = String(url.__esModule ? url.default : url); // Si la URL ya está entre comillas, elimínelas
 
-  if (/^['"].*['"]$/.test(url)) {
+  si (/^['"].*['"]$/.test(url)) {
     url = url.slice(1, -1);
   }
 
-  if (options.hash) {
-    url += options.hash;
-  } // Should url be wrapped?
-  // See https://drafts.csswg.org/css-values-3/#urls
+  si (opciones.hash) {
+    url += opciones.hash;
+  } // ¿Se debe ajustar la URL?
+  // Ver https://drafts.csswg.org/css-values-3/#urls
 
 
-  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
-    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  si (/["'() \t\n]|(%20)/.test(url) || opciones.needQuotes) {
+    devolver "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
   }
 
-  return url;
+  URL de retorno;
 };
 
 /***/ }),
 
 /***/ "./node_modules/css-loader/dist/runtime/sourceMaps.js":
-/*!************************************************************!*\
+/*!***************************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/sourceMaps.js ***!
   \************************************************************/
-/***/ ((module) => {
+/***/ ((módulo) => {
 
 
 
-module.exports = function (item) {
-  var content = item[1];
-  var cssMapping = item[3];
+módulo.exportaciones = función (elemento) {
+  var contenido = elemento[1];
+  var cssMapping = elemento[3];
 
-  if (!cssMapping) {
-    return content;
+  si (!cssMapping) {
+    devolver contenido;
   }
 
-  if (typeof btoa === "function") {
+  si (tipo de btoa === "función") {
     var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(cssMapping))));
-    var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
-    var sourceMapping = "/*# ".concat(data, " */");
-    var sourceURLs = cssMapping.sources.map(function (source) {
-      return "/*# sourceURL=".concat(cssMapping.sourceRoot || "").concat(source, " */");
+    var datos = "sourceMappingURL=datos:application/json;conjunto de caracteres=utf-8;base64,".concat(base64);
+    var sourceMapping = "/*# ".concat(datos, " */");
+    var sourceURLs = cssMapping.sources.map(función (fuente) {
+      devolver "/*# sourceURL=".concat(cssMapping.sourceRoot || "").concat(fuente, " */");
     });
-    return [content].concat(sourceURLs).concat([sourceMapping]).join("\n");
+    devolver [contenido].concat(sourceURLs).concat([sourceMapping]).join("\n");
   }
 
-  return [content].join("\n");
+  devolver [contenido].join("\n");
 };
 
 /***/ }),
@@ -227,53 +227,53 @@ module.exports = function (item) {
 /*!****************************************!*\
   !*** ./src/common/open-xml-package.ts ***!
   \****************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.OpenXmlPackage = void 0;
-const JSZip = __webpack_require__(/*! jszip */ "jszip");
-const xml_parser_1 = __webpack_require__(/*! ../parser/xml-parser */ "./src/parser/xml-parser.ts");
-const utils_1 = __webpack_require__(/*! ../utils */ "./src/utils.ts");
-const relationship_1 = __webpack_require__(/*! ./relationship */ "./src/common/relationship.ts");
-class OpenXmlPackage {
-    constructor(_zip, options) {
-        this._zip = _zip;
-        this.options = options;
-        this.xmlParser = new xml_parser_1.XmlParser();
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.OpenXmlPackage = void 0;
+constante JSZip = __webpack_require__(/*! jszip */ "jszip");
+constante xml_parser_1 = __webpack_require__(/*! ../parser/xml-parser */ "./src/parser/xml-parser.ts");
+constante utils_1 = __webpack_require__(/*! ../utils */ "./src/utils.ts");
+constante relación_1 = __webpack_require__(/*! ./relación */ "./src/common/relación.ts");
+clase OpenXmlPackage {
+    constructor(_zip, opciones) {
+        este._zip = _zip;
+        esto.opciones = opciones;
+        este.xmlParser = nuevo xml_parser_1.XmlParser();
     }
-    get(path) {
-        return this._zip.files[normalizePath(path)];
+    obtener(ruta) {
+        devuelve este._zip.files[normalizePath(ruta)];
     }
-    update(path, content) {
-        this._zip.file(path, content);
+    actualizar(ruta, contenido) {
+        this._zip.file(ruta, contenido);
     }
-    static load(input, options) {
-        return JSZip.loadAsync(input).then(zip => new OpenXmlPackage(zip, options));
+    carga estática(entrada, opciones) {
+        devuelve JSZip.loadAsync(entrada).then(zip => new OpenXmlPackage(zip, opciones));
     }
-    save(type = "blob") {
-        return this._zip.generateAsync({ type });
+    guardar(tipo = "blob") {
+        devuelve esto._zip.generateAsync({ tipo });
     }
-    load(path, type = "string") {
+    cargar(ruta, tipo = "cadena") {
         var _a, _b;
-        return (_b = (_a = this.get(path)) === null || _a === void 0 ? void 0 : _a.async(type)) !== null && _b !== void 0 ? _b : Promise.resolve(null);
+        devolver (_b = (_a = this.get(ruta)) === null || _a === void 0 ? void 0 : _a.async(tipo)) !== null && _b !== void 0 ? _b : Promise.resolve(null);
     }
-    loadRelationships(path = null) {
-        let relsPath = `_rels/.rels`;
-        if (path != null) {
-            const [f, fn] = (0, utils_1.splitPath)(path);
+    cargarRelaciones(ruta = nulo) {
+        deje que relsPath = `_rels/.rels`;
+        si (ruta != nulo) {
+            constante [f, fn] = (0, utils_1.splitPath)(ruta);
             relsPath = `${f}_rels/${fn}.rels`;
         }
-        return this.load(relsPath)
-            .then(txt => txt ? (0, relationship_1.parseRelationships)(this.parseXmlDocument(txt).firstElementChild, this.xmlParser) : null);
+        devuelve esto.load(relsPath)
+            .then(txt => txt ? (0, relación_1.parseRelationships)(este.parseXmlDocument(txt).firstElementChild, este.xmlParser) : null);
     }
-    parseXmlDocument(txt) {
-        return (0, xml_parser_1.parseXmlString)(txt, this.options.trimXmlDeclaration);
+    analizarXmlDocument(txt) {
+        devolver (0, xml_parser_1.parseXmlString)(txt, este.opciones.trimXmlDeclaration);
     }
 }
-exports.OpenXmlPackage = OpenXmlPackage;
-function normalizePath(path) {
-    return path.startsWith('/') ? path.substr(1) : path;
+exportaciones.OpenXmlPackage = OpenXmlPackage;
+función normalizePath(ruta) {
+    devolver path.startsWith('/') ? path.substr(1) : ruta;
 }
 
 
@@ -283,38 +283,38 @@ function normalizePath(path) {
 /*!****************************!*\
   !*** ./src/common/part.ts ***!
   \****************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.Part = void 0;
-const xml_parser_1 = __webpack_require__(/*! ../parser/xml-parser */ "./src/parser/xml-parser.ts");
-class Part {
-    constructor(_package, path) {
-        this._package = _package;
-        this.path = path;
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.Parte = void 0;
+constante xml_parser_1 = __webpack_require__(/*! ../parser/xml-parser */ "./src/parser/xml-parser.ts");
+clase Parte {
+    constructor(_paquete, ruta) {
+        este._paquete = _paquete;
+        este.path = ruta;
     }
-    load() {
-        return Promise.all([
-            this._package.loadRelationships(this.path).then(rels => {
-                this.rels = rels;
+    carga() {
+        devolver Promise.all([
+            este._paquete.loadRelationships(este.ruta).then(rels => {
+                esto.rels = rels;
             }),
-            this._package.load(this.path).then(text => {
-                const xmlDoc = this._package.parseXmlDocument(text);
-                if (this._package.options.keepOrigin) {
-                    this._xmlDocument = xmlDoc;
+            este._paquete.load(este.ruta).then(texto => {
+                const xmlDoc = this._package.parseXmlDocument(texto);
+                si (este._paquete.opciones.keepOrigin) {
+                    este._xmlDocument = xmlDoc;
                 }
                 this.parseXml(xmlDoc.firstElementChild);
             })
         ]);
     }
-    save() {
-        this._package.update(this.path, (0, xml_parser_1.serializeXmlString)(this._xmlDocument));
+    ahorrar() {
+        este._paquete.actualizar(este.ruta, (0, xml_parser_1.serializeXmlString)(este._xmlDocument));
     }
-    parseXml(root) {
+    parseXml(raíz) {
     }
 }
-exports.Part = Part;
+exportaciones.Part = Parte;
 
 
 /***/ }),
@@ -323,40 +323,40 @@ exports.Part = Part;
 /*!************************************!*\
   !*** ./src/common/relationship.ts ***!
   \************************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.parseRelationships = exports.RelationshipTypes = void 0;
-var RelationshipTypes;
-(function (RelationshipTypes) {
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.parseRelationships = exportaciones.RelationshipTypes = void 0;
+var TiposDeRelación;
+(función (TiposDeRelación) {
     RelationshipTypes["OfficeDocument"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument";
     RelationshipTypes["FontTable"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable";
-    RelationshipTypes["Image"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image";
-    RelationshipTypes["Numbering"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering";
-    RelationshipTypes["Styles"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles";
-    RelationshipTypes["StylesWithEffects"] = "http://schemas.microsoft.com/office/2007/relationships/stylesWithEffects";
-    RelationshipTypes["Theme"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme";
-    RelationshipTypes["Settings"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings";
+    RelationshipTypes["Imagen"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/imagen";
+    RelationshipTypes["Numeración"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering";
+    RelationshipTypes["Estilos"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/estilos";
+    RelationshipTypes["EstilosConEfectos"] = "http://schemas.microsoft.com/office/2007/relationships/estilosConEffects";
+    RelationshipTypes["Tema"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/tema";
+    RelationshipTypes["Configuración"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/configuración";
     RelationshipTypes["WebSettings"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings";
-    RelationshipTypes["Hyperlink"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink";
-    RelationshipTypes["Footnotes"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/footnotes";
-    RelationshipTypes["Endnotes"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/endnotes";
-    RelationshipTypes["Footer"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer";
-    RelationshipTypes["Header"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/header";
-    RelationshipTypes["ExtendedProperties"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties";
+    RelationshipTypes["Hipervínculo"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hipervínculo";
+    RelationshipTypes["Notas al pie"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notas al pie";
+    RelationshipTypes["Notas finales"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notas finales";
+    RelationshipTypes["Pie de página"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/pie de página";
+    RelationshipTypes["Encabezado"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/encabezado";
+    RelationshipTypes["Propiedades Extendidas"] = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/propiedades-extendidas";
     RelationshipTypes["CoreProperties"] = "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties";
     RelationshipTypes["CustomProperties"] = "http://schemas.openxmlformats.org/package/2006/relationships/metadata/custom-properties";
-})(RelationshipTypes = exports.RelationshipTypes || (exports.RelationshipTypes = {}));
-function parseRelationships(root, xml) {
-    return xml.elements(root).map(e => ({
+})(RelationshipTypes = exportaciones.RelationshipTypes || (exportaciones.RelationshipTypes = {}));
+función parseRelationships(root, xml) {
+    devolver xml.elements(root).map(e => ({
         id: xml.attr(e, "Id"),
-        type: xml.attr(e, "Type"),
-        target: xml.attr(e, "Target"),
-        targetMode: xml.attr(e, "TargetMode")
+        tipo: xml.attr(e, "Tipo"),
+        objetivo: xml.attr(e, "Objetivo"),
+        modoObjetivo: xml.attr(e, "ModoObjetivo")
     }));
 }
-exports.parseRelationships = parseRelationships;
+exportaciones.parseRelationships = parseRelationships;
 
 
 /***/ }),
@@ -365,1272 +365,1272 @@ exports.parseRelationships = parseRelationships;
 /*!********************************!*\
   !*** ./src/document-parser.ts ***!
   \********************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.DocumentParser = exports.autos = void 0;
-const dom_1 = __webpack_require__(/*! ./document/dom */ "./src/document/dom.ts");
-const paragraph_1 = __webpack_require__(/*! ./document/paragraph */ "./src/document/paragraph.ts");
-const section_1 = __webpack_require__(/*! ./document/section */ "./src/document/section.ts");
-const xml_parser_1 = __webpack_require__(/*! ./parser/xml-parser */ "./src/parser/xml-parser.ts");
-const run_1 = __webpack_require__(/*! ./document/run */ "./src/document/run.ts");
-const bookmarks_1 = __webpack_require__(/*! ./document/bookmarks */ "./src/document/bookmarks.ts");
-const common_1 = __webpack_require__(/*! ./document/common */ "./src/document/common.ts");
-const vml_1 = __webpack_require__(/*! ./vml/vml */ "./src/vml/vml.ts");
-exports.autos = {
-    shd: "inherit",
-    color: "black",
-    borderColor: "black",
-    highlight: "transparent"
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.DocumentParser = exportaciones.autos = void 0;
+constante dom_1 = __webpack_require__(/*! ./documento/dom */ "./src/documento/dom.ts");
+constante párrafo_1 = __webpack_require__(/*! ./documento/párrafo */ "./src/documento/párrafo.ts");
+constante sección_1 = __webpack_require__(/*! ./documento/sección */ "./src/documento/sección.ts");
+constante xml_parser_1 = __webpack_require__(/*! ./parser/xml-parser */ "./src/parser/xml-parser.ts");
+constante run_1 = __webpack_require__(/*! ./documento/run */ "./src/documento/run.ts");
+const marcadores_1 = __webpack_require__(/*! ./documento/marcadores */ "./src/documento/marcadores.ts");
+constante común_1 = __webpack_require__(/*! ./documento/common */ "./src/documento/common.ts");
+constante vml_1 = __webpack_require__(/*! ./vml/vml */ "./src/vml/vml.ts");
+exportaciones.autos = {
+    shd: "heredar",
+    color: "negro",
+    borderColor: "negro",
+    Resaltar: "transparente"
 };
-const supportedNamespaceURIs = [];
-const mmlTagMap = {
+constante URIs de espacios de nombres admitidos = [];
+constante mmlTagMap = {
     "oMath": dom_1.DomType.MmlMath,
     "oMathPara": dom_1.DomType.MmlMathParagraph,
     "f": dom_1.DomType.MmlFraction,
     "num": dom_1.DomType.MmlNumerator,
-    "den": dom_1.DomType.MmlDenominator,
+    "guarida": dom_1.DomType.MmlDenominator,
     "rad": dom_1.DomType.MmlRadical,
-    "deg": dom_1.DomType.MmlDegree,
+    "grado": dom_1.DomType.MmlDegree,
     "e": dom_1.DomType.MmlBase,
     "sSup": dom_1.DomType.MmlSuperscript,
     "sSub": dom_1.DomType.MmlSubscript,
     "sup": dom_1.DomType.MmlSuperArgument,
     "sub": dom_1.DomType.MmlSubArgument,
     "d": dom_1.DomType.MmlDelimiter,
-    "nary": dom_1.DomType.MmlNary,
+    "nario": dom_1.DomType.MmlNario,
 };
-class DocumentParser {
-    constructor(options) {
-        this.options = Object.assign({ ignoreWidth: false, debug: false }, options);
+clase DocumentParser {
+    constructor(opciones) {
+        esto.opciones = Objeto.asignar({ ignoreWidth: false, depurar: false }, opciones);
     }
-    parseNotes(xmlDoc, elemName, elemClass) {
-        var result = [];
-        for (let el of xml_parser_1.default.elements(xmlDoc, elemName)) {
-            const node = new elemClass();
-            node.id = xml_parser_1.default.attr(el, "id");
-            node.noteType = xml_parser_1.default.attr(el, "type");
-            node.children = this.parseBodyElements(el);
-            result.push(node);
+    parseNotes(xmlDoc, nombreElem, ClaseElem) {
+        var resultado = [];
+        para (sea el de xml_parser_1.default.elements(xmlDoc, elemName)) {
+            constante nodo = nuevo elemClass();
+            nodo.id = xml_parser_1.default.attr(el, "id");
+            nodo.noteType = xml_parser_1.default.attr(el, "tipo");
+            nodo.children = this.parseBodyElements(el);
+            resultado.push(nodo);
         }
-        return result;
+        devolver resultado;
     }
-    parseDocumentFile(xmlDoc) {
-        var xbody = xml_parser_1.default.element(xmlDoc, "body");
-        var background = xml_parser_1.default.element(xmlDoc, "background");
+    analizarArchivoDocumental(xmlDoc) {
+        var xbody = xml_parser_1.default.element(xmlDoc, "cuerpo");
+        var fondo = xml_parser_1.default.element(xmlDoc, "fondo");
         var sectPr = xml_parser_1.default.element(xbody, "sectPr");
-        return {
-            type: dom_1.DomType.Document,
-            children: this.parseBodyElements(xbody),
-            props: sectPr ? (0, section_1.parseSectionProperties)(sectPr, xml_parser_1.default) : {},
-            cssStyle: background ? this.parseBackground(background) : {},
+        devolver {
+            tipo: dom_1.DomType.Document,
+            hijos: this.parseBodyElements(xbody),
+            propiedades: sectPr ? (0, sección_1.parseSectionProperties)(sectPr, xml_parser_1.default) : {},
+            Estilo CSS: fondo ? this.parseBackground(fondo) : {},
         };
     }
-    parseBackground(elem) {
-        var result = {};
+    analizarFondo(elem) {
+        var resultado = {};
         var color = xmlUtil.colorAttr(elem, "color");
-        if (color) {
-            result["background-color"] = color;
+        si (color) {
+            resultado["color-de-fondo"] = color;
         }
-        return result;
+        devolver resultado;
     }
-    parseBodyElements(element) {
-        var children = [];
-        for (let elem of xml_parser_1.default.elements(element)) {
-            switch (elem.localName) {
-                case "p":
-                    children.push(this.parseParagraph(elem));
-                    break;
-                case "tbl":
-                    children.push(this.parseTable(elem));
-                    break;
-                case "sdt":
-                    children.push(...this.parseSdt(elem, e => this.parseBodyElements(e)));
-                    break;
+    parseBodyElements(elemento) {
+        var hijos = [];
+        para (dejar elemento de xml_parser_1.default.elements(elemento)) {
+            cambiar (elem.nombrelocal) {
+                caso "p":
+                    niños.push(this.parseParagraph(elem));
+                    romper;
+                caso "tbl":
+                    hijos.push(this.parseTable(elem));
+                    romper;
+                caso "sdt":
+                    niños.push(...this.parseSdt(elem, e => this.parseBodyElements(e)));
+                    romper;
             }
         }
-        return children;
+        devolver a los niños;
     }
     parseStylesFile(xstyles) {
-        var result = [];
+        var resultado = [];
         xmlUtil.foreach(xstyles, n => {
-            switch (n.localName) {
-                case "style":
-                    result.push(this.parseStyle(n));
-                    break;
-                case "docDefaults":
-                    result.push(this.parseDefaultStyles(n));
-                    break;
+            cambiar (n.nombrelocal) {
+                caso "estilo":
+                    resultado.push(this.parseStyle(n));
+                    romper;
+                caso "docDefaults":
+                    resultado.push(this.parseDefaultStyles(n));
+                    romper;
             }
         });
-        return result;
+        devolver resultado;
     }
-    parseDefaultStyles(node) {
-        var result = {
-            id: null,
-            name: null,
-            target: null,
-            basedOn: null,
-            styles: []
+    parseDefaultStyles(nodo) {
+        var resultado = {
+            id: nulo,
+            nombre: nulo,
+            objetivo: nulo,
+            basado en: nulo,
+            estilos: []
         };
-        xmlUtil.foreach(node, c => {
-            switch (c.localName) {
-                case "rPrDefault":
+        xmlUtil.foreach(nodo, c => {
+            cambiar (c.nombrelocal) {
+                caso "rPrDefault":
                     var rPr = xml_parser_1.default.element(c, "rPr");
-                    if (rPr)
-                        result.styles.push({
-                            target: "span",
-                            values: this.parseDefaultProperties(rPr, {})
+                    si (rPr)
+                        resultado.styles.push({
+                            objetivo: "span",
+                            valores: this.parseDefaultProperties(rPr, {})
                         });
-                    break;
-                case "pPrDefault":
+                    romper;
+                caso "pPrDefault":
                     var pPr = xml_parser_1.default.element(c, "pPr");
-                    if (pPr)
-                        result.styles.push({
-                            target: "p",
-                            values: this.parseDefaultProperties(pPr, {})
+                    si (pPr)
+                        resultado.styles.push({
+                            objetivo: "p",
+                            valores: this.parseDefaultProperties(pPr, {})
                         });
-                    break;
+                    romper;
             }
         });
-        return result;
+        devolver resultado;
     }
-    parseStyle(node) {
-        var result = {
-            id: xml_parser_1.default.attr(node, "styleId"),
-            isDefault: xml_parser_1.default.boolAttr(node, "default"),
-            name: null,
-            target: null,
-            basedOn: null,
-            styles: [],
-            linked: null
+    parseStyle(nodo) {
+        var resultado = {
+            id: xml_parser_1.default.attr(nodo, "styleId"),
+            isDefault: xml_parser_1.default.boolAttr(nodo, "predeterminado"),
+            nombre: nulo,
+            objetivo: nulo,
+            basado en: nulo,
+            estilos: [],
+            vinculado: nulo
         };
-        switch (xml_parser_1.default.attr(node, "type")) {
-            case "paragraph":
-                result.target = "p";
-                break;
-            case "table":
-                result.target = "table";
-                break;
-            case "character":
-                result.target = "span";
-                break;
+        cambiar (xml_parser_1.default.attr(nodo, "tipo")) {
+            caso "párrafo":
+                resultado.objetivo = "p";
+                romper;
+            caso "tabla":
+                resultado.objetivo = "tabla";
+                romper;
+            caso "carácter":
+                resultado.objetivo = "span";
+                romper;
         }
-        xmlUtil.foreach(node, n => {
-            switch (n.localName) {
-                case "basedOn":
-                    result.basedOn = xml_parser_1.default.attr(n, "val");
-                    break;
-                case "name":
-                    result.name = xml_parser_1.default.attr(n, "val");
-                    break;
-                case "link":
-                    result.linked = xml_parser_1.default.attr(n, "val");
-                    break;
-                case "next":
-                    result.next = xml_parser_1.default.attr(n, "val");
-                    break;
-                case "aliases":
-                    result.aliases = xml_parser_1.default.attr(n, "val").split(",");
-                    break;
-                case "pPr":
-                    result.styles.push({
-                        target: "p",
-                        values: this.parseDefaultProperties(n, {})
+        xmlUtil.foreach(nodo, n => {
+            cambiar (n.nombrelocal) {
+                caso "basedOn":
+                    resultado.basedOn = xml_parser_1.default.attr(n, "val");
+                    romper;
+                caso "nombre":
+                    resultado.nombre = xml_parser_1.default.attr(n, "val");
+                    romper;
+                caso "enlace":
+                    resultado.linked = xml_parser_1.default.attr(n, "val");
+                    romper;
+                caso "siguiente":
+                    resultado.siguiente = xml_parser_1.default.attr(n, "val");
+                    romper;
+                caso "alias":
+                    resultado.aliases = xml_parser_1.default.attr(n, "val").split(",");
+                    romper;
+                caso "pPr":
+                    resultado.styles.push({
+                        objetivo: "p",
+                        valores: this.parseDefaultProperties(n, {})
                     });
-                    result.paragraphProps = (0, paragraph_1.parseParagraphProperties)(n, xml_parser_1.default);
-                    break;
-                case "rPr":
-                    result.styles.push({
-                        target: "span",
-                        values: this.parseDefaultProperties(n, {})
+                    resultado.paragraphProps = (0, párrafo_1.parseParagraphProperties)(n, xml_parser_1.default);
+                    romper;
+                caso "rPr":
+                    resultado.styles.push({
+                        objetivo: "span",
+                        valores: this.parseDefaultProperties(n, {})
                     });
-                    result.runProps = (0, run_1.parseRunProperties)(n, xml_parser_1.default);
-                    break;
-                case "tblPr":
-                case "tcPr":
-                    result.styles.push({
-                        target: "td",
-                        values: this.parseDefaultProperties(n, {})
+                    resultado.runProps = (0, run_1.parseRunProperties)(n, xml_parser_1.default);
+                    romper;
+                caso "tblPr":
+                caso "tcPr":
+                    resultado.styles.push({
+                        objetivo: "td",
+                        valores: this.parseDefaultProperties(n, {})
                     });
-                    break;
-                case "tblStylePr":
-                    for (let s of this.parseTableStyle(n))
-                        result.styles.push(s);
-                    break;
-                case "rsid":
-                case "qFormat":
-                case "hidden":
-                case "semiHidden":
-                case "unhideWhenUsed":
-                case "autoRedefine":
-                case "uiPriority":
-                    break;
-                default:
-                    this.options.debug && console.warn(`DOCX: Unknown style element: ${n.localName}`);
+                    romper;
+                caso "tblStylePr":
+                    para (sea s de este.parseTableStyle(n))
+                        resultado.styles.push(s);
+                    romper;
+                caso "rsid":
+                caso "qFormat":
+                caso "oculto":
+                caso "semi-oculto":
+                caso "mostrarCuandoSeUsa":
+                caso "autoRedefinir":
+                caso "uiPriority":
+                    romper;
+                por defecto:
+                    this.options.debug && console.warn(`DOCX: Elemento de estilo desconocido: ${n.localName}`);
             }
         });
-        return result;
+        devolver resultado;
     }
-    parseTableStyle(node) {
-        var result = [];
-        var type = xml_parser_1.default.attr(node, "type");
-        var selector = "";
-        var modificator = "";
-        switch (type) {
-            case "firstRow":
+    parseTableStyle(nodo) {
+        var resultado = [];
+        var tipo = xml_parser_1.default.attr(nodo, "tipo");
+        selector var = "";
+        var modificador = "";
+        interruptor (tipo) {
+            caso "primeraFila":
                 modificator = ".first-row";
-                selector = "tr.first-row td";
-                break;
-            case "lastRow":
+                selector = "tr.primera-fila td";
+                romper;
+            caso "lastRow":
                 modificator = ".last-row";
-                selector = "tr.last-row td";
-                break;
-            case "firstCol":
+                selector = "tr.última-fila td";
+                romper;
+            caso "primeraCol":
                 modificator = ".first-col";
-                selector = "td.first-col";
-                break;
-            case "lastCol":
+                selector = "td.primera-col";
+                romper;
+            caso "lastCol":
                 modificator = ".last-col";
                 selector = "td.last-col";
-                break;
-            case "band1Vert":
-                modificator = ":not(.no-vband)";
+                romper;
+            caso "band1Vert":
+                modificador = ":not(.no-vband)";
                 selector = "td.odd-col";
-                break;
-            case "band2Vert":
-                modificator = ":not(.no-vband)";
+                romper;
+            caso "band2Vert":
+                modificador = ":not(.no-vband)";
                 selector = "td.even-col";
-                break;
-            case "band1Horz":
-                modificator = ":not(.no-hband)";
-                selector = "tr.odd-row";
-                break;
-            case "band2Horz":
-                modificator = ":not(.no-hband)";
+                romper;
+            caso "band1Horz":
+                modificador = ":not(.no-hband)";
+                selector = "tr.fila-impar";
+                romper;
+            caso "band2Horz":
+                modificador = ":not(.no-hband)";
                 selector = "tr.even-row";
-                break;
-            default: return [];
+                romper;
+            predeterminado: return [];
         }
-        xmlUtil.foreach(node, n => {
-            switch (n.localName) {
-                case "pPr":
-                    result.push({
-                        target: `${selector} p`,
-                        mod: modificator,
-                        values: this.parseDefaultProperties(n, {})
+        xmlUtil.foreach(nodo, n => {
+            cambiar (n.nombrelocal) {
+                caso "pPr":
+                    resultado.push({
+                        objetivo: `${selector} p`,
+                        mod: modificador,
+                        valores: this.parseDefaultProperties(n, {})
                     });
-                    break;
-                case "rPr":
-                    result.push({
-                        target: `${selector} span`,
-                        mod: modificator,
-                        values: this.parseDefaultProperties(n, {})
+                    romper;
+                caso "rPr":
+                    resultado.push({
+                        objetivo: `${selector} span`,
+                        mod: modificador,
+                        valores: this.parseDefaultProperties(n, {})
                     });
-                    break;
-                case "tblPr":
-                case "tcPr":
-                    result.push({
-                        target: selector,
-                        mod: modificator,
-                        values: this.parseDefaultProperties(n, {})
+                    romper;
+                caso "tblPr":
+                caso "tcPr":
+                    resultado.push({
+                        objetivo: selector,
+                        mod: modificador,
+                        valores: this.parseDefaultProperties(n, {})
                     });
-                    break;
+                    romper;
             }
         });
-        return result;
+        devolver resultado;
     }
     parseNumberingFile(xnums) {
-        var result = [];
+        var resultado = [];
         var mapping = {};
-        var bullets = [];
+        var balas = [];
         xmlUtil.foreach(xnums, n => {
-            switch (n.localName) {
-                case "abstractNum":
-                    this.parseAbstractNumbering(n, bullets)
-                        .forEach(x => result.push(x));
-                    break;
-                case "numPicBullet":
-                    bullets.push(this.parseNumberingPicBullet(n));
-                    break;
-                case "num":
+            cambiar (n.nombrelocal) {
+                caso "abstractNum":
+                    this.parseAbstractNumbering(n, viñetas)
+                        .forEach(x => resultado.push(x));
+                    romper;
+                caso "numPicBullet":
+                    balas.push(this.parseNumberingPicBullet(n));
+                    romper;
+                caso "num":
                     var numId = xml_parser_1.default.attr(n, "numId");
                     var abstractNumId = xml_parser_1.default.elementAttr(n, "abstractNumId", "val");
-                    mapping[abstractNumId] = numId;
-                    break;
+                    mapeo[abstractNumId] = numId;
+                    romper;
             }
         });
-        result.forEach(x => x.id = mapping[x.id]);
-        return result;
+        resultado.forEach(x => x.id = mapping[x.id]);
+        devolver resultado;
     }
-    parseNumberingPicBullet(elem) {
+    analizarNumberingPicBullet(elem) {
         var pict = xml_parser_1.default.element(elem, "pict");
-        var shape = pict && xml_parser_1.default.element(pict, "shape");
-        var imagedata = shape && xml_parser_1.default.element(shape, "imagedata");
-        return imagedata ? {
+        var forma = pict && xml_parser_1.default.element(pict, "forma");
+        var imagedata = forma && xml_parser_1.default.element(forma, "imagedata");
+        devolver datos de imagen ? {
             id: xml_parser_1.default.intAttr(elem, "numPicBulletId"),
-            src: xml_parser_1.default.attr(imagedata, "id"),
-            style: xml_parser_1.default.attr(shape, "style")
-        } : null;
+            src: xml_parser_1.default.attr(datos de imagen, "id"),
+            estilo: xml_parser_1.default.attr(forma, "estilo")
+        } : nulo;
     }
-    parseAbstractNumbering(node, bullets) {
-        var result = [];
-        var id = xml_parser_1.default.attr(node, "abstractNumId");
-        xmlUtil.foreach(node, n => {
-            switch (n.localName) {
-                case "lvl":
-                    result.push(this.parseNumberingLevel(id, n, bullets));
-                    break;
+    parseAbstractNumbering(nodo, viñetas) {
+        var resultado = [];
+        var id = xml_parser_1.default.attr(nodo, "abstractNumId");
+        xmlUtil.foreach(nodo, n => {
+            cambiar (n.nombrelocal) {
+                caso "lvl":
+                    resultado.push(this.parseNumberingLevel(id, n, viñetas));
+                    romper;
             }
         });
-        return result;
+        devolver resultado;
     }
-    parseNumberingLevel(id, node, bullets) {
-        var result = {
-            id: id,
-            level: xml_parser_1.default.intAttr(node, "ilvl"),
-            pStyleName: undefined,
-            pStyle: {},
-            rStyle: {},
-            suff: "tab"
+    parseNumberingLevel(id, nodo, viñetas) {
+        var resultado = {
+            hice,
+            nivel: xml_parser_1.default.intAttr(nodo, "ilvl"),
+            pStyleName: indefinido,
+            pEstilo: {},
+            rEstilo: {},
+            suff: "tabulación"
         };
-        xmlUtil.foreach(node, n => {
-            switch (n.localName) {
-                case "pPr":
-                    this.parseDefaultProperties(n, result.pStyle);
-                    break;
-                case "rPr":
-                    this.parseDefaultProperties(n, result.rStyle);
-                    break;
-                case "lvlPicBulletId":
+        xmlUtil.foreach(nodo, n => {
+            cambiar (n.nombrelocal) {
+                caso "pPr":
+                    esto.parseDefaultProperties(n, resultado.pStyle);
+                    romper;
+                caso "rPr":
+                    esto.parseDefaultProperties(n, resultado.rStyle);
+                    romper;
+                caso "lvlPicBulletId":
                     var id = xml_parser_1.default.intAttr(n, "val");
-                    result.bullet = bullets.find(x => x.id == id);
-                    break;
-                case "lvlText":
-                    result.levelText = xml_parser_1.default.attr(n, "val");
-                    break;
-                case "pStyle":
-                    result.pStyleName = xml_parser_1.default.attr(n, "val");
-                    break;
-                case "numFmt":
-                    result.format = xml_parser_1.default.attr(n, "val");
-                    break;
-                case "suff":
-                    result.suff = xml_parser_1.default.attr(n, "val");
-                    break;
+                    resultado.bullet = bullets.find(x => x.id == id);
+                    romper;
+                caso "lvlText":
+                    resultado.levelText = xml_parser_1.default.attr(n, "val");
+                    romper;
+                caso "pStyle":
+                    resultado.pStyleName = xml_parser_1.default.attr(n, "val");
+                    romper;
+                caso "numFmt":
+                    resultado.formato = xml_parser_1.default.attr(n, "val");
+                    romper;
+                caso "suff":
+                    resultado.suff = xml_parser_1.default.attr(n, "val");
+                    romper;
             }
         });
-        return result;
+        devolver resultado;
     }
-    parseSdt(node, parser) {
-        const sdtContent = xml_parser_1.default.element(node, "sdtContent");
-        return sdtContent ? parser(sdtContent) : [];
+    parseSdt(nodo, analizador) {
+        const sdtContent = xml_parser_1.default.element(nodo, "sdtContent");
+        devolver sdtContent ? parser(sdtContent) : [];
     }
-    parseInserted(node, parentParser) {
+    parseInserted(nodo, parentParser) {
         var _a, _b;
-        return {
-            type: dom_1.DomType.Inserted,
-            children: (_b = (_a = parentParser(node)) === null || _a === void 0 ? void 0 : _a.children) !== null && _b !== void 0 ? _b : []
+        devolver {
+            tipo: dom_1.DomType.Insertado,
+            hijos: (_b = (_a = parentParser(nodo)) === null || _a === void 0 ? void 0 : _a.children) !== null && _b !== void 0 ? _b : []
         };
     }
-    parseDeleted(node, parentParser) {
+    parseDeleted(nodo, parentParser) {
         var _a, _b;
-        return {
-            type: dom_1.DomType.Deleted,
-            children: (_b = (_a = parentParser(node)) === null || _a === void 0 ? void 0 : _a.children) !== null && _b !== void 0 ? _b : []
+        devolver {
+            tipo: dom_1.DomType.Eliminado,
+            hijos: (_b = (_a = parentParser(nodo)) === null || _a === void 0 ? void 0 : _a.children) !== null && _b !== void 0 ? _b : []
         };
     }
-    parseParagraph(node) {
-        var result = { type: dom_1.DomType.Paragraph, children: [] };
-        for (let el of xml_parser_1.default.elements(node)) {
-            switch (el.localName) {
-                case "pPr":
-                    this.parseParagraphProperties(el, result);
-                    break;
-                case "r":
-                    result.children.push(this.parseRun(el, result));
-                    break;
-                case "hyperlink":
-                    result.children.push(this.parseHyperlink(el, result));
-                    break;
-                case "bookmarkStart":
-                    result.children.push((0, bookmarks_1.parseBookmarkStart)(el, xml_parser_1.default));
-                    break;
-                case "bookmarkEnd":
-                    result.children.push((0, bookmarks_1.parseBookmarkEnd)(el, xml_parser_1.default));
-                    break;
-                case "oMath":
-                case "oMathPara":
-                    result.children.push(this.parseMathElement(el));
-                    break;
-                case "sdt":
-                    result.children.push(...this.parseSdt(el, e => this.parseParagraph(e).children));
-                    break;
-                case "ins":
-                    result.children.push(this.parseInserted(el, e => this.parseParagraph(e)));
-                    break;
-                case "del":
-                    result.children.push(this.parseDeleted(el, e => this.parseParagraph(e)));
-                    break;
+    parseParagraph(nodo) {
+        var resultado = { tipo: dom_1.DomType.Paragraph, hijos: [] };
+        para (sea el de xml_parser_1.default.elements(nodo)) {
+            cambiar (el.nombrelocal) {
+                caso "pPr":
+                    este.parseParagraphProperties(el, resultado);
+                    romper;
+                caso "r":
+                    resultado.children.push(this.parseRun(el, resultado));
+                    romper;
+                caso "hipervínculo":
+                    resultado.children.push(this.parseHyperlink(el, resultado));
+                    romper;
+                caso "bookmarkStart":
+                    resultado.children.push((0, bookmarks_1.parseBookmarkStart)(el, xml_parser_1.default));
+                    romper;
+                caso "bookmarkEnd":
+                    resultado.children.push((0, bookmarks_1.parseBookmarkEnd)(el, xml_parser_1.default));
+                    romper;
+                caso "oMath":
+                caso "oMathPara":
+                    resultado.children.push(this.parseMathElement(el));
+                    romper;
+                caso "sdt":
+                    resultado.children.push(...this.parseSdt(el, e => this.parseParagraph(e).children));
+                    romper;
+                caso "ins":
+                    resultado.children.push(this.parseInserted(el, e => this.parseParagraph(e)));
+                    romper;
+                caso "del":
+                    resultado.children.push(this.parseDeleted(el, e => this.parseParagraph(e)));
+                    romper;
             }
         }
-        return result;
+        devolver resultado;
     }
-    parseParagraphProperties(elem, paragraph) {
-        this.parseDefaultProperties(elem, paragraph.cssStyle = {}, null, c => {
-            if ((0, paragraph_1.parseParagraphProperty)(c, paragraph, xml_parser_1.default))
-                return true;
-            switch (c.localName) {
-                case "pStyle":
-                    paragraph.styleName = xml_parser_1.default.attr(c, "val");
-                    break;
-                case "cnfStyle":
-                    paragraph.className = values.classNameOfCnfStyle(c);
-                    break;
-                case "framePr":
-                    this.parseFrame(c, paragraph);
-                    break;
-                case "rPr":
-                    break;
-                default:
-                    return false;
+    parseParagraphProperties(elem, párrafo) {
+        esto.parseDefaultProperties(elem, párrafo.cssStyle = {}, null, c => {
+            si ((0, párrafo_1.parseParagraphProperty)(c, párrafo, xml_parser_1.default))
+                devuelve verdadero;
+            cambiar (c.nombrelocal) {
+                caso "pStyle":
+                    párrafo.styleName = xml_parser_1.default.attr(c, "val");
+                    romper;
+                caso "cnfStyle":
+                    párrafo.className = valores.classNameOfCnfStyle(c);
+                    romper;
+                caso "framePr":
+                    este.parseFrame(c, párrafo);
+                    romper;
+                caso "rPr":
+                    romper;
+                por defecto:
+                    devuelve falso;
             }
-            return true;
+            devuelve verdadero;
         });
     }
-    parseFrame(node, paragraph) {
-        var dropCap = xml_parser_1.default.attr(node, "dropCap");
-        if (dropCap == "drop")
-            paragraph.cssStyle["float"] = "left";
+    parseFrame(nodo, párrafo) {
+        var dropCap = xml_parser_1.default.attr(nodo, "dropCap");
+        si (dropCap == "drop")
+            párrafo.cssStyle["float"] = "izquierda";
     }
-    parseHyperlink(node, parent) {
-        var result = { type: dom_1.DomType.Hyperlink, parent: parent, children: [] };
-        var anchor = xml_parser_1.default.attr(node, "anchor");
-        var relId = xml_parser_1.default.attr(node, "id");
-        if (anchor)
-            result.href = "#" + anchor;
-        if (relId)
-            result.id = relId;
-        xmlUtil.foreach(node, c => {
-            switch (c.localName) {
-                case "r":
-                    result.children.push(this.parseRun(c, result));
-                    break;
+    parseHyperlink(nodo, padre) {
+        var resultado = { tipo: dom_1.DomType.Hyperlink, padre: padre, hijos: [] };
+        var anchor = xml_parser_1.default.attr(nodo, "ancla");
+        var relId = xml_parser_1.default.attr(nodo, "id");
+        si (ancla)
+            resultado.href = "#" + ancla;
+        si (relId)
+            resultado.id = relId;
+        xmlUtil.foreach(nodo, c => {
+            cambiar (c.nombrelocal) {
+                caso "r":
+                    resultado.children.push(this.parseRun(c, resultado));
+                    romper;
             }
         });
-        return result;
+        devolver resultado;
     }
-    parseRun(node, parent) {
-        var result = { type: dom_1.DomType.Run, parent: parent, children: [] };
-        xmlUtil.foreach(node, c => {
-            c = this.checkAlternateContent(c);
-            switch (c.localName) {
-                case "t":
-                    result.children.push({
-                        type: dom_1.DomType.Text,
-                        text: c.textContent
+    parseRun(nodo, padre) {
+        var resultado = { tipo: dom_1.DomType.Run, padre: padre, hijos: [] };
+        xmlUtil.foreach(nodo, c => {
+            c = este.checkAlternateContent(c);
+            cambiar (c.nombrelocal) {
+                caso "t":
+                    resultado.hijos.push({
+                        tipo: dom_1.DomType.Text,
+                        texto: c.textContent
                     });
-                    break;
-                case "delText":
-                    result.children.push({
-                        type: dom_1.DomType.DeletedText,
-                        text: c.textContent
+                    romper;
+                caso "delText":
+                    resultado.hijos.push({
+                        tipo: dom_1.DomType.DeletedText,
+                        texto: c.textContent
                     });
-                    break;
-                case "fldSimple":
-                    result.children.push({
-                        type: dom_1.DomType.SimpleField,
-                        instruction: xml_parser_1.default.attr(c, "instr"),
-                        lock: xml_parser_1.default.boolAttr(c, "lock", false),
-                        dirty: xml_parser_1.default.boolAttr(c, "dirty", false)
+                    romper;
+                caso "fldSimple":
+                    resultado.hijos.push({
+                        tipo: dom_1.DomType.SimpleField,
+                        instrucción: xml_parser_1.default.attr(c, "instr"),
+                        bloqueo: xml_parser_1.default.boolAttr(c, "bloqueo", falso),
+                        sucio: xml_parser_1.default.boolAttr(c, "sucio", falso)
                     });
-                    break;
-                case "instrText":
-                    result.fieldRun = true;
-                    result.children.push({
-                        type: dom_1.DomType.Instruction,
-                        text: c.textContent
+                    romper;
+                caso "instrText":
+                    resultado.fieldRun = verdadero;
+                    resultado.hijos.push({
+                        tipo: dom_1.DomType.Instrucción,
+                        texto: c.textContent
                     });
-                    break;
-                case "fldChar":
-                    result.fieldRun = true;
-                    result.children.push({
-                        type: dom_1.DomType.ComplexField,
-                        charType: xml_parser_1.default.attr(c, "fldCharType"),
-                        lock: xml_parser_1.default.boolAttr(c, "lock", false),
-                        dirty: xml_parser_1.default.boolAttr(c, "dirty", false)
+                    romper;
+                caso "fldChar":
+                    resultado.fieldRun = verdadero;
+                    resultado.hijos.push({
+                        tipo: dom_1.DomType.ComplexField,
+                        tipoDeCaracter: xml_parser_1.default.attr(c, "fldCharType"),
+                        bloqueo: xml_parser_1.default.boolAttr(c, "bloqueo", falso),
+                        sucio: xml_parser_1.default.boolAttr(c, "sucio", falso)
                     });
-                    break;
-                case "noBreakHyphen":
-                    result.children.push({ type: dom_1.DomType.NoBreakHyphen });
-                    break;
-                case "br":
-                    result.children.push({
-                        type: dom_1.DomType.Break,
-                        break: xml_parser_1.default.attr(c, "type") || "textWrapping"
+                    romper;
+                caso "noBreakHyphen":
+                    resultado.children.push({ tipo: dom_1.DomType.NoBreakHyphen });
+                    romper;
+                caso "br":
+                    resultado.hijos.push({
+                        tipo: dom_1.DomType.Break,
+                        break: xml_parser_1.default.attr(c, "tipo") || "Ajuste de texto"
                     });
-                    break;
-                case "lastRenderedPageBreak":
-                    result.children.push({
-                        type: dom_1.DomType.Break,
-                        break: "lastRenderedPageBreak"
+                    romper;
+                caso "lastRenderedPageBreak":
+                    resultado.hijos.push({
+                        tipo: dom_1.DomType.Break,
+                        salto: "lastRenderedPageBreak"
                     });
-                    break;
-                case "sym":
-                    result.children.push({
-                        type: dom_1.DomType.Symbol,
-                        font: xml_parser_1.default.attr(c, "font"),
-                        char: xml_parser_1.default.attr(c, "char")
+                    romper;
+                caso "sym":
+                    resultado.hijos.push({
+                        tipo: dom_1.DomType.Symbol,
+                        fuente: xml_parser_1.default.attr(c, "fuente"),
+                        carácter: xml_parser_1.default.attr(c, "carácter")
                     });
-                    break;
-                case "tab":
-                    result.children.push({ type: dom_1.DomType.Tab });
-                    break;
-                case "footnoteReference":
-                    result.children.push({
-                        type: dom_1.DomType.FootnoteReference,
+                    romper;
+                caso "pestaña":
+                    resultado.children.push({ tipo: dom_1.DomType.Tab });
+                    romper;
+                caso "footnoteReference":
+                    resultado.hijos.push({
+                        tipo: dom_1.DomType.FootnoteReference,
                         id: xml_parser_1.default.attr(c, "id")
                     });
-                    break;
-                case "endnoteReference":
-                    result.children.push({
-                        type: dom_1.DomType.EndnoteReference,
+                    romper;
+                caso "endnoteReference":
+                    resultado.hijos.push({
+                        tipo: dom_1.DomType.EndnoteReference,
                         id: xml_parser_1.default.attr(c, "id")
                     });
-                    break;
-                case "drawing":
-                    let d = this.parseDrawing(c);
-                    if (d)
-                        result.children = [d];
-                    break;
-                case "pict":
-                    result.children.push(this.parseVmlPicture(c));
-                    break;
-                case "rPr":
-                    this.parseRunProperties(c, result);
-                    break;
+                    romper;
+                caso "dibujo":
+                    sea ​​d = this.parseDrawing(c);
+                    si (d)
+                        resultado.hijos = [d];
+                    romper;
+                caso "pict":
+                    resultado.children.push(this.parseVmlPicture(c));
+                    romper;
+                caso "rPr":
+                    esto.parseRunProperties(c, resultado);
+                    romper;
             }
         });
-        return result;
+        devolver resultado;
     }
     parseMathElement(elem) {
         const propsTag = `${elem.localName}Pr`;
-        const result = { type: mmlTagMap[elem.localName], children: [] };
-        for (const el of xml_parser_1.default.elements(elem)) {
+        const resultado = { tipo: mmlTagMap[elem.localName], hijos: [] };
+        para (const el de xml_parser_1.default.elements(elem)) {
             const childType = mmlTagMap[el.localName];
-            if (childType) {
-                result.children.push(this.parseMathElement(el));
+            si (tipoHijo) {
+                resultado.children.push(this.parseMathElement(el));
             }
-            else if (el.localName == "r") {
-                var run = this.parseRun(el);
-                run.type = dom_1.DomType.MmlRun;
-                result.children.push(run);
+            de lo contrario si (el.localName == "r") {
+                var ejecutar = this.parseRun(el);
+                ejecutar.tipo = dom_1.DomType.MmlRun;
+                resultado.hijos.push(ejecutar);
             }
             else if (el.localName == propsTag) {
-                result.props = this.parseMathProperies(el);
+                resultado.props = this.parseMathProperies(el);
             }
         }
-        return result;
+        devolver resultado;
     }
     parseMathProperies(elem) {
-        const result = {};
-        for (const el of xml_parser_1.default.elements(elem)) {
-            switch (el.localName) {
-                case "chr":
-                    result.char = xml_parser_1.default.attr(el, "val");
-                    break;
-                case "degHide":
-                    result.hideDegree = xml_parser_1.default.boolAttr(el, "val");
-                    break;
-                case "begChr":
-                    result.beginChar = xml_parser_1.default.attr(el, "val");
-                    break;
-                case "endChr":
-                    result.endChar = xml_parser_1.default.attr(el, "val");
-                    break;
+        const resultado = {};
+        para (const el de xml_parser_1.default.elements(elem)) {
+            cambiar (el.nombrelocal) {
+                caso "chr":
+                    resultado.char = xml_parser_1.default.attr(el, "val");
+                    romper;
+                caso "degHide":
+                    resultado.hideDegree = xml_parser_1.default.boolAttr(el, "val");
+                    romper;
+                caso "begChr":
+                    resultado.beginChar = xml_parser_1.default.attr(el, "val");
+                    romper;
+                caso "endChr":
+                    resultado.endChar = xml_parser_1.default.attr(el, "val");
+                    romper;
             }
         }
-        return result;
+        devolver resultado;
     }
-    parseRunProperties(elem, run) {
-        this.parseDefaultProperties(elem, run.cssStyle = {}, null, c => {
-            switch (c.localName) {
-                case "rStyle":
-                    run.styleName = xml_parser_1.default.attr(c, "val");
-                    break;
-                case "vertAlign":
-                    run.verticalAlign = values.valueOfVertAlign(c, true);
-                    break;
-                default:
-                    return false;
+    parseRunProperties(elem, ejecutar) {
+        esto.parseDefaultProperties(elem, run.cssStyle = {}, null, c => {
+            cambiar (c.nombrelocal) {
+                caso "rStyle":
+                    ejecutar.styleName = xml_parser_1.default.attr(c, "val");
+                    romper;
+                caso "vertAlign":
+                    ejecutar.verticalAlign = valores.valueOfVertAlign(c, verdadero);
+                    romper;
+                por defecto:
+                    devuelve falso;
             }
-            return true;
+            devuelve verdadero;
         });
     }
-    parseVmlPicture(elem) {
-        const result = { type: dom_1.DomType.VmlPicture, children: [] };
-        for (const el of xml_parser_1.default.elements(elem)) {
-            const child = (0, vml_1.parseVmlElement)(el);
-            child && result.children.push(child);
+    analizarVmlPicture(elem) {
+        constante resultado = { tipo: dom_1.DomType.VmlPicture, hijos: [] };
+        para (const el de xml_parser_1.default.elements(elem)) {
+            constante hijo = (0, vml_1.parseVmlElement)(el);
+            niño && resultado.niños.push(niño);
         }
-        return result;
+        devolver resultado;
     }
-    checkAlternateContent(elem) {
+    comprobarContenidoAlternativo(elem) {
         var _a;
-        if (elem.localName != 'AlternateContent')
-            return elem;
-        var choice = xml_parser_1.default.element(elem, "Choice");
-        if (choice) {
-            var requires = xml_parser_1.default.attr(choice, "Requires");
-            var namespaceURI = elem.lookupNamespaceURI(requires);
-            if (supportedNamespaceURIs.includes(namespaceURI))
-                return choice.firstElementChild;
+        si (elem.localName != 'Contenido alternativo')
+            elemento de retorno;
+        var choice = xml_parser_1.default.element(elem, "Elección");
+        si (elección) {
+            var requiere = xml_parser_1.default.attr(choice, "Requiere");
+            var namespaceURI = elem.lookupNamespaceURI(requiere);
+            si (supportedNamespaceURIs.includes(namespaceURI))
+                devolver opción.firstElementChild;
         }
-        return (_a = xml_parser_1.default.element(elem, "Fallback")) === null || _a === void 0 ? void 0 : _a.firstElementChild;
+        devolver (_a = xml_parser_1.default.element(elem, "Respaldo")) === nulo || _a === vacío 0 ? vacío 0 : _a.firstElementChild;
     }
-    parseDrawing(node) {
-        for (var n of xml_parser_1.default.elements(node)) {
-            switch (n.localName) {
-                case "inline":
-                case "anchor":
-                    return this.parseDrawingWrapper(n);
+    parseDrawing(nodo) {
+        para (var n de xml_parser_1.default.elements(nodo)) {
+            cambiar (n.nombrelocal) {
+                caso "en línea":
+                caso "ancla":
+                    devuelve esto.parseDrawingWrapper(n);
             }
         }
     }
-    parseDrawingWrapper(node) {
+    parseDrawingWrapper(nodo) {
         var _a;
-        var result = { type: dom_1.DomType.Drawing, children: [], cssStyle: {} };
-        var isAnchor = node.localName == "anchor";
-        let wrapType = null;
-        let simplePos = xml_parser_1.default.boolAttr(node, "simplePos");
-        let posX = { relative: "page", align: "left", offset: "0" };
-        let posY = { relative: "page", align: "top", offset: "0" };
-        for (var n of xml_parser_1.default.elements(node)) {
-            switch (n.localName) {
-                case "simplePos":
-                    if (simplePos) {
+        var resultado = { tipo: dom_1.DomType.Drawing, hijos: [], cssStyle: {} };
+        var isAnchor = nodo.localName == "ancla";
+        deje que wrapType = null;
+        deje simplePos = xml_parser_1.default.boolAttr(nodo, "simplePos");
+        deje que posX = { relativo: "página", alineación: "izquierda", desplazamiento: "0" };
+        deje que posY = { relativo: "página", alineación: "arriba", desplazamiento: "0" };
+        para (var n de xml_parser_1.default.elements(nodo)) {
+            cambiar (n.nombrelocal) {
+                caso "simplePos":
+                    si (simplePos) {
                         posX.offset = xml_parser_1.default.lengthAttr(n, "x", common_1.LengthUsage.Emu);
                         posY.offset = xml_parser_1.default.lengthAttr(n, "y", common_1.LengthUsage.Emu);
                     }
-                    break;
-                case "extent":
-                    result.cssStyle["width"] = xml_parser_1.default.lengthAttr(n, "cx", common_1.LengthUsage.Emu);
-                    result.cssStyle["height"] = xml_parser_1.default.lengthAttr(n, "cy", common_1.LengthUsage.Emu);
-                    break;
-                case "positionH":
-                case "positionV":
-                    if (!simplePos) {
-                        let pos = n.localName == "positionH" ? posX : posY;
-                        var alignNode = xml_parser_1.default.element(n, "align");
+                    romper;
+                caso "extensión":
+                    resultado.cssStyle["ancho"] = xml_parser_1.default.lengthAttr(n, "cx", common_1.LengthUsage.Emu);
+                    resultado.cssStyle["altura"] = xml_parser_1.default.lengthAttr(n, "cy", common_1.LengthUsage.Emu);
+                    romper;
+                caso "posiciónH":
+                caso "posiciónV":
+                    si (!simplePos) {
+                        let pos = n.localName == "posiciónH"? posX: posY;
+                        var alignNode = xml_parser_1.default.element(n, "alinear");
                         var offsetNode = xml_parser_1.default.element(n, "posOffset");
-                        pos.relative = (_a = xml_parser_1.default.attr(n, "relativeFrom")) !== null && _a !== void 0 ? _a : pos.relative;
-                        if (alignNode)
+                        pos.relativo = (_a = xml_parser_1.default.attr(n, "relativoDesde")) !== null && _a !== void 0 ? _a : pos.relativo;
+                        si (alignNode)
                             pos.align = alignNode.textContent;
-                        if (offsetNode)
+                        si (nododesplazamiento)
                             pos.offset = xmlUtil.sizeValue(offsetNode, common_1.LengthUsage.Emu);
                     }
-                    break;
-                case "wrapTopAndBottom":
-                    wrapType = "wrapTopAndBottom";
-                    break;
-                case "wrapNone":
+                    romper;
+                caso "wrapTopAndBottom":
+                    wrapType = "envolverSuperiorEinferior";
+                    romper;
+                caso "wrapNone":
                     wrapType = "wrapNone";
-                    break;
-                case "graphic":
-                    var g = this.parseGraphic(n);
-                    if (g)
-                        result.children.push(g);
-                    break;
+                    romper;
+                caso "gráfico":
+                    var g = este.parseGraphic(n);
+                    si (g)
+                        resultado.hijos.push(g);
+                    romper;
             }
         }
-        if (wrapType == "wrapTopAndBottom") {
-            result.cssStyle['display'] = 'block';
-            if (posX.align) {
-                result.cssStyle['text-align'] = posX.align;
-                result.cssStyle['width'] = "100%";
+        si (wrapType == "wrapTopAndBottom") {
+            resultado.cssStyle['display'] = 'bloque';
+            si (posX.align) {
+                resultado.cssStyle['text-align'] = posX.align;
+                resultado.cssStyle['width'] = "100%";
             }
         }
-        else if (wrapType == "wrapNone") {
-            result.cssStyle['display'] = 'block';
-            result.cssStyle['position'] = 'relative';
-            result.cssStyle["width"] = "0px";
-            result.cssStyle["height"] = "0px";
-            if (posX.offset)
-                result.cssStyle["left"] = posX.offset;
-            if (posY.offset)
-                result.cssStyle["top"] = posY.offset;
+        de lo contrario si (wrapType == "wrapNone") {
+            resultado.cssStyle['display'] = 'bloque';
+            result.cssStyle['position'] = 'relativo';
+            resultado.cssStyle["ancho"] = "0px";
+            resultado.cssStyle["altura"] = "0px";
+            si (posX.offset)
+                resultado.cssStyle["izquierda"] = posX.offset;
+            si (posY.offset)
+                resultado.cssStyle["top"] = posY.offset;
         }
-        else if (isAnchor && (posX.align == 'left' || posX.align == 'right')) {
-            result.cssStyle["float"] = posX.align;
+        de lo contrario si (isAnchor && (posX.align == 'izquierda' || posX.align == 'derecha')) {
+            resultado.cssStyle["float"] = posX.align;
         }
-        return result;
+        devolver resultado;
     }
     parseGraphic(elem) {
         var graphicData = xml_parser_1.default.element(elem, "graphicData");
-        for (let n of xml_parser_1.default.elements(graphicData)) {
-            switch (n.localName) {
-                case "pic":
-                    return this.parsePicture(n);
+        para (sea n de xml_parser_1.default.elements(graphicData)) {
+            cambiar (n.nombrelocal) {
+                caso "foto":
+                    devuelve esto.parsePicture(n);
             }
         }
-        return null;
+        devuelve nulo;
     }
-    parsePicture(elem) {
-        var result = { type: dom_1.DomType.Image, src: "", cssStyle: {} };
+    analizarImagen(elem) {
+        var resultado = { tipo: dom_1.DomType.Image, src: "", cssStyle: {} };
         var blipFill = xml_parser_1.default.element(elem, "blipFill");
         var blip = xml_parser_1.default.element(blipFill, "blip");
-        result.src = xml_parser_1.default.attr(blip, "embed");
+        resultado.src = xml_parser_1.default.attr(blip, "incrustar");
         var spPr = xml_parser_1.default.element(elem, "spPr");
         var xfrm = xml_parser_1.default.element(spPr, "xfrm");
-        result.cssStyle["position"] = "relative";
-        for (var n of xml_parser_1.default.elements(xfrm)) {
-            switch (n.localName) {
-                case "ext":
-                    result.cssStyle["width"] = xml_parser_1.default.lengthAttr(n, "cx", common_1.LengthUsage.Emu);
-                    result.cssStyle["height"] = xml_parser_1.default.lengthAttr(n, "cy", common_1.LengthUsage.Emu);
-                    break;
-                case "off":
-                    result.cssStyle["left"] = xml_parser_1.default.lengthAttr(n, "x", common_1.LengthUsage.Emu);
-                    result.cssStyle["top"] = xml_parser_1.default.lengthAttr(n, "y", common_1.LengthUsage.Emu);
-                    break;
+        result.cssStyle["posición"] = "relativo";
+        para (var n de xml_parser_1.default.elements(xfrm)) {
+            cambiar (n.nombrelocal) {
+                caso "ext":
+                    resultado.cssStyle["ancho"] = xml_parser_1.default.lengthAttr(n, "cx", common_1.LengthUsage.Emu);
+                    resultado.cssStyle["altura"] = xml_parser_1.default.lengthAttr(n, "cy", common_1.LengthUsage.Emu);
+                    romper;
+                caso "desactivado":
+                    resultado.cssStyle["izquierda"] = xml_parser_1.default.lengthAttr(n, "x", common_1.LengthUsage.Emu);
+                    resultado.cssStyle["arriba"] = xml_parser_1.default.lengthAttr(n, "y", common_1.LengthUsage.Emu);
+                    romper;
             }
         }
-        return result;
+        devolver resultado;
     }
-    parseTable(node) {
-        var result = { type: dom_1.DomType.Table, children: [] };
-        xmlUtil.foreach(node, c => {
-            switch (c.localName) {
-                case "tr":
-                    result.children.push(this.parseTableRow(c));
-                    break;
-                case "tblGrid":
-                    result.columns = this.parseTableColumns(c);
-                    break;
-                case "tblPr":
-                    this.parseTableProperties(c, result);
-                    break;
+    parseTable(nodo) {
+        var resultado = { tipo: dom_1.DomType.Table, hijos: [] };
+        xmlUtil.foreach(nodo, c => {
+            cambiar (c.nombrelocal) {
+                caso "tr":
+                    resultado.children.push(this.parseTableRow(c));
+                    romper;
+                caso "tblGrid":
+                    resultado.columnas = this.parseTableColumns(c);
+                    romper;
+                caso "tblPr":
+                    esto.parseTableProperties(c, resultado);
+                    romper;
             }
         });
-        return result;
+        devolver resultado;
     }
-    parseTableColumns(node) {
-        var result = [];
-        xmlUtil.foreach(node, n => {
-            switch (n.localName) {
-                case "gridCol":
-                    result.push({ width: xml_parser_1.default.lengthAttr(n, "w") });
-                    break;
+    parseTableColumns(nodo) {
+        var resultado = [];
+        xmlUtil.foreach(nodo, n => {
+            cambiar (n.nombrelocal) {
+                caso "gridCol":
+                    resultado.push({ ancho: xml_parser_1.default.lengthAttr(n, "w") });
+                    romper;
             }
         });
-        return result;
+        devolver resultado;
     }
-    parseTableProperties(elem, table) {
-        table.cssStyle = {};
-        table.cellStyle = {};
-        this.parseDefaultProperties(elem, table.cssStyle, table.cellStyle, c => {
-            switch (c.localName) {
-                case "tblStyle":
-                    table.styleName = xml_parser_1.default.attr(c, "val");
-                    break;
-                case "tblLook":
-                    table.className = values.classNameOftblLook(c);
-                    break;
-                case "tblpPr":
-                    this.parseTablePosition(c, table);
-                    break;
-                case "tblStyleColBandSize":
-                    table.colBandSize = xml_parser_1.default.intAttr(c, "val");
-                    break;
-                case "tblStyleRowBandSize":
-                    table.rowBandSize = xml_parser_1.default.intAttr(c, "val");
-                    break;
-                default:
-                    return false;
+    parseTableProperties(elem, tabla) {
+        tabla.cssStyle = {};
+        tabla.cellStyle = {};
+        esto.parseDefaultProperties(elem, tabla.cssStyle, tabla.cellStyle, c => {
+            cambiar (c.nombrelocal) {
+                caso "tblStyle":
+                    tabla.styleName = xml_parser_1.default.attr(c, "val");
+                    romper;
+                caso "tblLook":
+                    tabla.nombreClase = valores.nombreClaseOftblLook(c);
+                    romper;
+                caso "tblpPr":
+                    esto.parseTablePosition(c, tabla);
+                    romper;
+                caso "tblStyleColBandSize":
+                    tabla.colBandSize = xml_parser_1.default.intAttr(c, "val");
+                    romper;
+                caso "tblStyleRowBandSize":
+                    tabla.rowBandSize = xml_parser_1.default.intAttr(c, "val");
+                    romper;
+                por defecto:
+                    devuelve falso;
             }
-            return true;
+            devuelve verdadero;
         });
-        switch (table.cssStyle["text-align"]) {
-            case "center":
-                delete table.cssStyle["text-align"];
-                table.cssStyle["margin-left"] = "auto";
-                table.cssStyle["margin-right"] = "auto";
-                break;
-            case "right":
-                delete table.cssStyle["text-align"];
-                table.cssStyle["margin-left"] = "auto";
-                break;
+        cambiar (tabla.cssStyle["text-align"]) {
+            caso "centro":
+                eliminar tabla.cssStyle["text-align"];
+                tabla.cssStyle["margin-left"] = "auto";
+                tabla.cssStyle["margin-right"] = "auto";
+                romper;
+            caso "derecho":
+                eliminar tabla.cssStyle["text-align"];
+                tabla.cssStyle["margin-left"] = "auto";
+                romper;
         }
     }
-    parseTablePosition(node, table) {
-        var topFromText = xml_parser_1.default.lengthAttr(node, "topFromText");
-        var bottomFromText = xml_parser_1.default.lengthAttr(node, "bottomFromText");
-        var rightFromText = xml_parser_1.default.lengthAttr(node, "rightFromText");
-        var leftFromText = xml_parser_1.default.lengthAttr(node, "leftFromText");
-        table.cssStyle["float"] = 'left';
-        table.cssStyle["margin-bottom"] = values.addSize(table.cssStyle["margin-bottom"], bottomFromText);
-        table.cssStyle["margin-left"] = values.addSize(table.cssStyle["margin-left"], leftFromText);
-        table.cssStyle["margin-right"] = values.addSize(table.cssStyle["margin-right"], rightFromText);
-        table.cssStyle["margin-top"] = values.addSize(table.cssStyle["margin-top"], topFromText);
+    parseTablePosition(nodo, tabla) {
+        var topFromText = xml_parser_1.default.lengthAttr(nodo, "topFromText");
+        var bottomFromText = xml_parser_1.default.lengthAttr(nodo, "bottomFromText");
+        var rightFromText = xml_parser_1.default.lengthAttr(nodo, "rightFromText");
+        var leftFromText = xml_parser_1.default.lengthAttr(nodo, "leftFromText");
+        tabla.cssStyle["float"] = 'izquierda';
+        tabla.cssStyle["margin-bottom"] = valores.addSize(tabla.cssStyle["margin-bottom"], bottomFromText);
+        tabla.cssStyle["margen-izquierdo"] = valores.addSize(tabla.cssStyle["margen-izquierdo"], leftFromText);
+        tabla.cssStyle["margen-derecho"] = valores.addSize(tabla.cssStyle["margen-derecho"], rightFromText);
+        tabla.cssStyle["margin-top"] = valores.addSize(tabla.cssStyle["margin-top"], topFromText);
     }
-    parseTableRow(node) {
-        var result = { type: dom_1.DomType.Row, children: [] };
-        xmlUtil.foreach(node, c => {
-            switch (c.localName) {
-                case "tc":
-                    result.children.push(this.parseTableCell(c));
-                    break;
-                case "trPr":
-                    this.parseTableRowProperties(c, result);
-                    break;
+    parseTableRow(nodo) {
+        var resultado = { tipo: dom_1.DomType.Row, hijos: [] };
+        xmlUtil.foreach(nodo, c => {
+            cambiar (c.nombrelocal) {
+                caso "tc":
+                    resultado.children.push(this.parseTableCell(c));
+                    romper;
+                caso "trPr":
+                    esto.parseTableRowProperties(c, resultado);
+                    romper;
             }
         });
-        return result;
+        devolver resultado;
     }
-    parseTableRowProperties(elem, row) {
-        row.cssStyle = this.parseDefaultProperties(elem, {}, null, c => {
-            switch (c.localName) {
-                case "cnfStyle":
-                    row.className = values.classNameOfCnfStyle(c);
-                    break;
-                case "tblHeader":
-                    row.isHeader = xml_parser_1.default.boolAttr(c, "val");
-                    break;
-                default:
-                    return false;
+    parseTableRowProperties(elem, fila) {
+        fila.cssStyle = this.parseDefaultProperties(elem, {}, null, c => {
+            cambiar (c.nombrelocal) {
+                caso "cnfStyle":
+                    fila.className = valores.classNameOfCnfStyle(c);
+                    romper;
+                caso "tblHeader":
+                    fila.isHeader = xml_parser_1.default.boolAttr(c, "val");
+                    romper;
+                por defecto:
+                    devuelve falso;
             }
-            return true;
+            devuelve verdadero;
         });
     }
-    parseTableCell(node) {
-        var result = { type: dom_1.DomType.Cell, children: [] };
-        xmlUtil.foreach(node, c => {
-            switch (c.localName) {
-                case "tbl":
-                    result.children.push(this.parseTable(c));
-                    break;
-                case "p":
-                    result.children.push(this.parseParagraph(c));
-                    break;
-                case "tcPr":
-                    this.parseTableCellProperties(c, result);
-                    break;
+    parseTableCell(nodo) {
+        var resultado = { tipo: dom_1.DomType.Cell, hijos: [] };
+        xmlUtil.foreach(nodo, c => {
+            cambiar (c.nombrelocal) {
+                caso "tbl":
+                    resultado.children.push(this.parseTable(c));
+                    romper;
+                caso "p":
+                    resultado.children.push(this.parseParagraph(c));
+                    romper;
+                caso "tcPr":
+                    esto.parseTableCellProperties(c, resultado);
+                    romper;
             }
         });
-        return result;
+        devolver resultado;
     }
-    parseTableCellProperties(elem, cell) {
+    parseTableCellProperties(elem, celda) {
         cell.cssStyle = this.parseDefaultProperties(elem, {}, null, c => {
             var _a;
-            switch (c.localName) {
-                case "gridSpan":
-                    cell.span = xml_parser_1.default.intAttr(c, "val", null);
-                    break;
-                case "vMerge":
-                    cell.verticalMerge = (_a = xml_parser_1.default.attr(c, "val")) !== null && _a !== void 0 ? _a : "continue";
-                    break;
-                case "cnfStyle":
-                    cell.className = values.classNameOfCnfStyle(c);
-                    break;
-                default:
-                    return false;
+            cambiar (c.nombrelocal) {
+                caso "gridSpan":
+                    celda.span = xml_parser_1.default.intAttr(c, "val", null);
+                    romper;
+                caso "vMerge":
+                    cell.verticalMerge = (_a = xml_parser_1.default.attr(c, "val")) !== null && _a !== void 0 ? _a : "continuar";
+                    romper;
+                caso "cnfStyle":
+                    celda.className = valores.classNameOfCnfStyle(c);
+                    romper;
+                por defecto:
+                    devuelve falso;
             }
-            return true;
+            devuelve verdadero;
         });
     }
-    parseDefaultProperties(elem, style = null, childStyle = null, handler = null) {
-        style = style || {};
+    parseDefaultProperties(elem, estilo = null, childStyle = null, manejador = null) {
+        estilo = estilo || {};
         xmlUtil.foreach(elem, c => {
-            if (handler === null || handler === void 0 ? void 0 : handler(c))
-                return;
-            switch (c.localName) {
-                case "jc":
-                    style["text-align"] = values.valueOfJc(c);
-                    break;
-                case "textAlignment":
-                    style["vertical-align"] = values.valueOfTextAlignment(c);
-                    break;
-                case "color":
-                    style["color"] = xmlUtil.colorAttr(c, "val", null, exports.autos.color);
-                    break;
-                case "sz":
-                    style["font-size"] = style["min-height"] = xml_parser_1.default.lengthAttr(c, "val", common_1.LengthUsage.FontSize);
-                    break;
-                case "shd":
-                    style["background-color"] = xmlUtil.colorAttr(c, "fill", null, exports.autos.shd);
-                    break;
-                case "highlight":
-                    style["background-color"] = xmlUtil.colorAttr(c, "val", null, exports.autos.highlight);
-                    break;
-                case "vertAlign":
-                    break;
-                case "position":
-                    style.verticalAlign = xml_parser_1.default.lengthAttr(c, "val", common_1.LengthUsage.FontSize);
-                    break;
-                case "tcW":
-                    if (this.options.ignoreWidth)
-                        break;
-                case "tblW":
-                    style["width"] = values.valueOfSize(c, "w");
-                    break;
-                case "trHeight":
-                    this.parseTrHeight(c, style);
-                    break;
-                case "strike":
-                    style["text-decoration"] = xml_parser_1.default.boolAttr(c, "val", true) ? "line-through" : "none";
-                    break;
-                case "b":
-                    style["font-weight"] = xml_parser_1.default.boolAttr(c, "val", true) ? "bold" : "normal";
-                    break;
-                case "i":
-                    style["font-style"] = xml_parser_1.default.boolAttr(c, "val", true) ? "italic" : "normal";
-                    break;
-                case "caps":
-                    style["text-transform"] = xml_parser_1.default.boolAttr(c, "val", true) ? "uppercase" : "none";
-                    break;
-                case "smallCaps":
-                    style["text-transform"] = xml_parser_1.default.boolAttr(c, "val", true) ? "lowercase" : "none";
-                    break;
-                case "u":
-                    this.parseUnderline(c, style);
-                    break;
-                case "ind":
-                case "tblInd":
-                    this.parseIndentation(c, style);
-                    break;
-                case "rFonts":
-                    this.parseFont(c, style);
-                    break;
-                case "tblBorders":
-                    this.parseBorderProperties(c, childStyle || style);
-                    break;
-                case "tblCellSpacing":
-                    style["border-spacing"] = values.valueOfMargin(c);
-                    style["border-collapse"] = "separate";
-                    break;
-                case "pBdr":
-                    this.parseBorderProperties(c, style);
-                    break;
-                case "bdr":
-                    style["border"] = values.valueOfBorder(c);
-                    break;
-                case "tcBorders":
-                    this.parseBorderProperties(c, style);
-                    break;
-                case "vanish":
-                    if (xml_parser_1.default.boolAttr(c, "val", true))
-                        style["display"] = "none";
-                    break;
-                case "kern":
-                    break;
-                case "noWrap":
-                    break;
-                case "tblCellMar":
-                case "tcMar":
-                    this.parseMarginProperties(c, childStyle || style);
-                    break;
-                case "tblLayout":
-                    style["table-layout"] = values.valueOfTblLayout(c);
-                    break;
-                case "vAlign":
-                    style["vertical-align"] = values.valueOfTextAlignment(c);
-                    break;
-                case "spacing":
-                    if (elem.localName == "pPr")
-                        this.parseSpacing(c, style);
-                    break;
-                case "wordWrap":
-                    if (xml_parser_1.default.boolAttr(c, "val"))
-                        style["overflow-wrap"] = "break-word";
-                    break;
-                case "bCs":
-                case "iCs":
-                case "szCs":
-                case "tabs":
-                case "outlineLvl":
-                case "contextualSpacing":
-                case "tblStyleColBandSize":
-                case "tblStyleRowBandSize":
-                case "webHidden":
-                case "pageBreakBefore":
-                case "suppressLineNumbers":
-                case "keepLines":
-                case "keepNext":
-                case "lang":
-                case "widowControl":
-                case "bidi":
-                case "rtl":
-                case "noProof":
-                    break;
-                default:
-                    if (this.options.debug)
-                        console.warn(`DOCX: Unknown document element: ${elem.localName}.${c.localName}`);
-                    break;
+            si (controlador === null || controlador === void 0 ? void 0 : controlador(c))
+                devolver;
+            cambiar (c.nombrelocal) {
+                caso "jc":
+                    estilo["text-align"] = valores.valueOfJc(c);
+                    romper;
+                caso "textAlignment":
+                    estilo["vertical-align"] = valores.valueOfTextAlignment(c);
+                    romper;
+                caso "color":
+                    estilo["color"] = xmlUtil.colorAttr(c, "val", null, exportaciones.autos.color);
+                    romper;
+                caso "sz":
+                    estilo["tamaño-de-fuente"] = estilo["altura-mínima"] = xml_parser_1.default.lengthAttr(c, "val", common_1.LengthUsage.FontSize);
+                    romper;
+                caso "shd":
+                    estilo["color-de-fondo"] = xmlUtil.colorAttr(c, "relleno", null, exportaciones.autos.shd);
+                    romper;
+                caso "resaltado":
+                    estilo["color-de-fondo"] = xmlUtil.colorAttr(c, "val", null, exportaciones.autos.highlight);
+                    romper;
+                caso "vertAlign":
+                    romper;
+                caso "posición":
+                    estilo.verticalAlign = xml_parser_1.default.lengthAttr(c, "val", common_1.LengthUsage.FontSize);
+                    romper;
+                caso "tcW":
+                    si (esto.opciones.ignorarAncho)
+                        romper;
+                caso "tblW":
+                    estilo["ancho"] = valores.valueOfSize(c, "w");
+                    romper;
+                caso "trAltura":
+                    esto.parseTrHeight(c, estilo);
+                    romper;
+                caso "huelga":
+                    estilo["decoración de texto"] = xml_parser_1.default.boolAttr(c, "val", true) ? "línea continua": "ninguno";
+                    romper;
+                caso "b":
+                    estilo["font-weight"] = xml_parser_1.default.boolAttr(c, "val", true) ? "negrita" : "normal";
+                    romper;
+                caso "i":
+                    estilo["font-style"] = xml_parser_1.default.boolAttr(c, "val", true) ? "itálica" : "normal";
+                    romper;
+                caso "mayúsculas":
+                    estilo["text-transform"] = xml_parser_1.default.boolAttr(c, "val", true) ? "mayúsculas" : "ninguno";
+                    romper;
+                caso "smallCaps":
+                    estilo["text-transform"] = xml_parser_1.default.boolAttr(c, "val", true) ? "minúsculas" : "ninguno";
+                    romper;
+                caso "u":
+                    esto.parseUnderline(c, estilo);
+                    romper;
+                caso "ind":
+                caso "tblInd":
+                    esto.parseIndentation(c, estilo);
+                    romper;
+                caso "rFonts":
+                    esto.parseFont(c, estilo);
+                    romper;
+                caso "tblBorders":
+                    this.parseBorderProperties(c, childStyle || estilo);
+                    romper;
+                caso "tblCellSpacing":
+                    estilo["border-spacing"] = valores.valueOfMargin(c);
+                    estilo["border-collapse"] = "separado";
+                    romper;
+                caso "pBdr":
+                    this.parseBorderProperties(c, estilo);
+                    romper;
+                caso "bdr":
+                    estilo["borde"] = valores.valueOfBorder(c);
+                    romper;
+                caso "tcBorders":
+                    this.parseBorderProperties(c, estilo);
+                    romper;
+                caso "desaparecer":
+                    si (xml_parser_1.default.boolAttr(c, "val", verdadero))
+                        estilo["display"] = "ninguno";
+                    romper;
+                caso "kern":
+                    romper;
+                caso "noWrap":
+                    romper;
+                caso "tblCellMar":
+                caso "tcMar":
+                    esto.parseMarginProperties(c, childStyle || estilo);
+                    romper;
+                caso "tblLayout":
+                    estilo["diseño-de-tabla"] = valores.valueOfTblLayout(c);
+                    romper;
+                caso "vAlign":
+                    estilo["vertical-align"] = valores.valueOfTextAlignment(c);
+                    romper;
+                caso "espaciado":
+                    si (elem.localName == "pPr")
+                        esto.parseSpacing(c, estilo);
+                    romper;
+                caso "wordWrap":
+                    si (xml_parser_1.default.boolAttr(c, "val"))
+                        estilo["overflow-wrap"] = "romper-palabra";
+                    romper;
+                caso "bCs":
+                caso "iCs":
+                caso "szCs":
+                caso "pestañas":
+                caso "outlineLvl":
+                caso "contextualSpacing":
+                caso "tblStyleColBandSize":
+                caso "tblStyleRowBandSize":
+                caso "webHidden":
+                caso "pageBreakBefore":
+                caso "suprimirNúmerosDeLínea":
+                caso "mantenerLíneas":
+                caso "keepNext":
+                caso "lang":
+                caso "widowControl":
+                caso "bidi":
+                caso "rtl":
+                caso "sin prueba":
+                    romper;
+                por defecto:
+                    si (esta.opciones.debug)
+                        console.warn(`DOCX: Elemento de documento desconocido: ${elem.localName}.${c.localName}`);
+                    romper;
             }
         });
-        return style;
+        estilo de retorno;
     }
-    parseUnderline(node, style) {
-        var val = xml_parser_1.default.attr(node, "val");
-        if (val == null)
-            return;
-        switch (val) {
-            case "dash":
-            case "dashDotDotHeavy":
-            case "dashDotHeavy":
-            case "dashedHeavy":
-            case "dashLong":
-            case "dashLongHeavy":
-            case "dotDash":
-            case "dotDotDash":
-                style["text-decoration-style"] = "dashed";
-                break;
-            case "dotted":
-            case "dottedHeavy":
-                style["text-decoration-style"] = "dotted";
-                break;
-            case "double":
-                style["text-decoration-style"] = "double";
-                break;
-            case "single":
-            case "thick":
-                style["text-decoration"] = "underline";
-                break;
-            case "wave":
-            case "wavyDouble":
-            case "wavyHeavy":
-                style["text-decoration-style"] = "wavy";
-                break;
-            case "words":
-                style["text-decoration"] = "underline";
-                break;
-            case "none":
-                style["text-decoration"] = "none";
-                break;
+    parseUnderline(nodo, estilo) {
+        var val = xml_parser_1.default.attr(nodo, "val");
+        si (val == nulo)
+            devolver;
+        cambiar (val) {
+            caso "guión":
+            caso "dashDotDotHeavy":
+            caso "dashDotHeavy":
+            caso "discontinuo pesado":
+            caso "dashLong":
+            caso "dashLongHeavy":
+            caso "dotDash":
+            caso "dotDotDash":
+                estilo["text-decoration-style"] = "discontinuo";
+                romper;
+            caso "punteado":
+            caso "dottedHeavy":
+                estilo["text-decoration-style"] = "punteado";
+                romper;
+            caso "doble":
+                estilo["text-decoration-style"] = "doble";
+                romper;
+            caso "único":
+            caso "grueso":
+                estilo["text-decoration"] = "subrayado";
+                romper;
+            caso "ola":
+            caso "wavyDouble":
+            caso "onduladoPesado":
+                estilo["text-decoration-style"] = "ondulado";
+                romper;
+            caso "palabras":
+                estilo["text-decoration"] = "subrayado";
+                romper;
+            caso "ninguno":
+                estilo["texto-decoración"] = "ninguno";
+                romper;
         }
-        var col = xmlUtil.colorAttr(node, "color");
-        if (col)
-            style["text-decoration-color"] = col;
+        var col = xmlUtil.colorAttr(nodo, "color");
+        si (columna)
+            estilo["color-decoración-texto"] = col;
     }
-    parseFont(node, style) {
-        var ascii = xml_parser_1.default.attr(node, "ascii");
-        var asciiTheme = values.themeValue(node, "asciiTheme");
-        var fonts = [ascii, asciiTheme].filter(x => x).join(', ');
-        if (fonts.length > 0)
-            style["font-family"] = fonts;
+    parseFont(nodo, estilo) {
+        var ascii = xml_parser_1.default.attr(nodo, "ascii");
+        var asciiTheme = values.themeValue(nodo, "asciiTheme");
+        var fuentes = [ascii, asciiTheme].filter(x => x).join(', ');
+        si (fuentes.longitud > 0)
+            estilo["font-family"] = fuentes;
     }
-    parseIndentation(node, style) {
-        var firstLine = xml_parser_1.default.lengthAttr(node, "firstLine");
-        var hanging = xml_parser_1.default.lengthAttr(node, "hanging");
-        var left = xml_parser_1.default.lengthAttr(node, "left");
-        var start = xml_parser_1.default.lengthAttr(node, "start");
-        var right = xml_parser_1.default.lengthAttr(node, "right");
-        var end = xml_parser_1.default.lengthAttr(node, "end");
-        if (firstLine)
-            style["text-indent"] = firstLine;
-        if (hanging)
-            style["text-indent"] = `-${hanging}`;
-        if (left || start)
-            style["margin-left"] = left || start;
-        if (right || end)
-            style["margin-right"] = right || end;
+    parseIndentation(nodo, estilo) {
+        var firstLine = xml_parser_1.default.lengthAttr(nodo, "firstLine");
+        var hanging = xml_parser_1.default.lengthAttr(nodo, "colgado");
+        var izquierda = xml_parser_1.default.lengthAttr(nodo, "izquierda");
+        var inicio = xml_parser_1.default.lengthAttr(nodo, "inicio");
+        var derecha = xml_parser_1.default.lengthAttr(nodo, "derecha");
+        var fin = xml_parser_1.default.lengthAttr(nodo, "fin");
+        si (primera línea)
+            estilo["text-indent"] = primeraLínea;
+        si (colgando)
+            estilo["text-indent"] = `-${hanging}`;
+        si (izquierda || inicio)
+            estilo["margin-left"] = izquierda || inicio;
+        si (derecha || fin)
+            estilo["margin-right"] = derecha || fin;
     }
-    parseSpacing(node, style) {
-        var before = xml_parser_1.default.lengthAttr(node, "before");
-        var after = xml_parser_1.default.lengthAttr(node, "after");
-        var line = xml_parser_1.default.intAttr(node, "line", null);
-        var lineRule = xml_parser_1.default.attr(node, "lineRule");
-        if (before)
-            style["margin-top"] = before;
-        if (after)
-            style["margin-bottom"] = after;
-        if (line !== null) {
-            switch (lineRule) {
-                case "auto":
-                    style["line-height"] = `${(line / 240).toFixed(2)}`;
-                    break;
-                case "atLeast":
-                    style["line-height"] = `calc(100% + ${line / 20}pt)`;
-                    break;
-                default:
-                    style["line-height"] = style["min-height"] = `${line / 20}pt`;
-                    break;
+    parseSpacing(nodo, estilo) {
+        var before = xml_parser_1.default.lengthAttr(nodo, "antes");
+        var after = xml_parser_1.default.lengthAttr(nodo, "después");
+        var línea = xml_parser_1.default.intAttr(nodo, "línea", null);
+        var lineRule = xml_parser_1.default.attr(nodo, "lineRule");
+        si (antes)
+            estilo["margin-top"] = antes;
+        si (después)
+            estilo["margin-bottom"] = después;
+        si (línea !== null) {
+            cambiar (lineRule) {
+                caso "auto":
+                    estilo["altura-de-línea"] = `${(línea / 240).toFixed(2)}`;
+                    romper;
+                caso "alMenos":
+                    estilo["altura-de-línea"] = `calc(100% + ${línea / 20}pt)`;
+                    romper;
+                por defecto:
+                    estilo["altura-de-línea"] = estilo["altura-mínima"] = `${línea / 20}pt`;
+                    romper;
             }
         }
     }
-    parseMarginProperties(node, output) {
-        xmlUtil.foreach(node, c => {
-            switch (c.localName) {
-                case "left":
-                    output["padding-left"] = values.valueOfMargin(c);
-                    break;
-                case "right":
-                    output["padding-right"] = values.valueOfMargin(c);
-                    break;
-                case "top":
-                    output["padding-top"] = values.valueOfMargin(c);
-                    break;
-                case "bottom":
-                    output["padding-bottom"] = values.valueOfMargin(c);
-                    break;
+    parseMarginProperties(nodo, salida) {
+        xmlUtil.foreach(nodo, c => {
+            cambiar (c.nombrelocal) {
+                caso "izquierda":
+                    salida["padding-left"] = valores.valueOfMargin(c);
+                    romper;
+                caso "derecho":
+                    salida["padding-right"] = valores.valueOfMargin(c);
+                    romper;
+                caso "superior":
+                    salida["padding-top"] = valores.valueOfMargin(c);
+                    romper;
+                caso "abajo":
+                    salida["padding-bottom"] = valores.valueOfMargin(c);
+                    romper;
             }
         });
     }
-    parseTrHeight(node, output) {
-        switch (xml_parser_1.default.attr(node, "hRule")) {
-            case "exact":
-                output["height"] = xml_parser_1.default.lengthAttr(node, "val");
-                break;
-            case "atLeast":
-            default:
-                output["height"] = xml_parser_1.default.lengthAttr(node, "val");
-                break;
+    parseTrHeight(nodo, salida) {
+        cambiar (xml_parser_1.default.attr(nodo, "hRule")) {
+            caso "exacto":
+                salida["altura"] = xml_parser_1.default.lengthAttr(nodo, "val");
+                romper;
+            caso "alMenos":
+            por defecto:
+                salida["altura"] = xml_parser_1.default.lengthAttr(nodo, "val");
+                romper;
         }
     }
-    parseBorderProperties(node, output) {
-        xmlUtil.foreach(node, c => {
-            switch (c.localName) {
-                case "start":
-                case "left":
-                    output["border-left"] = values.valueOfBorder(c);
-                    break;
-                case "end":
-                case "right":
-                    output["border-right"] = values.valueOfBorder(c);
-                    break;
-                case "top":
-                    output["border-top"] = values.valueOfBorder(c);
-                    break;
-                case "bottom":
-                    output["border-bottom"] = values.valueOfBorder(c);
-                    break;
+    parseBorderProperties(nodo, salida) {
+        xmlUtil.foreach(nodo, c => {
+            cambiar (c.nombrelocal) {
+                caso "inicio":
+                caso "izquierda":
+                    salida["border-left"] = valores.valueOfBorder(c);
+                    romper;
+                caso "fin":
+                caso "derecho":
+                    salida["border-right"] = valores.valueOfBorder(c);
+                    romper;
+                caso "superior":
+                    salida["border-top"] = valores.valueOfBorder(c);
+                    romper;
+                caso "abajo":
+                    salida["border-bottom"] = valores.valueOfBorder(c);
+                    romper;
             }
         });
     }
 }
-exports.DocumentParser = DocumentParser;
-const knownColors = ['black', 'blue', 'cyan', 'darkBlue', 'darkCyan', 'darkGray', 'darkGreen', 'darkMagenta', 'darkRed', 'darkYellow', 'green', 'lightGray', 'magenta', 'none', 'red', 'white', 'yellow'];
-class xmlUtil {
-    static foreach(node, cb) {
-        for (var i = 0; i < node.childNodes.length; i++) {
-            let n = node.childNodes[i];
-            if (n.nodeType == Node.ELEMENT_NODE)
+exportaciones.DocumentParser = DocumentParser;
+const knownColors = ['negro', 'azul', 'cian', 'azul oscuro', 'cian oscuro', 'gris oscuro', 'verde oscuro', 'magenta oscuro', 'rojo oscuro', 'amarillo oscuro', 'verde', 'gris claro', 'magenta', 'ninguno', 'rojo', 'blanco', 'amarillo'];
+clase xmlUtil {
+    static foreach(nodo, cb) {
+        para (var i = 0; i < nodo.childNodes.length; i++) {
+            sea ​​n = nodo.childNodes[i];
+            si (n.nodeType == Nodo.ELEMENT_NODE)
                 cb(n);
         }
     }
-    static colorAttr(node, attrName, defValue = null, autoColor = 'black') {
-        var v = xml_parser_1.default.attr(node, attrName);
-        if (v) {
-            if (v == "auto") {
-                return autoColor;
+    colorAttr estático(nodo, attrName, defValue = null, autoColor = 'negro') {
+        var v = xml_parser_1.default.attr(nodo, attrName);
+        si (v) {
+            si (v == "auto") {
+                devolver autoColor;
             }
-            else if (knownColors.includes(v)) {
-                return v;
+            de lo contrario si (coloresconocidos.includes(v)) {
+                devolver v;
             }
-            return `#${v}`;
+            devuelve `#${v}`;
         }
-        var themeColor = xml_parser_1.default.attr(node, "themeColor");
-        return themeColor ? `var(--docx-${themeColor}-color)` : defValue;
+        var themeColor = xml_parser_1.default.attr(nodo, "themeColor");
+        devolver themeColor ? `var(--docx-${themeColor}-color)` : defValue;
     }
-    static sizeValue(node, type = common_1.LengthUsage.Dxa) {
-        return (0, common_1.convertLength)(node.textContent, type);
+    static sizeValue(nodo, tipo = common_1.LengthUsage.Dxa) {
+        devuelve (0, common_1.convertLength)(nodo.textContent, tipo);
     }
 }
-class values {
-    static themeValue(c, attr) {
+valores de clase {
+    tema estáticoValor(c, attr) {
         var val = xml_parser_1.default.attr(c, attr);
-        return val ? `var(--docx-${val}-font)` : null;
+        valor de retorno? `var(--docx-${val}-font)`: nulo;
     }
-    static valueOfSize(c, attr) {
-        var type = common_1.LengthUsage.Dxa;
-        switch (xml_parser_1.default.attr(c, "type")) {
-            case "dxa": break;
-            case "pct":
-                type = common_1.LengthUsage.Percent;
-                break;
-            case "auto": return "auto";
+    valor estáticoDeTamaño(c, attr) {
+        var tipo = común_1.LengthUsage.Dxa;
+        cambiar (xml_parser_1.default.attr(c, "tipo")) {
+            caso "dxa": romper;
+            caso "pct":
+                tipo = común_1.LengthUsage.Porcentaje;
+                romper;
+            caso "auto": devolver "auto";
         }
-        return xml_parser_1.default.lengthAttr(c, attr, type);
+        devolver xml_parser_1.default.lengthAttr(c, attr, tipo);
     }
-    static valueOfMargin(c) {
-        return xml_parser_1.default.lengthAttr(c, "w");
+    valor estáticoDeMargen(c) {
+        devolver xml_parser_1.default.lengthAttr(c, "w");
     }
-    static valueOfBorder(c) {
-        var type = xml_parser_1.default.attr(c, "val");
-        if (type == "nil")
-            return "none";
+    valor estáticoDeBorde(c) {
+        var tipo = xml_parser_1.default.attr(c, "val");
+        si (tipo == "nil")
+            devuelve "ninguno";
         var color = xmlUtil.colorAttr(c, "color");
-        var size = xml_parser_1.default.lengthAttr(c, "sz", common_1.LengthUsage.Border);
-        return `${size} solid ${color == "auto" ? exports.autos.borderColor : color}`;
+        var tamaño = xml_parser_1.default.lengthAttr(c, "tamaño", common_1.LengthUsage.Border);
+        devuelve `${tamaño} sólido ${color == "auto" ?exports.autos.borderColor : color}`;
     }
-    static valueOfTblLayout(c) {
-        var type = xml_parser_1.default.attr(c, "val");
-        return type == "fixed" ? "fixed" : "auto";
+    valor estáticoOfTblLayout(c) {
+        var tipo = xml_parser_1.default.attr(c, "val");
+        tipo de retorno == "fijo" ? "fijo" : "automático";
     }
-    static classNameOfCnfStyle(c) {
-        const val = xml_parser_1.default.attr(c, "val");
-        const classes = [
-            'first-row', 'last-row', 'first-col', 'last-col',
-            'odd-col', 'even-col', 'odd-row', 'even-row',
-            'ne-cell', 'nw-cell', 'se-cell', 'sw-cell'
+    clase estáticaNameOfCnfStyle(c) {
+        constante val = xml_parser_1.default.attr(c, "val");
+        clases constantes = [
+            'primera fila', 'última fila', 'primera columna', 'última columna',
+            'columna impar', 'columna par', 'fila impar', 'fila par',
+            'célula ne', 'célula nw', 'célula se', 'célula sw'
         ];
-        return classes.filter((_, i) => val[i] == '1').join(' ');
+        devolver clases.filter((_, i) => val[i] == '1').join(' ');
     }
-    static valueOfJc(c) {
-        var type = xml_parser_1.default.attr(c, "val");
-        switch (type) {
-            case "start":
-            case "left": return "left";
-            case "center": return "center";
-            case "end":
-            case "right": return "right";
-            case "both": return "justify";
+    valor estáticoDeJc(c) {
+        var tipo = xml_parser_1.default.attr(c, "val");
+        interruptor (tipo) {
+            caso "inicio":
+            caso "izquierda": devolver "izquierda";
+            caso "centro": devolver "centro";
+            caso "fin":
+            caso "derecho": devolver "derecho";
+            caso "ambos": devolver "justificar";
         }
-        return type;
+        tipo de retorno;
     }
-    static valueOfVertAlign(c, asTagName = false) {
-        var type = xml_parser_1.default.attr(c, "val");
-        switch (type) {
-            case "subscript": return "sub";
-            case "superscript": return asTagName ? "sup" : "super";
+    valor estáticoDeVertAlign(c, asTagName = falso) {
+        var tipo = xml_parser_1.default.attr(c, "val");
+        interruptor (tipo) {
+            caso "subíndice": devolver "sub";
+            caso "superíndice": devolver comoTagName ? "sup" : "super";
         }
-        return asTagName ? null : type;
+        devolver comoTagName ? null : tipo;
     }
-    static valueOfTextAlignment(c) {
-        var type = xml_parser_1.default.attr(c, "val");
-        switch (type) {
-            case "auto":
-            case "baseline": return "baseline";
-            case "top": return "top";
-            case "center": return "middle";
-            case "bottom": return "bottom";
+    valor estáticoDeAlineaciónDeTexto(c) {
+        var tipo = xml_parser_1.default.attr(c, "val");
+        interruptor (tipo) {
+            caso "auto":
+            caso "línea base": devolver "línea base";
+            caso "arriba": devolver "arriba";
+            caso "centro": devolver "medio";
+            caso "abajo": devolver "abajo";
         }
-        return type;
+        tipo de retorno;
     }
-    static addSize(a, b) {
-        if (a == null)
-            return b;
-        if (b == null)
-            return a;
-        return `calc(${a} + ${b})`;
+    estática addSize(a, b) {
+        si (a == nulo)
+            devolver b;
+        si (b == nulo)
+            devolver un;
+        devuelve `calc(${a} + ${b})`;
     }
-    static classNameOftblLook(c) {
-        const val = xml_parser_1.default.hexAttr(c, "val", 0);
-        let className = "";
-        if (xml_parser_1.default.boolAttr(c, "firstRow") || (val & 0x0020))
-            className += " first-row";
-        if (xml_parser_1.default.boolAttr(c, "lastRow") || (val & 0x0040))
-            className += " last-row";
-        if (xml_parser_1.default.boolAttr(c, "firstColumn") || (val & 0x0080))
-            className += " first-col";
-        if (xml_parser_1.default.boolAttr(c, "lastColumn") || (val & 0x0100))
-            className += " last-col";
-        if (xml_parser_1.default.boolAttr(c, "noHBand") || (val & 0x0200))
-            className += " no-hband";
-        if (xml_parser_1.default.boolAttr(c, "noVBand") || (val & 0x0400))
-            className += " no-vband";
-        return className.trim();
+    clase estáticaNameOftblLook(c) {
+        constante val = xml_parser_1.default.hexAttr(c, "val", 0);
+        deje que className = "";
+        si (xml_parser_1.default.boolAttr(c, "primeraFila") || (val & 0x0020))
+            className += "primera fila";
+        si (xml_parser_1.default.boolAttr(c, "lastRow") || (val & 0x0040))
+            className += " última-fila";
+        si (xml_parser_1.default.boolAttr(c, "primeraColumna") || (val & 0x0080))
+            nombreClase += "primera-columna";
+        si (xml_parser_1.default.boolAttr(c, "últimaColumna") || (val & 0x0100))
+            nombreClase += " última-col";
+        si (xml_parser_1.default.boolAttr(c, "noHBand") || (val & 0x0200))
+            nombreClase += "no-hband";
+        si (xml_parser_1.default.boolAttr(c, "noVBand") || (val & 0x0400))
+            nombreClase += "no-vband";
+        devolver nombreClase.trim();
     }
 }
 
@@ -1638,22 +1638,22 @@ class values {
 /***/ }),
 
 /***/ "./src/document-props/core-props-part.ts":
-/*!***********************************************!*\
+/*!************************************************!*\
   !*** ./src/document-props/core-props-part.ts ***!
-  \***********************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+  \************************************************/
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.CorePropsPart = void 0;
-const part_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
-const core_props_1 = __webpack_require__(/*! ./core-props */ "./src/document-props/core-props.ts");
-class CorePropsPart extends part_1.Part {
-    parseXml(root) {
-        this.props = (0, core_props_1.parseCoreProps)(root, this._package.xmlParser);
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.CorePropsPart = void 0;
+constante parte_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
+constante core_props_1 = __webpack_require__(/*! ./core-props */ "./src/document-props/core-props.ts");
+clase CorePropsPart extiende part_1.Part {
+    parseXml(raíz) {
+        esto.props = (0, core_props_1.parseCoreProps)(raíz, esto._package.xmlParser);
     }
 }
-exports.CorePropsPart = CorePropsPart;
+exportaciones.CorePropsPart = CorePropsPart;
 
 
 /***/ }),
@@ -1662,90 +1662,90 @@ exports.CorePropsPart = CorePropsPart;
 /*!******************************************!*\
   !*** ./src/document-props/core-props.ts ***!
   \******************************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.parseCoreProps = void 0;
-function parseCoreProps(root, xmlParser) {
-    const result = {};
-    for (let el of xmlParser.elements(root)) {
-        switch (el.localName) {
-            case "title":
-                result.title = el.textContent;
-                break;
-            case "description":
-                result.description = el.textContent;
-                break;
-            case "subject":
-                result.subject = el.textContent;
-                break;
-            case "creator":
-                result.creator = el.textContent;
-                break;
-            case "keywords":
-                result.keywords = el.textContent;
-                break;
-            case "language":
-                result.language = el.textContent;
-                break;
-            case "lastModifiedBy":
-                result.lastModifiedBy = el.textContent;
-                break;
-            case "revision":
-                el.textContent && (result.revision = parseInt(el.textContent));
-                break;
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.parseCoreProps = void 0;
+función parseCoreProps(root, xmlParser) {
+    const resultado = {};
+    para (sea el de xmlParser.elements(root)) {
+        cambiar (el.nombrelocal) {
+            caso "título":
+                resultado.titulo = el.textContent;
+                romper;
+            caso "descripción":
+                resultado.descripción = el.textContent;
+                romper;
+            caso "sujeto":
+                resultado.asunto = el.textContent;
+                romper;
+            caso "creador":
+                resultado.creador = el.textContent;
+                romper;
+            caso "palabras clave":
+                resultado.palabrasclave = el.textContent;
+                romper;
+            caso "idioma":
+                resultado.idioma = el.textContent;
+                romper;
+            caso "lastModifiedBy":
+                resultado.lastModifiedBy = el.textContent;
+                romper;
+            caso "revisión":
+                el.textContent && (resultado.revision = parseInt(el.textContent));
+                romper;
         }
     }
-    return result;
+    devolver resultado;
 }
-exports.parseCoreProps = parseCoreProps;
+exportaciones.parseCoreProps = parseCoreProps;
 
 
 /***/ }),
 
 /***/ "./src/document-props/custom-props-part.ts":
-/*!*************************************************!*\
+/*!****************************************************!*\
   !*** ./src/document-props/custom-props-part.ts ***!
   \*************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.CustomPropsPart = void 0;
-const part_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
-const custom_props_1 = __webpack_require__(/*! ./custom-props */ "./src/document-props/custom-props.ts");
-class CustomPropsPart extends part_1.Part {
-    parseXml(root) {
-        this.props = (0, custom_props_1.parseCustomProps)(root, this._package.xmlParser);
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.CustomPropsPart = void 0;
+constante parte_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
+constante custom_props_1 = __webpack_require__(/*! ./custom-props */ "./src/document-props/custom-props.ts");
+clase CustomPropsPart extiende part_1.Part {
+    parseXml(raíz) {
+        esto.props = (0, custom_props_1.parseCustomProps)(raíz, esto._package.xmlParser);
     }
 }
-exports.CustomPropsPart = CustomPropsPart;
+exportaciones.CustomPropsPart = CustomPropsPart;
 
 
 /***/ }),
 
 /***/ "./src/document-props/custom-props.ts":
-/*!********************************************!*\
+/*!***********************************************!*\
   !*** ./src/document-props/custom-props.ts ***!
   \********************************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.parseCustomProps = void 0;
-function parseCustomProps(root, xml) {
-    return xml.elements(root, "property").map(e => {
-        const firstChild = e.firstChild;
-        return {
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.parseCustomProps = void 0;
+función parseCustomProps(root, xml) {
+    devolver xml.elements(root, "propiedad").map(e => {
+        const primerHijo = e.primerHijo;
+        devolver {
             formatId: xml.attr(e, "fmtid"),
-            name: xml.attr(e, "name"),
-            type: firstChild.nodeName,
-            value: firstChild.textContent
+            nombre: xml.attr(e, "nombre"),
+            tipo: firstChild.nodeName,
+            valor: firstChild.textContent
         };
     });
 }
-exports.parseCustomProps = parseCustomProps;
+exportaciones.parseCustomProps = parseCustomProps;
 
 
 /***/ }),
@@ -1754,100 +1754,100 @@ exports.parseCustomProps = parseCustomProps;
 /*!***************************************************!*\
   !*** ./src/document-props/extended-props-part.ts ***!
   \***************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.ExtendedPropsPart = void 0;
-const part_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
-const extended_props_1 = __webpack_require__(/*! ./extended-props */ "./src/document-props/extended-props.ts");
-class ExtendedPropsPart extends part_1.Part {
-    parseXml(root) {
-        this.props = (0, extended_props_1.parseExtendedProps)(root, this._package.xmlParser);
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.ExtendedPropsPart = void 0;
+constante parte_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
+constante extendida_props_1 = __webpack_require__(/*! ./props-extendidos */ "./src/document-props/props-extendidos.ts");
+clase ExtendedPropsPart extiende part_1.Part {
+    parseXml(raíz) {
+        esto.props = (0, extended_props_1.parseExtendedProps)(raíz, esto._package.xmlParser);
     }
 }
-exports.ExtendedPropsPart = ExtendedPropsPart;
+exportaciones.ExtendedPropsPart = ExtendedPropsPart;
 
 
 /***/ }),
 
 /***/ "./src/document-props/extended-props.ts":
-/*!**********************************************!*\
+/*!*************************************************!*\
   !*** ./src/document-props/extended-props.ts ***!
   \**********************************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.parseExtendedProps = void 0;
-function parseExtendedProps(root, xmlParser) {
-    const result = {};
-    for (let el of xmlParser.elements(root)) {
-        switch (el.localName) {
-            case "Template":
-                result.template = el.textContent;
-                break;
-            case "Pages":
-                result.pages = safeParseToInt(el.textContent);
-                break;
-            case "Words":
-                result.words = safeParseToInt(el.textContent);
-                break;
-            case "Characters":
-                result.characters = safeParseToInt(el.textContent);
-                break;
-            case "Application":
-                result.application = el.textContent;
-                break;
-            case "Lines":
-                result.lines = safeParseToInt(el.textContent);
-                break;
-            case "Paragraphs":
-                result.paragraphs = safeParseToInt(el.textContent);
-                break;
-            case "Company":
-                result.company = el.textContent;
-                break;
-            case "AppVersion":
-                result.appVersion = el.textContent;
-                break;
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.parseExtendedProps = void 0;
+función parseExtendedProps(root, xmlParser) {
+    const resultado = {};
+    para (sea el de xmlParser.elements(root)) {
+        cambiar (el.nombrelocal) {
+            caso "Plantilla":
+                resultado.plantilla = el.textContent;
+                romper;
+            caso "Páginas":
+                resultado.pages = safeParseToInt(el.textContent);
+                romper;
+            caso "Palabras":
+                resultado.palabras = safeParseToInt(el.textContent);
+                romper;
+            caso "Personajes":
+                resultado.caracteres = safeParseToInt(el.textContent);
+                romper;
+            caso "Aplicación":
+                resultado.aplicacion = el.textContent;
+                romper;
+            caso "Líneas":
+                resultado.lines = safeParseToInt(el.textContent);
+                romper;
+            caso "Párrafos":
+                resultado.párrafos = safeParseToInt(el.textContent);
+                romper;
+            caso "Empresa":
+                resultado.empresa = el.textContent;
+                romper;
+            caso "Versión de la aplicación":
+                resultado.appVersion = el.textContent;
+                romper;
         }
     }
-    return result;
+    devolver resultado;
 }
-exports.parseExtendedProps = parseExtendedProps;
-function safeParseToInt(value) {
-    if (typeof value === 'undefined')
-        return;
-    return parseInt(value);
+exportaciones.parseExtendedProps = parseExtendedProps;
+función safeParseToInt(valor) {
+    si (tipo de valor === 'indefinido')
+        devolver;
+    devolver parseInt(valor);
 }
 
 
 /***/ }),
 
-/***/ "./src/document/bookmarks.ts":
-/*!***********************************!*\
+/***/ "./src/documento/marcadores.ts":
+/*!**************************************!*\
   !*** ./src/document/bookmarks.ts ***!
   \***********************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
 exports.parseBookmarkEnd = exports.parseBookmarkStart = void 0;
-const dom_1 = __webpack_require__(/*! ./dom */ "./src/document/dom.ts");
-function parseBookmarkStart(elem, xml) {
-    return {
-        type: dom_1.DomType.BookmarkStart,
+constante dom_1 = __webpack_require__(/*! ./dom */ "./src/document/dom.ts");
+función parseBookmarkStart(elem, xml) {
+    devolver {
+        tipo: dom_1.DomType.BookmarkStart,
         id: xml.attr(elem, "id"),
-        name: xml.attr(elem, "name"),
+        nombre: xml.attr(elem, "nombre"),
         colFirst: xml.intAttr(elem, "colFirst"),
-        colLast: xml.intAttr(elem, "colLast")
+        colÚltimo: xml.intAttr(elem, "colÚltimo")
     };
 }
 exports.parseBookmarkStart = parseBookmarkStart;
-function parseBookmarkEnd(elem, xml) {
-    return {
-        type: dom_1.DomType.BookmarkEnd,
+función parseBookmarkEnd(elem, xml) {
+    devolver {
+        tipo: dom_1.DomType.BookmarkEnd,
         id: xml.attr(elem, "id")
     };
 }
@@ -1856,445 +1856,445 @@ exports.parseBookmarkEnd = parseBookmarkEnd;
 
 /***/ }),
 
-/***/ "./src/document/border.ts":
+/***/ "./src/documento/border.ts":
 /*!********************************!*\
   !*** ./src/document/border.ts ***!
   \********************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
 exports.parseBorders = exports.parseBorder = void 0;
-const common_1 = __webpack_require__(/*! ./common */ "./src/document/common.ts");
-function parseBorder(elem, xml) {
-    return {
-        type: xml.attr(elem, "val"),
+constante común_1 = __webpack_require__(/*! ./common */ "./src/document/common.ts");
+función parseBorder(elem, xml) {
+    devolver {
+        tipo: xml.attr(elem, "val"),
         color: xml.attr(elem, "color"),
-        size: xml.lengthAttr(elem, "sz", common_1.LengthUsage.Border),
-        offset: xml.lengthAttr(elem, "space", common_1.LengthUsage.Point),
-        frame: xml.boolAttr(elem, 'frame'),
-        shadow: xml.boolAttr(elem, 'shadow')
+        tamaño: xml.lengthAttr(elem, "tamaño", common_1.LengthUsage.Border),
+        desplazamiento: xml.lengthAttr(elem, "espacio", common_1.LengthUsage.Point),
+        marco: xml.boolAttr(elem, 'marco'),
+        sombra: xml.boolAttr(elem, 'sombra')
     };
 }
-exports.parseBorder = parseBorder;
-function parseBorders(elem, xml) {
-    var result = {};
-    for (let e of xml.elements(elem)) {
-        switch (e.localName) {
-            case "left":
-                result.left = parseBorder(e, xml);
-                break;
-            case "top":
-                result.top = parseBorder(e, xml);
-                break;
-            case "right":
-                result.right = parseBorder(e, xml);
-                break;
-            case "bottom":
-                result.bottom = parseBorder(e, xml);
-                break;
+exportaciones.parseBorder = parseBorder;
+función parseBorders(elem, xml) {
+    var resultado = {};
+    para (sea e de xml.elements(elem)) {
+        cambiar (e.nombrelocal) {
+            caso "izquierda":
+                resultado.izquierda = parseBorder(e, xml);
+                romper;
+            caso "superior":
+                resultado.top = parseBorder(e, xml);
+                romper;
+            caso "derecho":
+                resultado.derecho = parseBorder(e, xml);
+                romper;
+            caso "abajo":
+                resultado.bottom = parseBorder(e, xml);
+                romper;
         }
     }
-    return result;
+    devolver resultado;
 }
 exports.parseBorders = parseBorders;
 
 
 /***/ }),
 
-/***/ "./src/document/common.ts":
+/***/ "./src/documento/common.ts":
 /*!********************************!*\
   !*** ./src/document/common.ts ***!
   \********************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.parseCommonProperty = exports.convertPercentage = exports.convertBoolean = exports.convertLength = exports.LengthUsage = exports.ns = void 0;
-exports.ns = {
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.parseCommonProperty = exportaciones.convertPercentage = exportaciones.convertBoolean = exportaciones.convertLength = exportaciones.LengthUsage = exportaciones.ns = void 0;
+exportaciones.ns = {
     wordml: "http://schemas.openxmlformats.org/wordprocessingml/2006/main",
-    drawingml: "http://schemas.openxmlformats.org/drawingml/2006/main",
-    picture: "http://schemas.openxmlformats.org/drawingml/2006/picture",
-    compatibility: "http://schemas.openxmlformats.org/markup-compatibility/2006",
-    math: "http://schemas.openxmlformats.org/officeDocument/2006/math"
+    dibujoml: "http://schemas.openxmlformats.org/drawingml/2006/main",
+    imagen: "http://schemas.openxmlformats.org/drawingml/2006/picture",
+    compatibilidad: "http://schemas.openxmlformats.org/markup-compatibility/2006",
+    matemáticas: "http://schemas.openxmlformats.org/officeDocument/2006/math"
 };
-exports.LengthUsage = {
-    Dxa: { mul: 0.05, unit: "pt" },
-    Emu: { mul: 1 / 12700, unit: "pt" },
-    FontSize: { mul: 0.5, unit: "pt" },
-    Border: { mul: 0.125, unit: "pt" },
-    Point: { mul: 1, unit: "pt" },
-    Percent: { mul: 0.02, unit: "%" },
-    LineHeight: { mul: 1 / 240, unit: "" },
-    VmlEmu: { mul: 1 / 12700, unit: "" },
+exportaciones.LengthUsage = {
+    Dxa: { mul: 0.05, unidad: "pt" },
+    Emú: { mul: 1/12700, unidad: "pt" },
+    Tamaño de fuente: {mul: 0,5, unidad: "pt" },
+    Borde: { mul: 0.125, unidad: "pt" },
+    Punto: { mul: 1, unidad: "pt" },
+    Porcentaje: { mul: 0.02, unidad: "%" },
+    Altura de línea: { mul: 1 / 240, unidad: "" },
+    VmlEmu: {mul: 1/12700, unidad: "" },
 };
-function convertLength(val, usage = exports.LengthUsage.Dxa) {
-    if (val == null || /.+(p[xt]|[%])$/.test(val)) {
-        return val;
+función convertLength(val, uso = exportaciones.LengthUsage.Dxa) {
+    si (val == nulo || /.+(p[xt]|[%])$/.test(val)) {
+        devolver val;
     }
-    return `${(parseInt(val) * usage.mul).toFixed(2)}${usage.unit}`;
+    devuelve `${(parseInt(val) * uso.mul).toFixed(2)}${uso.unidad}`;
 }
-exports.convertLength = convertLength;
-function convertBoolean(v, defaultValue = false) {
-    switch (v) {
-        case "1": return true;
-        case "0": return false;
-        case "on": return true;
-        case "off": return false;
-        case "true": return true;
-        case "false": return false;
-        default: return defaultValue;
+exportaciones.convertLength = convertLength;
+función convertBoolean(v, valor predeterminado = falso) {
+    cambiar (v) {
+        caso "1": devuelve verdadero;
+        caso "0": devuelve falso;
+        caso "on": devuelve verdadero;
+        caso "off": devolver falso;
+        caso "verdadero": devuelve verdadero;
+        caso "falso": devolver falso;
+        predeterminado: devolver valor predeterminado;
     }
 }
-exports.convertBoolean = convertBoolean;
-function convertPercentage(val) {
-    return val ? parseInt(val) / 100 : null;
+exportaciones.convertBoolean = convertBoolean;
+función convertirPorcentaje(val) {
+    valor de retorno? parseInt(val) / 100: nulo;
 }
-exports.convertPercentage = convertPercentage;
-function parseCommonProperty(elem, props, xml) {
-    if (elem.namespaceURI != exports.ns.wordml)
-        return false;
-    switch (elem.localName) {
-        case "color":
+exportaciones.convertirPorcentaje = convertirPorcentaje;
+función parseCommonProperty(elem, props, xml) {
+    si (elem.namespaceURI != exportaciones.ns.wordml)
+        devuelve falso;
+    cambiar (elem.nombrelocal) {
+        caso "color":
             props.color = xml.attr(elem, "val");
-            break;
-        case "sz":
-            props.fontSize = xml.lengthAttr(elem, "val", exports.LengthUsage.FontSize);
-            break;
-        default:
-            return false;
+            romper;
+        caso "sz":
+            props.fontSize = xml.lengthAttr(elem, "val", exportaciones.LengthUsage.FontSize);
+            romper;
+        por defecto:
+            devuelve falso;
     }
-    return true;
+    devuelve verdadero;
 }
-exports.parseCommonProperty = parseCommonProperty;
+exportaciones.parseCommonProperty = parseCommonProperty;
 
 
 /***/ }),
 
-/***/ "./src/document/document-part.ts":
+/***/ "./src/documento/documento-parte.ts":
 /*!***************************************!*\
-  !*** ./src/document/document-part.ts ***!
+  !*** ./src/documento/documento-part.ts ***!
   \***************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.DocumentPart = void 0;
-const part_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
-class DocumentPart extends part_1.Part {
-    constructor(pkg, path, parser) {
-        super(pkg, path);
-        this._documentParser = parser;
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.DocumentPart = void 0;
+constante parte_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
+clase DocumentPart extiende part_1.Part {
+    constructor(pkg, ruta, analizador) {
+        super(pkg, ruta);
+        this._documentParser = analizador;
     }
-    parseXml(root) {
-        this.body = this._documentParser.parseDocumentFile(root);
+    parseXml(raíz) {
+        este.cuerpo = este._documentParser.parseDocumentFile(raíz);
     }
 }
-exports.DocumentPart = DocumentPart;
+exportaciones.DocumentPart = DocumentPart;
 
 
 /***/ }),
 
-/***/ "./src/document/dom.ts":
+/***/ "./src/documento/dom.ts":
 /*!*****************************!*\
-  !*** ./src/document/dom.ts ***!
+  !*** ./src/documento/dom.ts ***!
   \*****************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.DomType = void 0;
-var DomType;
-(function (DomType) {
-    DomType["Document"] = "document";
-    DomType["Paragraph"] = "paragraph";
-    DomType["Run"] = "run";
-    DomType["Break"] = "break";
-    DomType["NoBreakHyphen"] = "noBreakHyphen";
-    DomType["Table"] = "table";
-    DomType["Row"] = "row";
-    DomType["Cell"] = "cell";
-    DomType["Hyperlink"] = "hyperlink";
-    DomType["Drawing"] = "drawing";
-    DomType["Image"] = "image";
-    DomType["Text"] = "text";
-    DomType["Tab"] = "tab";
-    DomType["Symbol"] = "symbol";
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.DomType = void 0;
+varDomType;
+(función (DomType) {
+    DomType["Documento"] = "documento";
+    DomType["Párrafo"] = "párrafo";
+    DomType["Ejecutar"] = "ejecutar";
+    DomType["Break"] = "ruptura";
+    DomType["NoBreakHyphen"] = "sinBreakHyphen";
+    DomType["Tabla"] = "tabla";
+    DomType["Row"] = "fila";
+    DomType["Celda"] = "celda";
+    DomType["Hipervínculo"] = "hipervínculo";
+    DomType["Dibujo"] = "dibujo";
+    DomType["Imagen"] = "imagen";
+    DomType["Texto"] = "texto";
+    DomType["Tab"] = "pestaña";
+    DomType["Símbolo"] = "símbolo";
     DomType["BookmarkStart"] = "bookmarkStart";
-    DomType["BookmarkEnd"] = "bookmarkEnd";
-    DomType["Footer"] = "footer";
-    DomType["Header"] = "header";
-    DomType["FootnoteReference"] = "footnoteReference";
+    DomType["Fin del marcador"] = "Fin del marcador";
+    DomType["Pie de página"] = "pie de página";
+    DomType["Encabezado"] = "encabezado";
+    DomType["FootnoteReference"] = "referencia de nota al pie";
     DomType["EndnoteReference"] = "endnoteReference";
-    DomType["Footnote"] = "footnote";
-    DomType["Endnote"] = "endnote";
-    DomType["SimpleField"] = "simpleField";
-    DomType["ComplexField"] = "complexField";
-    DomType["Instruction"] = "instruction";
+    DomType["Footnote"] = "nota al pie";
+    DomType["Endnote"] = "nota final";
+    DomType["CampoSimple"] = "CampoSimple";
+    DomType["CampoComplejo"] = "CampoComplejo";
+    DomType["Instrucción"] = "instrucción";
     DomType["VmlPicture"] = "vmlPicture";
     DomType["MmlMath"] = "mmlMath";
     DomType["MmlMathParagraph"] = "mmlMathParagraph";
-    DomType["MmlFraction"] = "mmlFraction";
+    DomType["MmlFracción"] = "mmlFracción";
     DomType["MmlNumerator"] = "mmlNumerator";
-    DomType["MmlDenominator"] = "mmlDenominator";
+    DomType["MmlDenominador"] = "mmlDenominador";
     DomType["MmlRadical"] = "mmlRadical";
     DomType["MmlBase"] = "mmlBase";
     DomType["MmlDegree"] = "mmlDegree";
     DomType["MmlSuperscript"] = "mmlSuperscript";
     DomType["MmlSubscript"] = "mmlSubscript";
-    DomType["MmlSubArgument"] = "mmlSubArgument";
-    DomType["MmlSuperArgument"] = "mmlSuperArgument";
+    DomType["MmlSubArgumento"] = "mmlSubArgumento";
+    DomType["MmlSuperArgumento"] = "mmlSuperArgumento";
     DomType["MmlNary"] = "mmlNary";
     DomType["MmlDelimiter"] = "mmlDelimiter";
     DomType["MmlRun"] = "mmlRun";
     DomType["VmlElement"] = "vmlElement";
-    DomType["Inserted"] = "inserted";
-    DomType["Deleted"] = "deleted";
-    DomType["DeletedText"] = "deletedText";
-})(DomType = exports.DomType || (exports.DomType = {}));
+    DomType["Insertado"] = "insertado";
+    DomType["Eliminado"] = "eliminado";
+    DomType["TextoEliminado"] = "TextoEliminado";
+})(DomType = exportaciones.DomType || (exportaciones.DomType = {}));
 
 
 /***/ }),
 
 /***/ "./src/document/line-spacing.ts":
-/*!**************************************!*\
+/*!*****************************************!*\
   !*** ./src/document/line-spacing.ts ***!
   \**************************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.parseLineSpacing = void 0;
-function parseLineSpacing(elem, xml) {
-    return {
-        before: xml.lengthAttr(elem, "before"),
-        after: xml.lengthAttr(elem, "after"),
-        line: xml.intAttr(elem, "line"),
-        lineRule: xml.attr(elem, "lineRule")
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.parseLineSpacing = void 0;
+función parseLineSpacing(elem, xml) {
+    devolver {
+        antes: xml.lengthAttr(elem, "antes"),
+        después: xml.lengthAttr(elem, "después"),
+        línea: xml.intAttr(elem, "línea"),
+        reglaDeLínea: xml.attr(elem, "reglaDeLínea")
     };
 }
-exports.parseLineSpacing = parseLineSpacing;
+exportaciones.parseLineSpacing = parseLineSpacing;
 
 
 /***/ }),
 
-/***/ "./src/document/paragraph.ts":
-/*!***********************************!*\
-  !*** ./src/document/paragraph.ts ***!
+/***/ "./src/documento/párrafo.ts":
+/*!**************************************!*\
+  !*** ./src/documento/párrafo.ts ***!
   \***********************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.parseNumbering = exports.parseTabs = exports.parseParagraphProperty = exports.parseParagraphProperties = void 0;
-const common_1 = __webpack_require__(/*! ./common */ "./src/document/common.ts");
-const section_1 = __webpack_require__(/*! ./section */ "./src/document/section.ts");
-const line_spacing_1 = __webpack_require__(/*! ./line-spacing */ "./src/document/line-spacing.ts");
-const run_1 = __webpack_require__(/*! ./run */ "./src/document/run.ts");
-function parseParagraphProperties(elem, xml) {
-    let result = {};
-    for (let el of xml.elements(elem)) {
-        parseParagraphProperty(el, result, xml);
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.parseNumbering = exportaciones.parseTabs = exportaciones.parseParagraphProperty = exportaciones.parseParagraphProperties = void 0;
+constante común_1 = __webpack_require__(/*! ./common */ "./src/document/common.ts");
+constante sección_1 = __webpack_require__(/*! ./sección */ "./src/documento/sección.ts");
+constante espaciado_de_línea_1 = __webpack_require__(/*! ./espaciado-de-línea */ "./src/document/espaciado-de-línea.ts");
+constante run_1 = __webpack_require__(/*! ./run */ "./src/document/run.ts");
+función parseParagraphProperties(elem, xml) {
+    deje que el resultado sea {};
+    para (sea el de xml.elements(elem)) {
+        parseParagraphProperty(el, resultado, xml);
     }
-    return result;
+    devolver resultado;
 }
 exports.parseParagraphProperties = parseParagraphProperties;
-function parseParagraphProperty(elem, props, xml) {
-    if (elem.namespaceURI != common_1.ns.wordml)
-        return false;
-    if ((0, common_1.parseCommonProperty)(elem, props, xml))
-        return true;
-    switch (elem.localName) {
-        case "tabs":
+función parseParagraphProperty(elem, props, xml) {
+    si (elem.namespaceURI != common_1.ns.wordml)
+        devuelve falso;
+    si ((0, common_1.parseCommonProperty)(elem, props, xml))
+        devuelve verdadero;
+    cambiar (elem.nombrelocal) {
+        caso "pestañas":
             props.tabs = parseTabs(elem, xml);
-            break;
-        case "sectPr":
-            props.sectionProps = (0, section_1.parseSectionProperties)(elem, xml);
-            break;
-        case "numPr":
-            props.numbering = parseNumbering(elem, xml);
-            break;
-        case "spacing":
-            props.lineSpacing = (0, line_spacing_1.parseLineSpacing)(elem, xml);
-            return false;
-            break;
-        case "textAlignment":
+            romper;
+        caso "sectPr":
+            props.sectionProps = (0, sección_1.parseSectionProperties)(elem, xml);
+            romper;
+        caso "numPr":
+            props.numeracion = parseNumbering(elem, xml);
+            romper;
+        caso "espaciado":
+            props.lineSpacing = (0, espaciado_de_línea_1.parseLineSpacing)(elem, xml);
+            devuelve falso;
+            romper;
+        caso "textAlignment":
             props.textAlignment = xml.attr(elem, "val");
-            return false;
-            break;
-        case "keepNext":
-            props.keepLines = xml.boolAttr(elem, "val", true);
-            break;
-        case "keepNext":
-            props.keepNext = xml.boolAttr(elem, "val", true);
-            break;
-        case "pageBreakBefore":
-            props.pageBreakBefore = xml.boolAttr(elem, "val", true);
-            break;
-        case "outlineLvl":
+            devuelve falso;
+            romper;
+        caso "keepNext":
+            props.keepLines = xml.boolAttr(elem, "val", verdadero);
+            romper;
+        caso "keepNext":
+            props.keepNext = xml.boolAttr(elem, "val", verdadero);
+            romper;
+        caso "pageBreakBefore":
+            props.pageBreakBefore = xml.boolAttr(elem, "val", verdadero);
+            romper;
+        caso "outlineLvl":
             props.outlineLevel = xml.intAttr(elem, "val");
-            break;
-        case "pStyle":
+            romper;
+        caso "pStyle":
             props.styleName = xml.attr(elem, "val");
-            break;
-        case "rPr":
+            romper;
+        caso "rPr":
             props.runProps = (0, run_1.parseRunProperties)(elem, xml);
-            break;
-        default:
-            return false;
+            romper;
+        por defecto:
+            devuelve falso;
     }
-    return true;
+    devuelve verdadero;
 }
 exports.parseParagraphProperty = parseParagraphProperty;
-function parseTabs(elem, xml) {
-    return xml.elements(elem, "tab")
+función parseTabs(elem, xml) {
+    devolver xml.elements(elem, "tab")
         .map(e => ({
-        position: xml.lengthAttr(e, "pos"),
-        leader: xml.attr(e, "leader"),
-        style: xml.attr(e, "val")
+        posición: xml.lengthAttr(e, "pos"),
+        líder: xml.attr(e, "líder"),
+        estilo: xml.attr(e, "val")
     }));
 }
-exports.parseTabs = parseTabs;
-function parseNumbering(elem, xml) {
-    var result = {};
-    for (let e of xml.elements(elem)) {
-        switch (e.localName) {
-            case "numId":
-                result.id = xml.attr(e, "val");
-                break;
-            case "ilvl":
-                result.level = xml.intAttr(e, "val");
-                break;
+exportaciones.parseTabs = parseTabs;
+función parseNumbering(elem, xml) {
+    var resultado = {};
+    para (sea e de xml.elements(elem)) {
+        cambiar (e.nombrelocal) {
+            caso "numId":
+                resultado.id = xml.attr(e, "val");
+                romper;
+            caso "ilvl":
+                resultado.nivel = xml.intAttr(e, "val");
+                romper;
         }
     }
-    return result;
+    devolver resultado;
 }
-exports.parseNumbering = parseNumbering;
+exportaciones.parseNumbering = parseNumbering;
 
 
 /***/ }),
 
-/***/ "./src/document/run.ts":
+/***/ "./src/documento/run.ts":
 /*!*****************************!*\
   !*** ./src/document/run.ts ***!
   \*****************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.parseRunProperty = exports.parseRunProperties = void 0;
-const common_1 = __webpack_require__(/*! ./common */ "./src/document/common.ts");
-function parseRunProperties(elem, xml) {
-    let result = {};
-    for (let el of xml.elements(elem)) {
-        parseRunProperty(el, result, xml);
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.parseRunProperty = exportaciones.parseRunProperties = void 0;
+constante común_1 = __webpack_require__(/*! ./common */ "./src/document/common.ts");
+función parseRunProperties(elem, xml) {
+    deje que el resultado sea {};
+    para (sea el de xml.elements(elem)) {
+        parseRunProperty(el, resultado, xml);
     }
-    return result;
+    devolver resultado;
 }
-exports.parseRunProperties = parseRunProperties;
-function parseRunProperty(elem, props, xml) {
-    if ((0, common_1.parseCommonProperty)(elem, props, xml))
-        return true;
-    return false;
+exportaciones.parseRunProperties = parseRunProperties;
+función parseRunProperty(elem, props, xml) {
+    si ((0, common_1.parseCommonProperty)(elem, props, xml))
+        devuelve verdadero;
+    devuelve falso;
 }
-exports.parseRunProperty = parseRunProperty;
+exportaciones.parseRunProperty = parseRunProperty;
 
 
 /***/ }),
 
-/***/ "./src/document/section.ts":
+/***/ "./src/documento/sección.ts":
 /*!*********************************!*\
-  !*** ./src/document/section.ts ***!
+  !*** ./src/documento/seccion.ts ***!
   \*********************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.parseSectionProperties = exports.SectionType = void 0;
-const xml_parser_1 = __webpack_require__(/*! ../parser/xml-parser */ "./src/parser/xml-parser.ts");
-const border_1 = __webpack_require__(/*! ./border */ "./src/document/border.ts");
-var SectionType;
-(function (SectionType) {
-    SectionType["Continuous"] = "continuous";
-    SectionType["NextPage"] = "nextPage";
-    SectionType["NextColumn"] = "nextColumn";
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.parseSectionProperties = exportaciones.SectionType = void 0;
+constante xml_parser_1 = __webpack_require__(/*! ../parser/xml-parser */ "./src/parser/xml-parser.ts");
+constante border_1 = __webpack_require__(/*! ./border */ "./src/document/border.ts");
+var TipoDeSección;
+(función (TipoDeSección) {
+    SectionType["Continuous"] = "continuo";
+    SectionType["NextPage"] = "próximaPágina";
+    SectionType["SiguienteColumna"] = "siguienteColumna";
     SectionType["EvenPage"] = "evenPage";
     SectionType["OddPage"] = "oddPage";
-})(SectionType = exports.SectionType || (exports.SectionType = {}));
-function parseSectionProperties(elem, xml = xml_parser_1.default) {
+})(SectionType = exportaciones.SectionType || (exportaciones.SectionType = {}));
+función parseSectionProperties(elem, xml = xml_parser_1.default) {
     var _a, _b;
-    var section = {};
-    for (let e of xml.elements(elem)) {
-        switch (e.localName) {
-            case "pgSz":
-                section.pageSize = {
-                    width: xml.lengthAttr(e, "w"),
-                    height: xml.lengthAttr(e, "h"),
-                    orientation: xml.attr(e, "orient")
+    var sección = {};
+    para (sea e de xml.elements(elem)) {
+        cambiar (e.nombrelocal) {
+            caso "pgSz":
+                sección.pageSize = {
+                    ancho: xml.lengthAttr(e, "w"),
+                    altura: xml.lengthAttr(e, "h"),
+                    orientación: xml.attr(e, "orientar")
                 };
-                break;
-            case "type":
-                section.type = xml.attr(e, "val");
-                break;
-            case "pgMar":
-                section.pageMargins = {
-                    left: xml.lengthAttr(e, "left"),
-                    right: xml.lengthAttr(e, "right"),
-                    top: xml.lengthAttr(e, "top"),
-                    bottom: xml.lengthAttr(e, "bottom"),
-                    header: xml.lengthAttr(e, "header"),
-                    footer: xml.lengthAttr(e, "footer"),
-                    gutter: xml.lengthAttr(e, "gutter"),
+                romper;
+            caso "tipo":
+                sección.tipo = xml.attr(e, "val");
+                romper;
+            caso "pgMar":
+                sección.pageMargins = {
+                    izquierda: xml.lengthAttr(e, "izquierda"),
+                    derecha: xml.lengthAttr(e, "derecha"),
+                    superior: xml.lengthAttr(e, "superior"),
+                    inferior: xml.lengthAttr(e, "inferior"),
+                    encabezado: xml.lengthAttr(e, "encabezado"),
+                    pie de página: xml.lengthAttr(e, "pie de página"),
+                    canal: xml.lengthAttr(e, "canal"),
                 };
-                break;
-            case "cols":
-                section.columns = parseColumns(e, xml);
-                break;
-            case "headerReference":
-                ((_a = section.headerRefs) !== null && _a !== void 0 ? _a : (section.headerRefs = [])).push(parseFooterHeaderReference(e, xml));
-                break;
-            case "footerReference":
-                ((_b = section.footerRefs) !== null && _b !== void 0 ? _b : (section.footerRefs = [])).push(parseFooterHeaderReference(e, xml));
-                break;
-            case "titlePg":
-                section.titlePage = xml.boolAttr(e, "val", true);
-                break;
-            case "pgBorders":
-                section.pageBorders = (0, border_1.parseBorders)(e, xml);
-                break;
-            case "pgNumType":
-                section.pageNumber = parsePageNumber(e, xml);
-                break;
+                romper;
+            caso "cols":
+                sección.columnas = parseColumns(e, xml);
+                romper;
+            caso "headerReference":
+                ((_a = sección.headerRefs) !== null && _a !== void 0 ? _a : (sección.headerRefs = [])).push(parseFooterHeaderReference(e, xml));
+                romper;
+            caso "footerReference":
+                ((_b = sección.footerRefs) !== null && _b !== void 0 ? _b : (sección.footerRefs = [])).push(parseFooterHeaderReference(e, xml));
+                romper;
+            caso "titlePg":
+                sección.titlePage = xml.boolAttr(e, "val", true);
+                romper;
+            caso "pgBorders":
+                sección.pageBorders = (0, border_1.parseBorders)(e, xml);
+                romper;
+            caso "pgNumType":
+                sección.pageNumber = parsePageNumber(e, xml);
+                romper;
         }
     }
-    return section;
+    sección de retorno;
 }
-exports.parseSectionProperties = parseSectionProperties;
-function parseColumns(elem, xml) {
-    return {
-        numberOfColumns: xml.intAttr(elem, "num"),
-        space: xml.lengthAttr(elem, "space"),
-        separator: xml.boolAttr(elem, "sep"),
-        equalWidth: xml.boolAttr(elem, "equalWidth", true),
-        columns: xml.elements(elem, "col")
+exportaciones.parseSectionProperties = parseSectionProperties;
+función parseColumns(elem, xml) {
+    devolver {
+        númeroDeColumnas: xml.intAttr(elem, "num"),
+        espacio: xml.lengthAttr(elem, "espacio"),
+        separador: xml.boolAttr(elem, "sep"),
+        igualAncho: xml.boolAttr(elem, "igualAncho", verdadero),
+        columnas: xml.elements(elem, "col")
             .map(e => ({
-            width: xml.lengthAttr(e, "w"),
-            space: xml.lengthAttr(e, "space")
+            ancho: xml.lengthAttr(e, "w"),
+            espacio: xml.lengthAttr(e, "espacio")
         }))
     };
 }
-function parsePageNumber(elem, xml) {
-    return {
-        chapSep: xml.attr(elem, "chapSep"),
-        chapStyle: xml.attr(elem, "chapStyle"),
-        format: xml.attr(elem, "fmt"),
-        start: xml.intAttr(elem, "start")
+función parsePageNumber(elem, xml) {
+    devolver {
+        capSep: xml.attr(elem, "chapSep"),
+        estiloChap: xml.attr(elem, "estiloChap"),
+        formato: xml.attr(elem, "fmt"),
+        inicio: xml.intAttr(elem, "inicio")
     };
 }
-function parseFooterHeaderReference(elem, xml) {
-    return {
+función parseFooterHeaderReference(elem, xml) {
+    devolver {
         id: xml.attr(elem, "id"),
-        type: xml.attr(elem, "type"),
+        tipo: xml.attr(elem, "tipo"),
     };
 }
 
@@ -2305,70 +2305,70 @@ function parseFooterHeaderReference(elem, xml) {
 /*!*****************************!*\
   !*** ./src/docx-preview.ts ***!
   \*****************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.renderAsync = exports.praseAsync = exports.defaultOptions = void 0;
-const word_document_1 = __webpack_require__(/*! ./word-document */ "./src/word-document.ts");
-const document_parser_1 = __webpack_require__(/*! ./document-parser */ "./src/document-parser.ts");
-const html_renderer_1 = __webpack_require__(/*! ./html-renderer */ "./src/html-renderer.ts");
-exports.defaultOptions = {
-    ignoreHeight: false,
-    ignoreWidth: false,
-    ignoreFonts: false,
-    breakPages: true,
-    debug: false,
-    experimental: false,
-    className: "docx",
-    inWrapper: true,
-    trimXmlDeclaration: true,
-    ignoreLastRenderedPageBreak: true,
-    renderHeaders: true,
-    renderFooters: true,
-    renderFootnotes: true,
-    renderEndnotes: true,
-    useBase64URL: false,
-    useMathMLPolyfill: false,
-    renderChanges: false
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.renderAsync = exportaciones.praseAsync = exportaciones.defaultOptions = void 0;
+constante word_document_1 = __webpack_require__(/*! ./word-document */ "./src/word-document.ts");
+constante document_parser_1 = __webpack_require__(/*! ./document-parser */ "./src/document-parser.ts");
+constante html_renderer_1 = __webpack_require__(/*! ./html-renderer */ "./src/html-renderer.ts");
+exportaciones.defaultOptions = {
+    ignoreHeight: falso,
+    ignoreWidth: falso,
+    ignoreFonts: falso,
+    breakPages: verdadero,
+    depuración: falso,
+    experimental: falso,
+    nombreDeClase: "docx",
+    inWrapper: verdadero,
+    trimXmlDeclaration: verdadero,
+    ignoreLastRenderedPageBreak: verdadero,
+    renderHeaders: verdadero,
+    renderFooters: verdadero,
+    renderFootnotes: verdadero,
+    renderEndnotes: verdadero,
+    useBase64URL: falso,
+    useMathMLPolyfill: falso,
+    renderChanges: falso
 };
-function praseAsync(data, userOptions = null) {
-    const ops = Object.assign(Object.assign({}, exports.defaultOptions), userOptions);
-    return word_document_1.WordDocument.load(data, new document_parser_1.DocumentParser(ops), ops);
+función praseAsync(datos, opcionesDeUsuario = null) {
+    const ops = Object.assign(Object.assign({}, exportaciones.opcionespredeterminadas), opcionesdelusuario);
+    devolver palabra_documento_1.WordDocument.load(datos, nuevo documento_analizador_1.DocumentParser(ops), ops);
 }
-exports.praseAsync = praseAsync;
-function renderAsync(data, bodyContainer, styleContainer = null, userOptions = null) {
-    const ops = Object.assign(Object.assign({}, exports.defaultOptions), userOptions);
-    const renderer = new html_renderer_1.HtmlRenderer(window.document);
-    return word_document_1.WordDocument
-        .load(data, new document_parser_1.DocumentParser(ops), ops)
-        .then(doc => {
-        renderer.render(doc, bodyContainer, styleContainer, ops);
-        return doc;
+exportaciones.praseAsync = praseAsync;
+función renderAsync(datos, bodyContainer, styleContainer = null, userOptions = null) {
+    const ops = Object.assign(Object.assign({}, exportaciones.opcionespredeterminadas), opcionesdelusuario);
+    const renderer = new html_renderer_1.HtmlRenderer(ventana.documento);
+    devolver word_document_1.WordDocument
+        .load(datos, nuevo document_parser_1.DocumentParser(ops), ops)
+        .entonces(doc => {
+        renderer.render(doc, contenedorCuerpo, contenedorEstilo, ops);
+        devolver documento;
     });
 }
-exports.renderAsync = renderAsync;
+exportaciones.renderAsync = renderAsync;
 
 
 /***/ }),
 
 /***/ "./src/font-table/font-table.ts":
-/*!**************************************!*\
+/*!*****************************************!*\
   !*** ./src/font-table/font-table.ts ***!
   \**************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.FontTablePart = void 0;
-const part_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
-const fonts_1 = __webpack_require__(/*! ./fonts */ "./src/font-table/fonts.ts");
-class FontTablePart extends part_1.Part {
-    parseXml(root) {
-        this.fonts = (0, fonts_1.parseFonts)(root, this._package.xmlParser);
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.FontTablePart = void 0;
+constante parte_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
+constante fonts_1 = __webpack_require__(/*! ./fonts */ "./src/font-table/fonts.ts");
+clase FontTablePart extiende part_1.Part {
+    parseXml(raíz) {
+        esto.fonts = (0, fonts_1.parseFonts)(raíz, esto._package.xmlParser);
     }
 }
-exports.FontTablePart = FontTablePart;
+exportaciones.FontTablePart = FontTablePart;
 
 
 /***/ }),
@@ -2377,121 +2377,121 @@ exports.FontTablePart = FontTablePart;
 /*!*********************************!*\
   !*** ./src/font-table/fonts.ts ***!
   \*********************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.parseEmbedFontRef = exports.parseFont = exports.parseFonts = void 0;
-const embedFontTypeMap = {
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.parseEmbedFontRef = exportaciones.parseFont = exportaciones.parseFonts = void 0;
+constante embedFontTypeMap = {
     embedRegular: 'regular',
-    embedBold: 'bold',
-    embedItalic: 'italic',
-    embedBoldItalic: 'boldItalic',
+    embedBold: 'negrita',
+    embedItalic: 'cursiva',
+    incrustarBoldItalic: 'negritaItalic',
 };
-function parseFonts(root, xml) {
-    return xml.elements(root).map(el => parseFont(el, xml));
+función parseFonts(root, xml) {
+    devolver xml.elements(root).map(el => parseFont(el, xml));
 }
-exports.parseFonts = parseFonts;
-function parseFont(elem, xml) {
-    let result = {
-        name: xml.attr(elem, "name"),
+exportaciones.parseFonts = parseFonts;
+función parseFont(elem, xml) {
+    deje que el resultado sea {
+        nombre: xml.attr(elem, "nombre"),
         embedFontRefs: []
     };
-    for (let el of xml.elements(elem)) {
-        switch (el.localName) {
-            case "family":
-                result.family = xml.attr(el, "val");
-                break;
-            case "altName":
-                result.altName = xml.attr(el, "val");
-                break;
-            case "embedRegular":
-            case "embedBold":
-            case "embedItalic":
-            case "embedBoldItalic":
-                result.embedFontRefs.push(parseEmbedFontRef(el, xml));
-                break;
+    para (sea el de xml.elements(elem)) {
+        cambiar (el.nombrelocal) {
+            caso "familia":
+                resultado.familia = xml.attr(el, "val");
+                romper;
+            caso "altName":
+                resultado.altName = xml.attr(el, "val");
+                romper;
+            caso "incrustarRegular":
+            caso "incrustar en negrita":
+            caso "incrustar en cursiva":
+            caso "incrustar negrita cursiva":
+                resultado.embedFontRefs.push(parseEmbedFontRef(el, xml));
+                romper;
         }
     }
-    return result;
+    devolver resultado;
 }
-exports.parseFont = parseFont;
-function parseEmbedFontRef(elem, xml) {
-    return {
+exportaciones.parseFont = parseFont;
+función parseEmbedFontRef(elem, xml) {
+    devolver {
         id: xml.attr(elem, "id"),
-        key: xml.attr(elem, "fontKey"),
-        type: embedFontTypeMap[elem.localName]
+        clave: xml.attr(elem, "fontKey"),
+        tipo: embedFontTypeMap[elem.localName]
     };
 }
-exports.parseEmbedFontRef = parseEmbedFontRef;
+exportaciones.parseEmbedFontRef = parseEmbedFontRef;
 
 
 /***/ }),
 
-/***/ "./src/header-footer/elements.ts":
+/***/ "./src/encabezado-pie/elementos.ts":
 /*!***************************************!*\
   !*** ./src/header-footer/elements.ts ***!
   \***************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.WmlFooter = exports.WmlHeader = void 0;
-const dom_1 = __webpack_require__(/*! ../document/dom */ "./src/document/dom.ts");
-class WmlHeader {
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.WmlFooter = exportaciones.WmlHeader = void 0;
+constante dom_1 = __webpack_require__(/*! ../documento/dom */ "./src/documento/dom.ts");
+clase WmlHeader {
     constructor() {
-        this.type = dom_1.DomType.Header;
-        this.children = [];
-        this.cssStyle = {};
+        este.tipo = dom_1.DomType.Header;
+        esto.niños = [];
+        este.cssStyle = {};
     }
 }
-exports.WmlHeader = WmlHeader;
-class WmlFooter {
+exportaciones.WmlHeader = WmlHeader;
+clase WmlFooter {
     constructor() {
-        this.type = dom_1.DomType.Footer;
-        this.children = [];
-        this.cssStyle = {};
+        este.tipo = dom_1.DomType.Footer;
+        esto.niños = [];
+        este.cssStyle = {};
     }
 }
-exports.WmlFooter = WmlFooter;
+exportaciones.WmlFooter = WmlFooter;
 
 
 /***/ }),
 
-/***/ "./src/header-footer/parts.ts":
+/***/ "./src/encabezado-pie/partes.ts":
 /*!************************************!*\
   !*** ./src/header-footer/parts.ts ***!
   \************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.FooterPart = exports.HeaderPart = exports.BaseHeaderFooterPart = void 0;
-const part_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
-const elements_1 = __webpack_require__(/*! ./elements */ "./src/header-footer/elements.ts");
-class BaseHeaderFooterPart extends part_1.Part {
-    constructor(pkg, path, parser) {
-        super(pkg, path);
-        this._documentParser = parser;
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.FooterPart = exportaciones.HeaderPart = exportaciones.BaseHeaderFooterPart = void 0;
+constante parte_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
+constante elementos_1 = __webpack_require__(/*! ./elementos */ "./src/header-footer/elementos.ts");
+clase BaseHeaderFooterPart extiende part_1.Part {
+    constructor(pkg, ruta, analizador) {
+        super(pkg, ruta);
+        this._documentParser = analizador;
     }
-    parseXml(root) {
-        this.rootElement = this.createRootElement();
-        this.rootElement.children = this._documentParser.parseBodyElements(root);
-    }
-}
-exports.BaseHeaderFooterPart = BaseHeaderFooterPart;
-class HeaderPart extends BaseHeaderFooterPart {
-    createRootElement() {
-        return new elements_1.WmlHeader();
+    parseXml(raíz) {
+        este.rootElement = este.createRootElement();
+        este.rootElement.children = este._documentParser.parseBodyElements(root);
     }
 }
-exports.HeaderPart = HeaderPart;
-class FooterPart extends BaseHeaderFooterPart {
-    createRootElement() {
-        return new elements_1.WmlFooter();
+exportaciones.BaseHeaderFooterPart = BaseHeaderFooterPart;
+clase HeaderPart extiende BaseHeaderFooterPart {
+    crearElementoRaíz() {
+        devolver nuevos elementos_1.WmlHeader();
     }
 }
-exports.FooterPart = FooterPart;
+exportaciones.HeaderPart = HeaderPart;
+clase FooterPart extiende BaseHeaderFooterPart {
+    crearElementoRaíz() {
+        devolver nuevos elementos_1.WmlFooter();
+    }
+}
+exportaciones.FooterPart = FooterPart;
 
 
 /***/ }),
@@ -2500,102 +2500,102 @@ exports.FooterPart = FooterPart;
 /*!******************************!*\
   !*** ./src/html-renderer.ts ***!
   \******************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.HtmlRenderer = void 0;
-const dom_1 = __webpack_require__(/*! ./document/dom */ "./src/document/dom.ts");
-const utils_1 = __webpack_require__(/*! ./utils */ "./src/utils.ts");
-const javascript_1 = __webpack_require__(/*! ./javascript */ "./src/javascript.ts");
-const mathml_scss_1 = __webpack_require__(/*! ./mathml.scss */ "./src/mathml.scss");
-const ns = {
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.HtmlRenderer = void 0;
+constante dom_1 = __webpack_require__(/*! ./documento/dom */ "./src/documento/dom.ts");
+constante utils_1 = __webpack_require__(/*! ./utils */ "./src/utils.ts");
+constante javascript_1 = __webpack_require__(/*! ./javascript */ "./src/javascript.ts");
+constante mathml_scss_1 = __webpack_require__(/*! ./mathml.scss */ "./src/mathml.scss");
+constante ns = {
     svg: "http://www.w3.org/2000/svg",
-    mathML: "http://www.w3.org/1998/Math/MathML"
+    matemáticasML: "http://www.w3.org/1998/Math/MathML"
 };
-class HtmlRenderer {
-    constructor(htmlDocument) {
-        this.htmlDocument = htmlDocument;
-        this.className = "docx";
-        this.styleMap = {};
-        this.currentPart = null;
-        this.tableVerticalMerges = [];
-        this.currentVerticalMerge = null;
-        this.tableCellPositions = [];
-        this.currentCellPosition = null;
-        this.footnoteMap = {};
-        this.endnoteMap = {};
-        this.currentEndnoteIds = [];
-        this.usedHederFooterParts = [];
-        this.currentTabs = [];
-        this.tabsTimeout = 0;
-        this.createElement = createElement;
+clase HtmlRenderer {
+    constructor(documentohtml) {
+        este.htmlDocument = htmlDocument;
+        este.className = "docx";
+        este.styleMap = {};
+        esto.currentPart = null;
+        esto.tableVerticalMerges = [];
+        esto.currentVerticalMerge = null;
+        esto.tableCellPositions = [];
+        esto.currentCellPosition = null;
+        este.footnoteMap = {};
+        este.endnoteMap = {};
+        este.currentEndnoteIds = [];
+        esto.usedHederFooterParts = [];
+        esto.currentTabs = [];
+        este.tabsTimeout = 0;
+        este.createElement = createElement;
     }
-    render(document, bodyContainer, styleContainer = null, options) {
+    render(documento, bodyContainer, styleContainer = null, opciones) {
         var _a;
-        this.document = document;
-        this.options = options;
-        this.className = options.className;
-        this.rootSelector = options.inWrapper ? `.${this.className}-wrapper` : ':root';
-        this.styleMap = null;
-        styleContainer = styleContainer || bodyContainer;
-        removeAllElements(styleContainer);
-        removeAllElements(bodyContainer);
-        appendComment(styleContainer, "docxjs library predefined styles");
-        styleContainer.appendChild(this.renderDefaultStyle());
-        if (!window.MathMLElement && options.useMathMLPolyfill) {
-            appendComment(styleContainer, "docxjs mathml polyfill styles");
+        este.documento = documento;
+        esto.opciones = opciones;
+        este.className = opciones.className;
+        este.rootSelector = opciones.inWrapper ? `.${this.className}-wrapper` : ':root';
+        este.styleMap = null;
+        estiloContenedor = estiloContenedor || cuerpoContenedor;
+        eliminarTodosLosElementos(styleContainer);
+        eliminarTodosLosElementos(cuerpoContenedor);
+        appendComment(styleContainer, "estilos predefinidos de la biblioteca docxjs");
+        styleContainer.appendChild(este.renderDefaultStyle());
+        si (!ventana.MathMLElement && opciones.useMathMLPolyfill) {
+            appendComment(styleContainer, "estilos polyfill docxjs mathml");
             styleContainer.appendChild(createStyleElement(mathml_scss_1.default));
         }
-        if (document.themePart) {
-            appendComment(styleContainer, "docxjs document theme values");
-            this.renderTheme(document.themePart, styleContainer);
+        si (documento.temaParte) {
+            appendComment(styleContainer, "valores del tema del documento docxjs");
+            este.renderTheme(documento.themePart, styleContainer);
         }
-        if (document.stylesPart != null) {
-            this.styleMap = this.processStyles(document.stylesPart.styles);
-            appendComment(styleContainer, "docxjs document styles");
+        si (documento.stylesPart != null) {
+            este.styleMap = este.processStyles(document.stylesPart.styles);
+            appendComment(styleContainer, "estilos de documentos docxjs");
             styleContainer.appendChild(this.renderStyles(document.stylesPart.styles));
         }
-        if (document.numberingPart) {
-            this.prodessNumberings(document.numberingPart.domNumberings);
-            appendComment(styleContainer, "docxjs document numbering styles");
+        si (documento.numeracionParte) {
+            este.prodessNumberings(documento.numberingPart.domNumberings);
+            appendComment(styleContainer, "estilos de numeración de documentos docxjs");
             styleContainer.appendChild(this.renderNumbering(document.numberingPart.domNumberings, styleContainer));
         }
-        if (document.footnotesPart) {
-            this.footnoteMap = (0, utils_1.keyBy)(document.footnotesPart.notes, x => x.id);
+        si (documento.footnotesPart) {
+            este.footnoteMap = (0, utils_1.keyBy)(document.footnotesPart.notes, x => x.id);
         }
-        if (document.endnotesPart) {
-            this.endnoteMap = (0, utils_1.keyBy)(document.endnotesPart.notes, x => x.id);
+        si (documento.endnotesPart) {
+            este.endnoteMap = (0, utils_1.keyBy)(document.endnotesPart.notes, x => x.id);
         }
-        if (document.settingsPart) {
-            this.defaultTabSize = (_a = document.settingsPart.settings) === null || _a === void 0 ? void 0 : _a.defaultTabStop;
+        si (documento.settingsPart) {
+            este.defaultTabSize = (_a = document.settingsPart.settings) === null || _a === void 0 ? void 0 : _a.defaultTabStop;
         }
-        if (!options.ignoreFonts && document.fontTablePart)
+        si (!opciones.ignoreFonts && documento.fontTablePart)
             this.renderFontTable(document.fontTablePart, styleContainer);
-        var sectionElements = this.renderSections(document.documentPart.body);
-        if (this.options.inWrapper) {
-            bodyContainer.appendChild(this.renderWrapper(sectionElements));
+        var sectionElements = this.renderSections(documento.documentPart.body);
+        si (este.opciones.inWrapper) {
+            bodyContainer.appendChild(this.renderWrapper(secciónElementos));
         }
-        else {
-            appendChildren(bodyContainer, sectionElements);
+        demás {
+            appendChildren(cuerpoContenedor, secciónElementos);
         }
-        this.refreshTabStops();
+        esto.refreshTabStops();
     }
-    renderTheme(themePart, styleContainer) {
+    renderTheme(parte del tema, contenedor de estilo) {
         var _a, _b;
-        const variables = {};
+        variables constantes = {};
         const fontScheme = (_a = themePart.theme) === null || _a === void 0 ? void 0 : _a.fontScheme;
-        if (fontScheme) {
-            if (fontScheme.majorFont) {
+        si (fontScheme) {
+            si (fontScheme.majorFont) {
                 variables['--docx-majorHAnsi-font'] = fontScheme.majorFont.latinTypeface;
             }
-            if (fontScheme.minorFont) {
+            si (fontScheme.minorFont) {
                 variables['--docx-minorHAnsi-font'] = fontScheme.minorFont.latinTypeface;
             }
         }
         const colorScheme = (_b = themePart.theme) === null || _b === void 0 ? void 0 : _b.colorScheme;
-        if (colorScheme) {
-            for (let [k, v] of Object.entries(colorScheme.colors)) {
+        si (esquema de color) {
+            para (sea [k, v] de Object.entries(colorScheme.colors)) {
                 variables[`--docx-${k}-color`] = `#${v}`;
             }
         }
@@ -2603,218 +2603,218 @@ class HtmlRenderer {
         styleContainer.appendChild(createStyleElement(cssText));
     }
     renderFontTable(fontsPart, styleContainer) {
-        for (let f of fontsPart.fonts) {
-            for (let ref of f.embedFontRefs) {
-                this.document.loadFont(ref.id, ref.key).then(fontData => {
-                    const cssValues = {
-                        'font-family': f.name,
+        para (sea f de fontsPart.fonts) {
+            para (dejar ref de f.embedFontRefs) {
+                este.documento.loadFont(ref.id, ref.key).then(fontData => {
+                    constante cssValues ​​= {
+                        'familia-de-fuentes': f.nombre,
                         'src': `url(${fontData})`
                     };
-                    if (ref.type == "bold" || ref.type == "boldItalic") {
-                        cssValues['font-weight'] = 'bold';
+                    si (ref.type == "negrita" || ref.type == "negrita cursiva") {
+                        cssValues['font-weight'] = 'negrita';
                     }
-                    if (ref.type == "italic" || ref.type == "boldItalic") {
-                        cssValues['font-style'] = 'italic';
+                    si (ref.type == "cursiva" || ref.type == "negritaItalic") {
+                        cssValues['font-style'] = 'cursiva';
                     }
-                    appendComment(styleContainer, `docxjs ${f.name} font`);
-                    const cssText = this.styleToString("@font-face", cssValues);
+                    appendComment(styleContainer, `fuente docxjs ${f.name}`);
+                    constante cssText = this.styleToString("@font-face", cssValues);
                     styleContainer.appendChild(createStyleElement(cssText));
-                    this.refreshTabStops();
+                    esto.refreshTabStops();
                 });
             }
         }
     }
-    processStyleName(className) {
-        return className ? `${this.className}_${(0, utils_1.escapeClassName)(className)}` : this.className;
+    processStyleName(nombre de clase) {
+        devolver nombreDeClase ? `${this.nombreDeClase}_${(0, utils_1.escapeClassName)(nombreDeClase)}` : this.nombreDeClase;
     }
-    processStyles(styles) {
-        const stylesMap = (0, utils_1.keyBy)(styles.filter(x => x.id != null), x => x.id);
-        for (const style of styles.filter(x => x.basedOn)) {
-            var baseStyle = stylesMap[style.basedOn];
-            if (baseStyle) {
-                style.paragraphProps = (0, utils_1.mergeDeep)(style.paragraphProps, baseStyle.paragraphProps);
-                style.runProps = (0, utils_1.mergeDeep)(style.runProps, baseStyle.runProps);
-                for (const baseValues of baseStyle.styles) {
-                    const styleValues = style.styles.find(x => x.target == baseValues.target);
-                    if (styleValues) {
-                        this.copyStyleProperties(baseValues.values, styleValues.values);
+    processStyles(estilos) {
+        constante stylesMap = (0, utils_1.keyBy)(styles.filter(x => x.id != null), x => x.id);
+        para (const estilo de estilos.filter(x => x.basedOn)) {
+            var baseStyle = stylesMap[estilo.basedOn];
+            si (estilobase) {
+                estilo.paragraphProps = (0, utils_1.mergeDeep)(estilo.paragraphProps, baseStyle.paragraphProps);
+                estilo.runProps = (0, utils_1.mergeDeep)(estilo.runProps, baseStyle.runProps);
+                para (const baseValues ​​de baseStyle.styles) {
+                    const styleValues ​​= estilo.styles.find(x => x.target == baseValues.target);
+                    si (valoresDeEstilo) {
+                        esto.copyStyleProperties(baseValues.values, styleValues.values);
                     }
-                    else {
-                        style.styles.push(Object.assign(Object.assign({}, baseValues), { values: Object.assign({}, baseValues.values) }));
+                    demás {
+                        estilo.styles.push(Objeto.asignar(Objeto.asignar({}, baseValues), { valores: Objeto.asignar({}, baseValues.valores) }));
                     }
                 }
             }
-            else if (this.options.debug)
-                console.warn(`Can't find base style ${style.basedOn}`);
+            de lo contrario si (este.opciones.debug)
+                console.warn(`No se puede encontrar el estilo base ${style.basedOn}`);
         }
-        for (let style of styles) {
-            style.cssName = this.processStyleName(style.id);
+        para (dejar estilo de estilos) {
+            estilo.cssName = this.processStyleName(estilo.id);
         }
-        return stylesMap;
+        devolver estilosMapa;
     }
-    prodessNumberings(numberings) {
+    prodessNumberings(numeraciones) {
         var _a;
-        for (let num of numberings.filter(n => n.pStyleName)) {
-            const style = this.findStyle(num.pStyleName);
-            if ((_a = style === null || style === void 0 ? void 0 : style.paragraphProps) === null || _a === void 0 ? void 0 : _a.numbering) {
-                style.paragraphProps.numbering.level = num.level;
+        para (deje que núm de numeraciones.filter(n => n.pStyleName)) {
+            constante estilo = this.findStyle(num.pStyleName);
+            si ((_a = estilo === null || estilo === void 0 ? void 0 : estilo.paragraphProps) === null || _a === void 0 ? void 0 : _a.numbering) {
+                estilo.párrafoProps.numeración.nivel = num.nivel;
             }
         }
     }
-    processElement(element) {
-        if (element.children) {
-            for (var e of element.children) {
-                e.parent = element;
-                if (e.type == dom_1.DomType.Table) {
-                    this.processTable(e);
+    processElement(elemento) {
+        si (elemento.hijos) {
+            para (var e de elemento.hijos) {
+                e.parent = elemento;
+                si (e.type == dom_1.DomType.Table) {
+                    este.processTable(e);
                 }
-                else {
-                    this.processElement(e);
+                demás {
+                    este.processElement(e);
                 }
             }
         }
     }
-    processTable(table) {
-        for (var r of table.children) {
-            for (var c of r.children) {
-                c.cssStyle = this.copyStyleProperties(table.cellStyle, c.cssStyle, [
-                    "border-left", "border-right", "border-top", "border-bottom",
-                    "padding-left", "padding-right", "padding-top", "padding-bottom"
+    procesarTabla(tabla) {
+        para (var r de tabla.children) {
+            para (var c de r.niños) {
+                c.cssStyle = this.copyStyleProperties(tabla.cellStyle, c.cssStyle, [
+                    "borde izquierdo", "borde derecho", "borde superior", "borde inferior",
+                    "relleno izquierdo", "relleno derecho", "relleno superior", "relleno inferior"
                 ]);
-                this.processElement(c);
+                este.processElement(c);
             }
         }
     }
-    copyStyleProperties(input, output, attrs = null) {
-        if (!input)
-            return output;
-        if (output == null)
-            output = {};
-        if (attrs == null)
-            attrs = Object.getOwnPropertyNames(input);
-        for (var key of attrs) {
-            if (input.hasOwnProperty(key) && !output.hasOwnProperty(key))
-                output[key] = input[key];
+    copyStyleProperties(entrada, salida, atributos = null) {
+        si (!entrada)
+            salida de retorno;
+        si (salida == nulo)
+            salida = {};
+        si (atributos == nulo)
+            atributos = Object.getOwnPropertyNames(entrada);
+        para (var clave de atributos) {
+            si (entrada.hasOwnProperty(clave) y !salida.hasOwnProperty(clave))
+                salida[clave] = entrada[clave];
         }
-        return output;
+        salida de retorno;
     }
-    createSection(className, props) {
-        var elem = this.createElement("section", { className });
-        if (props) {
-            if (props.pageMargins) {
+    createSection(nombreClase, props) {
+        var elem = this.createElement("sección", { className });
+        si (props) {
+            si (props.pageMargins) {
                 elem.style.paddingLeft = props.pageMargins.left;
                 elem.style.paddingRight = props.pageMargins.right;
                 elem.style.paddingTop = props.pageMargins.top;
                 elem.style.paddingBottom = props.pageMargins.bottom;
             }
-            if (props.pageSize) {
-                if (!this.options.ignoreWidth)
+            si (props.tamañopágina) {
+                si (!this.opciones.ignorarAncho)
                     elem.style.width = props.pageSize.width;
-                if (!this.options.ignoreHeight)
+                si (!this.opciones.ignorarAltura)
                     elem.style.minHeight = props.pageSize.height;
             }
-            if (props.columns && props.columns.numberOfColumns) {
+            si (props.columnas && props.columnas.numeroDeColumnas) {
                 elem.style.columnCount = `${props.columns.numberOfColumns}`;
                 elem.style.columnGap = props.columns.space;
-                if (props.columns.separator) {
-                    elem.style.columnRule = "1px solid black";
+                si (props.columnas.separador) {
+                    elem.style.columnRule = "1px negro sólido";
                 }
             }
         }
-        return elem;
+        elemento de retorno;
     }
-    renderSections(document) {
-        const result = [];
-        this.processElement(document);
-        const sections = this.splitBySection(document.children);
-        let prevProps = null;
-        for (let i = 0, l = sections.length; i < l; i++) {
-            this.currentFootnoteIds = [];
-            const section = sections[i];
-            const props = section.sectProps || document.props;
+    renderSections(documento) {
+        const resultado = [];
+        este.processElement(documento);
+        const secciones = this.splitBySection(documento.children);
+        deje que prevProps = null;
+        para (sea i = 0, l = secciones.longitud; i < l; i++) {
+            este.currentFootnoteIds = [];
+            const sección = secciones[i];
+            const props = sección.sectProps || documento.props;
             const sectionElement = this.createSection(this.className, props);
-            this.renderStyleValues(document.cssStyle, sectionElement);
-            this.options.renderHeaders && this.renderHeaderFooter(props.headerRefs, props, result.length, prevProps != props, sectionElement);
-            var contentElement = this.createElement("article");
-            this.renderElements(section.elements, contentElement);
-            sectionElement.appendChild(contentElement);
-            if (this.options.renderFootnotes) {
-                this.renderNotes(this.currentFootnoteIds, this.footnoteMap, sectionElement);
+            este.renderStyleValues(documento.cssStyle, secciónElement);
+            esta.opciones.renderHeaders && esta.renderHeaderFooter(props.headerRefs, props, resultado.longitud, prevProps != props, sectionElement);
+            var contentElement = this.createElement("artículo");
+            this.renderElements(sección.elementos, elementoContenido);
+            secciónElement.appendChild(contentElement);
+            si (esto.opciones.renderFootnotes) {
+                este.renderNotes(este.currentFootnoteIds, este.footnoteMap, sectionElement);
             }
-            if (this.options.renderEndnotes && i == l - 1) {
-                this.renderNotes(this.currentEndnoteIds, this.endnoteMap, sectionElement);
+            si (esto.opciones.renderEndnotes && i == l - 1) {
+                este.renderNotes(este.currentEndnoteIds, este.endnoteMap, sectionElement);
             }
-            this.options.renderFooters && this.renderHeaderFooter(props.footerRefs, props, result.length, prevProps != props, sectionElement);
-            result.push(sectionElement);
-            prevProps = props;
+            esta.opciones.renderFooters && esta.renderHeaderFooter(props.footerRefs, props, resultado.longitud, prevProps != props, sectionElement);
+            resultado.push(secciónElemento);
+            prevProps = accesorios;
         }
-        return result;
+        devolver resultado;
     }
-    renderHeaderFooter(refs, props, page, firstOfSection, into) {
+    renderHeaderFooter(refs, propiedades, página, firstOfSection, into) {
         var _a, _b;
-        if (!refs)
-            return;
+        si (!refs)
+            devolver;
         var ref = (_b = (_a = (props.titlePage && firstOfSection ? refs.find(x => x.type == "first") : null)) !== null && _a !== void 0 ? _a : (page % 2 == 1 ? refs.find(x => x.type == "even") : null)) !== null && _b !== void 0 ? _b : refs.find(x => x.type == "default");
-        var part = ref && this.document.findPartByRelId(ref.id, this.document.documentPart);
-        if (part) {
-            this.currentPart = part;
-            if (!this.usedHederFooterParts.includes(part.path)) {
-                this.processElement(part.rootElement);
-                this.usedHederFooterParts.push(part.path);
+        var parte = ref && este.documento.findPartByRelId(ref.id, este.documento.documentPart);
+        si (parte) {
+            esto.currentPart = parte;
+            si (!this.usedHederFooterParts.includes(parte.ruta)) {
+                este.processElement(parte.rootElement);
+                este.usedHederFooterParts.push(parte.ruta);
             }
-            this.renderElements([part.rootElement], into);
-            this.currentPart = null;
+            este.renderElements([part.rootElement], en);
+            esto.currentPart = null;
         }
     }
-    isPageBreakElement(elem) {
-        if (elem.type != dom_1.DomType.Break)
-            return false;
-        if (elem.break == "lastRenderedPageBreak")
-            return !this.options.ignoreLastRenderedPageBreak;
-        return elem.break == "page";
+    esPageBreakElement(elem) {
+        si (elem.type != dom_1.DomType.Break)
+            devuelve falso;
+        si (elem.break == "lastRenderedPageBreak")
+            devuelve !this.options.ignoreLastRenderedPageBreak;
+        devolver elem.break == "pagina";
     }
-    splitBySection(elements) {
+    splitBySection(elementos) {
         var _a;
-        var current = { sectProps: null, elements: [] };
-        var result = [current];
-        for (let elem of elements) {
-            if (elem.type == dom_1.DomType.Paragraph) {
+        var current = { sectProps: null, elementos: [] };
+        var resultado = [actual];
+        para (sea elem de elementos) {
+            si (elem.type == dom_1.DomType.Paragraph) {
                 const s = this.findStyle(elem.styleName);
-                if ((_a = s === null || s === void 0 ? void 0 : s.paragraphProps) === null || _a === void 0 ? void 0 : _a.pageBreakBefore) {
-                    current.sectProps = sectProps;
-                    current = { sectProps: null, elements: [] };
-                    result.push(current);
+                si ((_a = s === nulo || s === vacío 0 ? vacío 0 : s.paragraphProps) === nulo || _a === vacío 0 ? vacío 0 : _a.pageBreakBefore) {
+                    actual.sectProps = sectProps;
+                    actual = { sectProps: null, elementos: [] };
+                    resultado.push(actual);
                 }
             }
-            current.elements.push(elem);
-            if (elem.type == dom_1.DomType.Paragraph) {
-                const p = elem;
+            actual.elementos.push(elem);
+            si (elem.type == dom_1.DomType.Paragraph) {
+                constante p = elem;
                 var sectProps = p.sectionProps;
                 var pBreakIndex = -1;
                 var rBreakIndex = -1;
-                if (this.options.breakPages && p.children) {
+                si (este.opciones.breakPages && p.children) {
                     pBreakIndex = p.children.findIndex(r => {
                         var _a, _b;
-                        rBreakIndex = (_b = (_a = r.children) === null || _a === void 0 ? void 0 : _a.findIndex(this.isPageBreakElement.bind(this))) !== null && _b !== void 0 ? _b : -1;
-                        return rBreakIndex != -1;
+                        rBreakIndex = (_b = (_a = r.children) === nulo || _a === vacío 0 ? vacío 0 : _a.findIndex(this.isPageBreakElement.bind(this))) !== nulo && _b !== vacío 0 ? _b : -1;
+                        devuelve rBreakIndex != -1;
                     });
                 }
-                if (sectProps || pBreakIndex != -1) {
-                    current.sectProps = sectProps;
-                    current = { sectProps: null, elements: [] };
-                    result.push(current);
+                si (sectProps || pBreakIndex != -1) {
+                    actual.sectProps = sectProps;
+                    actual = { sectProps: null, elementos: [] };
+                    resultado.push(actual);
                 }
-                if (pBreakIndex != -1) {
-                    let breakRun = p.children[pBreakIndex];
-                    let splitRun = rBreakIndex < breakRun.children.length - 1;
-                    if (pBreakIndex < p.children.length - 1 || splitRun) {
-                        var children = elem.children;
-                        var newParagraph = Object.assign(Object.assign({}, elem), { children: children.slice(pBreakIndex) });
-                        elem.children = children.slice(0, pBreakIndex);
-                        current.elements.push(newParagraph);
-                        if (splitRun) {
-                            let runChildren = breakRun.children;
-                            let newRun = Object.assign(Object.assign({}, breakRun), { children: runChildren.slice(0, rBreakIndex) });
+                si (pBreakIndex != -1) {
+                    deje que breakRun = p.children[pBreakIndex];
+                    deje que splitRun = rBreakIndex < breakRun.children.length - 1;
+                    si (pBreakIndex < p.children.length - 1 || splitRun) {
+                        var hijos = elem.hijos;
+                        var newParagraph = Object.assign(Object.assign({}, elem), { hijos: hijos.slice(pBreakIndex) });
+                        elem.hijos = hijos.slice(0, pBreakIndex);
+                        current.elements.push(nuevoPárrafo);
+                        si (splitRun) {
+                            deje que runChildren = breakRun.children;
+                            deje que newRun = Object.assign(Object.assign({}, breakRun), { hijos: runChildren.slice(0, rBreakIndex) });
                             elem.children.push(newRun);
                             breakRun.children = runChildren.slice(rBreakIndex);
                         }
@@ -2822,576 +2822,576 @@ class HtmlRenderer {
                 }
             }
         }
-        let currentSectProps = null;
-        for (let i = result.length - 1; i >= 0; i--) {
-            if (result[i].sectProps == null) {
-                result[i].sectProps = currentSectProps;
+        deje que currentSectProps = null;
+        para (sea i = resultado.longitud - 1; i >= 0; i--) {
+            si (resultado[i].sectProps == null) {
+                resultado[i].sectProps = currentSectProps;
             }
-            else {
-                currentSectProps = result[i].sectProps;
+            demás {
+                currentSectProps = resultado[i].sectProps;
             }
         }
-        return result;
+        devolver resultado;
     }
-    renderWrapper(children) {
-        return this.createElement("div", { className: `${this.className}-wrapper` }, children);
+    renderWrapper(hijos) {
+        devuelve esto.createElement("div", { className: `${this.className}-wrapper` }, hijos);
     }
     renderDefaultStyle() {
-        var c = this.className;
-        var styleText = `
-.${c}-wrapper { background: gray; padding: 30px; padding-bottom: 0px; display: flex; flex-flow: column; align-items: center; }
-.${c}-wrapper>section.${c} { background: white; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); margin-bottom: 30px; }
-.${c} { color: black; }
-section.${c} { box-sizing: border-box; display: flex; flex-flow: column nowrap; position: relative; overflow: hidden; }
-section.${c}>article { margin-bottom: auto; }
-.${c} table { border-collapse: collapse; }
-.${c} table td, .${c} table th { vertical-align: top; }
-.${c} p { margin: 0pt; min-height: 1em; }
-.${c} span { white-space: pre-wrap; overflow-wrap: break-word; }
-.${c} a { color: inherit; text-decoration: inherit; }
+        var c = este.nombreClase;
+        var estiloTexto = `
+.${c}-wrapper { fondo: gris; relleno: 30px; relleno inferior: 0px; pantalla: flex; flujo flexible: columna; alinear elementos: centro; }
+.${c}-wrapper>sección.${c} { fondo: blanco; sombra de caja: 0 0 10px rgba(0, 0, 0, 0.5); margen inferior: 30px; }
+.${c} { color: negro; }
+sección.${c} { tamaño de caja: caja de borde; visualización: flex; flujo flexible: columna nowrap; posición: relativa; desbordamiento: oculto; }
+sección.${c}>article { margin-bottom: auto; }
+.${c} tabla { colapso-de-borde: colapso; }
+.${c} tabla td, .${c} tabla th { alineación vertical: superior; }
+.${c} p { margen: 0pt; altura mínima: 1em; }
+.${c} span { espacio en blanco: pre-ajuste; ajuste de desbordamiento: salto de palabra; }
+.${c} a { color: heredar; decoración de texto: heredar; }
 `;
-        return createStyleElement(styleText);
+        devolver createStyleElement(styleText);
     }
-    renderNumbering(numberings, styleContainer) {
-        var styleText = "";
+    renderNumbering(numeraciones, styleContainer) {
+        var estiloTexto = "";
         var rootCounters = [];
-        for (var num of numberings) {
+        para (var num de numeraciones) {
             var selector = `p.${this.numberingClass(num.id, num.level)}`;
-            var listStyleType = "none";
-            if (num.bullet) {
-                let valiable = `--${this.className}-${num.bullet.src}`.toLowerCase();
-                styleText += this.styleToString(`${selector}:before`, {
-                    "content": "' '",
-                    "display": "inline-block",
-                    "background": `var(${valiable})`
+            var listStyleType = "ninguno";
+            si (num.bullet) {
+                deje que valible = `--${this.className}-${num.bullet.src}`.toLowerCase();
+                estiloTexto += este.styleToString(`${selector}:antes`, {
+                    "contenido": "' '",
+                    "display": "bloque en línea",
+                    "antecedentes": `var(${valiable})`
                 }, num.bullet.style);
-                this.document.loadNumberingImage(num.bullet.src).then(data => {
-                    var text = `${this.rootSelector} { ${valiable}: url(${data}) }`;
-                    styleContainer.appendChild(createStyleElement(text));
+                este.documento.loadNumberingImage(num.bullet.src).then(datos => {
+                    var texto = `${this.rootSelector} { ${valiable}: url(${data}) }`;
+                    styleContainer.appendChild(createStyleElement(texto));
                 });
             }
-            else if (num.levelText) {
-                let counter = this.numberingCounter(num.id, num.level);
-                if (num.level > 0) {
-                    styleText += this.styleToString(`p.${this.numberingClass(num.id, num.level - 1)}`, {
-                        "counter-reset": counter
+            de lo contrario si (num.levelText) {
+                deje que el contador = este.numberingCounter(num.id, num.level);
+                si (num.nivel > 0) {
+                    estiloTexto += este.styleToString(`p.${este.numberingClass(num.id, num.level - 1)}`, {
+                        "reinicio del contador": contador
                     });
                 }
-                else {
-                    rootCounters.push(counter);
+                demás {
+                    rootCounters.push(contador);
                 }
                 styleText += this.styleToString(`${selector}:before`, Object.assign({ "content": this.levelTextToContent(num.levelText, num.suff, num.id, this.numFormatToCssValue(num.format)), "counter-increment": counter }, num.rStyle));
             }
-            else {
-                listStyleType = this.numFormatToCssValue(num.format);
+            demás {
+                listStyleType = este.numFormatToCssValue(num.formato);
             }
-            styleText += this.styleToString(selector, Object.assign({ "display": "list-item", "list-style-position": "inside", "list-style-type": listStyleType }, num.pStyle));
+            styleText += this.styleToString(selector, Object.assign({ "display": "elemento-de-lista", "posición-de-estilo-de-lista": "dentro", "tipo-de-estilo-de-lista": listStyleType }, num.pStyle));
         }
-        if (rootCounters.length > 0) {
-            styleText += this.styleToString(this.rootSelector, {
-                "counter-reset": rootCounters.join(" ")
+        si (rootCounters.length > 0) {
+            estiloTexto += este.styleToString(este.rootSelector, {
+                "reinicio del contador": rootCounters.join(" ")
             });
         }
-        return createStyleElement(styleText);
+        devolver createStyleElement(styleText);
     }
-    renderStyles(styles) {
+    renderStyles(estilos) {
         var _a;
-        var styleText = "";
-        const stylesMap = this.styleMap;
-        const defautStyles = (0, utils_1.keyBy)(styles.filter(s => s.isDefault), s => s.target);
-        for (const style of styles) {
-            var subStyles = style.styles;
-            if (style.linked) {
-                var linkedStyle = style.linked && stylesMap[style.linked];
-                if (linkedStyle)
-                    subStyles = subStyles.concat(linkedStyle.styles);
-                else if (this.options.debug)
-                    console.warn(`Can't find linked style ${style.linked}`);
+        var estiloTexto = "";
+        const estilosMap = este.estiloMap;
+        constante defautStyles = (0, utils_1.keyBy)(estilos.filter(s => s.isDefault), s => s.target);
+        para (estilo constante de estilos) {
+            var subStyles = estilo.estilos;
+            si (estilo.vinculado) {
+                var linkedStyle = estilo.linked && stylesMap[estilo.linked];
+                si (linkedStyle)
+                    subEstilos = subEstilos.concat(linkedStyle.styles);
+                de lo contrario si (este.opciones.debug)
+                    console.warn(`No se puede encontrar el estilo vinculado ${style.linked}`);
             }
-            for (const subStyle of subStyles) {
-                var selector = `${(_a = style.target) !== null && _a !== void 0 ? _a : ''}.${style.cssName}`;
-                if (style.target != subStyle.target)
+            para (const subStyle de subStyles) {
+                var selector = `${(_a = estilo.objetivo) !== null && _a !== void 0 ? _a : ''}.${estilo.cssName}`;
+                si (estilo.objetivo != subEstilo.objetivo)
                     selector += ` ${subStyle.target}`;
-                if (defautStyles[style.target] == style)
+                if (estilospredeterminados[estilo.objetivo] == estilo)
                     selector = `.${this.className} ${style.target}, ` + selector;
-                styleText += this.styleToString(selector, subStyle.values);
+                estiloTexto += this.styleToString(selector, subStyle.values);
             }
         }
-        return createStyleElement(styleText);
+        devolver createStyleElement(styleText);
     }
     renderNotes(noteIds, notesMap, into) {
-        var notes = noteIds.map(id => notesMap[id]).filter(x => x);
-        if (notes.length > 0) {
-            var result = this.createElement("ol", null, this.renderElements(notes));
-            into.appendChild(result);
+        var notas = noteIds.map(id => notesMap[id]).filter(x => x);
+        si (notas.longitud > 0) {
+            var resultado = this.createElement("ol", null, this.renderElements(notas));
+            en.appendChild(resultado);
         }
     }
     renderElement(elem) {
-        switch (elem.type) {
-            case dom_1.DomType.Paragraph:
-                return this.renderParagraph(elem);
-            case dom_1.DomType.BookmarkStart:
-                return this.renderBookmarkStart(elem);
-            case dom_1.DomType.BookmarkEnd:
-                return null;
-            case dom_1.DomType.Run:
-                return this.renderRun(elem);
-            case dom_1.DomType.Table:
-                return this.renderTable(elem);
-            case dom_1.DomType.Row:
-                return this.renderTableRow(elem);
-            case dom_1.DomType.Cell:
-                return this.renderTableCell(elem);
-            case dom_1.DomType.Hyperlink:
-                return this.renderHyperlink(elem);
-            case dom_1.DomType.Drawing:
-                return this.renderDrawing(elem);
-            case dom_1.DomType.Image:
-                return this.renderImage(elem);
-            case dom_1.DomType.Text:
-                return this.renderText(elem);
-            case dom_1.DomType.Text:
-                return this.renderText(elem);
-            case dom_1.DomType.DeletedText:
-                return this.renderDeletedText(elem);
-            case dom_1.DomType.Tab:
-                return this.renderTab(elem);
-            case dom_1.DomType.Symbol:
-                return this.renderSymbol(elem);
-            case dom_1.DomType.Break:
-                return this.renderBreak(elem);
-            case dom_1.DomType.Footer:
-                return this.renderContainer(elem, "footer");
-            case dom_1.DomType.Header:
-                return this.renderContainer(elem, "header");
-            case dom_1.DomType.Footnote:
-            case dom_1.DomType.Endnote:
-                return this.renderContainer(elem, "li");
-            case dom_1.DomType.FootnoteReference:
-                return this.renderFootnoteReference(elem);
-            case dom_1.DomType.EndnoteReference:
-                return this.renderEndnoteReference(elem);
-            case dom_1.DomType.NoBreakHyphen:
-                return this.createElement("wbr");
-            case dom_1.DomType.VmlPicture:
-                return this.renderVmlPicture(elem);
-            case dom_1.DomType.VmlElement:
-                return this.renderVmlElement(elem);
-            case dom_1.DomType.MmlMath:
-                return this.renderContainerNS(elem, ns.mathML, "math", { xmlns: ns.mathML });
-            case dom_1.DomType.MmlMathParagraph:
-                return this.renderContainer(elem, "span");
-            case dom_1.DomType.MmlFraction:
-                return this.renderContainerNS(elem, ns.mathML, "mfrac");
-            case dom_1.DomType.MmlNumerator:
-            case dom_1.DomType.MmlDenominator:
-                return this.renderContainerNS(elem, ns.mathML, "mrow");
-            case dom_1.DomType.MmlRadical:
-                return this.renderMmlRadical(elem);
-            case dom_1.DomType.MmlDegree:
-                return this.renderContainerNS(elem, ns.mathML, "mn");
-            case dom_1.DomType.MmlSuperscript:
-                return this.renderContainerNS(elem, ns.mathML, "msup");
-            case dom_1.DomType.MmlSubscript:
-                return this.renderContainerNS(elem, ns.mathML, "msub");
-            case dom_1.DomType.MmlBase:
-                return this.renderContainerNS(elem, ns.mathML, "mrow");
-            case dom_1.DomType.MmlSuperArgument:
-                return this.renderContainerNS(elem, ns.mathML, "mn");
-            case dom_1.DomType.MmlSubArgument:
-                return this.renderContainerNS(elem, ns.mathML, "mn");
-            case dom_1.DomType.MmlDelimiter:
-                return this.renderMmlDelimiter(elem);
-            case dom_1.DomType.MmlRun:
-                return this.renderMmlRun(elem);
-            case dom_1.DomType.MmlNary:
-                return this.renderMmlNary(elem);
-            case dom_1.DomType.Inserted:
-                return this.renderInserted(elem);
-            case dom_1.DomType.Deleted:
-                return this.renderDeleted(elem);
+        interruptor (elem.type) {
+            caso dom_1.DomType.Párrafo:
+                devuelve esto.renderParagraph(elem);
+            caso dom_1.DomType.BookmarkStart:
+                devuelve esto.renderBookmarkStart(elem);
+            caso dom_1.DomType.BookmarkEnd:
+                devuelve nulo;
+            caso dom_1.DomType.Run:
+                devuelve esto.renderRun(elem);
+            caso dom_1.DomType.Table:
+                devuelve esto.renderTable(elem);
+            caso dom_1.DomType.Row:
+                devuelve esto.renderTableRow(elem);
+            caso dom_1.DomType.Cell:
+                devuelve esto.renderTableCell(elem);
+            caso dom_1.DomType.Hipervínculo:
+                devuelve esto.renderHyperlink(elem);
+            caso dom_1.DomType.Drawing:
+                devuelve esto.renderDrawing(elem);
+            caso dom_1.DomType.Image:
+                devuelve esto.renderImage(elem);
+            caso dom_1.DomType.Texto:
+                devuelve esto.renderText(elem);
+            caso dom_1.DomType.Texto:
+                devuelve esto.renderText(elem);
+            caso dom_1.DomType.DeletedText:
+                devuelve esto.renderDeletedText(elem);
+            caso dom_1.DomType.Tab:
+                devuelve esto.renderTab(elem);
+            caso dom_1.DomType.Symbol:
+                devuelve este.renderSymbol(elem);
+            caso dom_1.DomType.Break:
+                devuelve esto.renderBreak(elem);
+            caso dom_1.DomType.Footer:
+                devuelve este.renderContainer(elem, "pie de página");
+            caso dom_1.DomType.Header:
+                devuelve este.renderContainer(elem, "encabezado");
+            caso dom_1.DomType.Nota al pie:
+            caso dom_1.DomType.Nota final:
+                devuelve este.renderContainer(elem, "li");
+            caso dom_1.DomType.FootnoteReference:
+                devuelve esto.renderFootnoteReference(elem);
+            caso dom_1.DomType.EndnoteReference:
+                devuelve esto.renderEndnoteReference(elem);
+            caso dom_1.DomType.NoBreakHyphen:
+                devuelve esto.createElement("wbr");
+            caso dom_1.DomType.VmlPicture:
+                devuelve esto.renderVmlPicture(elem);
+            caso dom_1.DomType.VmlElement:
+                devuelve esto.renderVmlElement(elem);
+            caso dom_1.DomType.MmlMath:
+                devuelve esto.renderContainerNS(elem, ns.mathML, "math", { xmlns: ns.mathML });
+            caso dom_1.DomType.MmlMathParagraph:
+                devuelve este.renderContainer(elem, "span");
+            caso dom_1.DomType.MmlFraction:
+                devuelve este.renderContainerNS(elem, ns.mathML, "mfrac");
+            caso dom_1.DomType.MmlNumerator:
+            caso dom_1.DomType.MmlDenominator:
+                devuelve este.renderContainerNS(elem, ns.mathML, "mrow");
+            caso dom_1.DomType.MmlRadical:
+                devuelve esto.renderMmlRadical(elem);
+            caso dom_1.DomType.MmlDegree:
+                devuelve este.renderContainerNS(elem, ns.mathML, "mn");
+            caso dom_1.DomType.MmlSuperscript:
+                devuelve esto.renderContainerNS(elem, ns.mathML, "msup");
+            caso dom_1.DomType.MmlSubscript:
+                devuelve this.renderContainerNS(elem, ns.mathML, "msub");
+            caso dom_1.DomType.MmlBase:
+                devuelve este.renderContainerNS(elem, ns.mathML, "mrow");
+            caso dom_1.DomType.MmlSuperArgument:
+                devuelve este.renderContainerNS(elem, ns.mathML, "mn");
+            caso dom_1.DomType.MmlSubArgument:
+                devuelve este.renderContainerNS(elem, ns.mathML, "mn");
+            caso dom_1.DomType.MmlDelimiter:
+                devuelve esto.renderMmlDelimiter(elem);
+            caso dom_1.DomType.MmlRun:
+                devuelve esto.renderMmlRun(elem);
+            caso dom_1.DomType.MmlNary:
+                devuelve esto.renderMmlNary(elem);
+            caso dom_1.DomType.Insertado:
+                devuelve esto.renderInserted(elem);
+            caso dom_1.DomType.Eliminado:
+                devuelve esto.renderDeleted(elem);
         }
-        return null;
+        devuelve nulo;
     }
-    renderChildren(elem, into) {
-        return this.renderElements(elem.children, into);
+    renderChildren(elem, en) {
+        devuelve este.renderElements(elem.children, into);
     }
-    renderElements(elems, into) {
-        if (elems == null)
-            return null;
-        var result = elems.flatMap(e => this.renderElement(e)).filter(e => e != null);
-        if (into)
-            appendChildren(into, result);
-        return result;
+    renderElements(elems, en) {
+        si (elems == null)
+            devuelve nulo;
+        var resultado = elems.flatMap(e => this.renderElement(e)).filter(e => e != null);
+        si (en)
+            appendChildren(en, resultado);
+        devolver resultado;
     }
-    renderContainer(elem, tagName, props) {
-        return this.createElement(tagName, props, this.renderChildren(elem));
+    renderContainer(elem, nombreDeEtiqueta, propiedades) {
+        devuelve este.createElement(tagName, props, este.renderChildren(elem));
     }
-    renderContainerNS(elem, ns, tagName, props) {
-        return createElementNS(ns, tagName, props, this.renderChildren(elem));
+    renderContainerNS(elem, ns, nombre de etiqueta, accesorios) {
+        devolver createElementNS(ns, tagName, props, this.renderChildren(elem));
     }
     renderParagraph(elem) {
         var _a, _b, _c, _d;
-        var result = this.createElement("p");
-        const style = this.findStyle(elem.styleName);
-        (_a = elem.tabs) !== null && _a !== void 0 ? _a : (elem.tabs = (_b = style === null || style === void 0 ? void 0 : style.paragraphProps) === null || _b === void 0 ? void 0 : _b.tabs);
-        this.renderClass(elem, result);
-        this.renderChildren(elem, result);
-        this.renderStyleValues(elem.cssStyle, result);
-        this.renderCommonProperties(result.style, elem);
-        const numbering = (_c = elem.numbering) !== null && _c !== void 0 ? _c : (_d = style === null || style === void 0 ? void 0 : style.paragraphProps) === null || _d === void 0 ? void 0 : _d.numbering;
-        if (numbering) {
-            result.classList.add(this.numberingClass(numbering.id, numbering.level));
+        var resultado = this.createElement("p");
+        constante estilo = this.findStyle(elem.styleName);
+        (_a = elem.tabs) !== null && _a !== void 0 ? _a : (elem.tabs = (_b = estilo === null || estilo === void 0 ? void 0 : estilo.paragraphProps) === null || _b === void 0 ? void 0 : _b.tabs);
+        este.renderClass(elem, resultado);
+        este.renderChildren(elem, resultado);
+        este.renderStyleValues(elem.cssStyle, resultado);
+        esto.renderCommonProperties(resultado.estilo, elem);
+        const numeración = (_c = elem.numbering) !== null && _c !== void 0 ? _c : (_d = estilo === null || estilo === void 0 ? void 0 : estilo.paragraphProps) === null || _d === void 0 ? void 0 : _d.numbering;
+        si (numeración) {
+            resultado.classList.add(this.numberingClass(numbering.id, numbering.level));
         }
-        return result;
+        devolver resultado;
     }
-    renderRunProperties(style, props) {
-        this.renderCommonProperties(style, props);
+    renderRunProperties(estilo, propiedades) {
+        esto.renderCommonProperties(estilo, propiedades);
     }
-    renderCommonProperties(style, props) {
-        if (props == null)
-            return;
-        if (props.color) {
-            style["color"] = props.color;
+    renderCommonProperties(estilo, propiedades) {
+        si (props == null)
+            devolver;
+        si (props.color) {
+            estilo["color"] = props.color;
         }
-        if (props.fontSize) {
-            style["font-size"] = props.fontSize;
+        si (props.fontSize) {
+            estilo["font-size"] = props.fontSize;
         }
     }
     renderHyperlink(elem) {
-        var result = this.createElement("a");
-        this.renderChildren(elem, result);
-        this.renderStyleValues(elem.cssStyle, result);
-        if (elem.href) {
-            result.href = elem.href;
+        var resultado = this.createElement("a");
+        este.renderChildren(elem, resultado);
+        este.renderStyleValues(elem.cssStyle, resultado);
+        si (elem.href) {
+            resultado.href = elem.href;
         }
-        else if (elem.id) {
-            const rel = this.document.documentPart.rels
-                .find(it => it.id == elem.id && it.targetMode === "External");
-            result.href = rel === null || rel === void 0 ? void 0 : rel.target;
+        de lo contrario si (elem.id) {
+            const rel = este.documento.documentPart.rels
+                .find(it => it.id == elem.id && it.targetMode === "Externo");
+            resultado.href = rel === null || rel === void 0 ? void 0 : rel.target;
         }
-        return result;
+        devolver resultado;
     }
     renderDrawing(elem) {
-        var result = this.createElement("div");
-        result.style.display = "inline-block";
-        result.style.position = "relative";
-        result.style.textIndent = "0px";
-        this.renderChildren(elem, result);
-        this.renderStyleValues(elem.cssStyle, result);
-        return result;
+        var resultado = this.createElement("div");
+        result.style.display = "bloque en línea";
+        resultado.estilo.posición = "relativo";
+        resultado.style.textIndent = "0px";
+        este.renderChildren(elem, resultado);
+        este.renderStyleValues(elem.cssStyle, resultado);
+        devolver resultado;
     }
     renderImage(elem) {
-        let result = this.createElement("img");
-        this.renderStyleValues(elem.cssStyle, result);
-        if (this.document) {
-            this.document.loadDocumentImage(elem.src, this.currentPart).then(x => {
-                result.src = x;
+        deje que el resultado sea este.createElement("img");
+        este.renderStyleValues(elem.cssStyle, resultado);
+        si (este.documento) {
+            este.documento.loadDocumentImage(elem.src, este.currentPart).then(x => {
+                resultado.src = x;
             });
         }
-        return result;
+        devolver resultado;
     }
     renderText(elem) {
-        return this.htmlDocument.createTextNode(elem.text);
+        devuelve este.htmlDocument.createTextNode(elem.text);
     }
     renderDeletedText(elem) {
-        return this.options.renderEndnotes ? this.htmlDocument.createTextNode(elem.text) : null;
+        devolver esto.options.renderEndnotes ? esto.htmlDocument.createTextNode(elem.text) : null;
     }
     renderBreak(elem) {
-        if (elem.break == "textWrapping") {
-            return this.createElement("br");
+        si (elem.break == "textWrapping") {
+            devuelve esto.createElement("br");
         }
-        return null;
+        devuelve nulo;
     }
-    renderInserted(elem) {
-        if (this.options.renderChanges)
-            return this.renderContainer(elem, "ins");
-        return this.renderChildren(elem);
+    renderInsertado(elem) {
+        si (esto.opciones.renderChanges)
+            devuelve este.renderContainer(elem, "ins");
+        devuelve esto.renderChildren(elem);
     }
-    renderDeleted(elem) {
-        if (this.options.renderChanges)
-            return this.renderContainer(elem, "del");
-        return null;
+    renderEliminado(elem) {
+        si (esto.opciones.renderChanges)
+            devuelve este.renderContainer(elem, "del");
+        devuelve nulo;
     }
     renderSymbol(elem) {
         var span = this.createElement("span");
         span.style.fontFamily = elem.font;
         span.innerHTML = `&#x${elem.char};`;
-        return span;
+        lapso de retorno;
     }
     renderFootnoteReference(elem) {
-        var result = this.createElement("sup");
-        this.currentFootnoteIds.push(elem.id);
-        result.textContent = `${this.currentFootnoteIds.length}`;
-        return result;
+        var resultado = this.createElement("sup");
+        este.currentFootnoteIds.push(elem.id);
+        resultado.textContent = `${this.currentFootnoteIds.length}`;
+        devolver resultado;
     }
     renderEndnoteReference(elem) {
-        var result = this.createElement("sup");
-        this.currentEndnoteIds.push(elem.id);
-        result.textContent = `${this.currentEndnoteIds.length}`;
-        return result;
+        var resultado = this.createElement("sup");
+        este.currentEndnoteIds.push(elem.id);
+        resultado.textContent = `${this.currentEndnoteIds.length}`;
+        devolver resultado;
     }
     renderTab(elem) {
         var _a;
         var tabSpan = this.createElement("span");
-        tabSpan.innerHTML = "&emsp;";
-        if (this.options.experimental) {
-            tabSpan.className = this.tabStopClass();
-            var stops = (_a = findParent(elem, dom_1.DomType.Paragraph)) === null || _a === void 0 ? void 0 : _a.tabs;
-            this.currentTabs.push({ stops, span: tabSpan });
+        tabSpan.innerHTML = " ";
+        si (este.opciones.experimental) {
+            tabSpan.className = este.tabStopClass();
+            var paradas = (_a = findParent(elem, dom_1.DomType.Paragraph)) === null || _a === void 0 ? void 0 : _a.tabs;
+            this.currentTabs.push({ paradas, span: tabSpan });
         }
-        return tabSpan;
+        devolver tabSpan;
     }
     renderBookmarkStart(elem) {
-        var result = this.createElement("span");
-        result.id = elem.name;
-        return result;
+        var resultado = this.createElement("span");
+        resultado.id = elem.nombre;
+        devolver resultado;
     }
     renderRun(elem) {
-        if (elem.fieldRun)
-            return null;
-        const result = this.createElement("span");
-        if (elem.id)
-            result.id = elem.id;
-        this.renderClass(elem, result);
-        this.renderStyleValues(elem.cssStyle, result);
-        if (elem.verticalAlign) {
-            const wrapper = this.createElement(elem.verticalAlign);
+        si (elem.fieldRun)
+            devuelve nulo;
+        constante resultado = this.createElement("span");
+        si (elem.id)
+            resultado.id = elem.id;
+        este.renderClass(elem, resultado);
+        este.renderStyleValues(elem.cssStyle, resultado);
+        si (elem.verticalAlign) {
+            constante wrapper = this.createElement(elem.verticalAlign);
             this.renderChildren(elem, wrapper);
-            result.appendChild(wrapper);
+            resultado.appendChild(envoltorio);
         }
-        else {
-            this.renderChildren(elem, result);
+        demás {
+            este.renderChildren(elem, resultado);
         }
-        return result;
+        devolver resultado;
     }
     renderTable(elem) {
-        let result = this.createElement("table");
-        this.tableCellPositions.push(this.currentCellPosition);
-        this.tableVerticalMerges.push(this.currentVerticalMerge);
-        this.currentVerticalMerge = {};
-        this.currentCellPosition = { col: 0, row: 0 };
-        if (elem.columns)
-            result.appendChild(this.renderTableColumns(elem.columns));
-        this.renderClass(elem, result);
-        this.renderChildren(elem, result);
-        this.renderStyleValues(elem.cssStyle, result);
-        this.currentVerticalMerge = this.tableVerticalMerges.pop();
-        this.currentCellPosition = this.tableCellPositions.pop();
-        return result;
+        deje que el resultado sea este.createElement("tabla");
+        este.tableCellPositions.push(este.currentCellPosition);
+        este.tableVerticalMerges.push(este.currentVerticalMerge);
+        esto.currentVerticalMerge = {};
+        esto.currentCellPosition = { col: 0, fila: 0 };
+        si (elem.columnas)
+            resultado.appendChild(this.renderTableColumns(elem.columns));
+        este.renderClass(elem, resultado);
+        este.renderChildren(elem, resultado);
+        este.renderStyleValues(elem.cssStyle, resultado);
+        esto.currentVerticalMerge = esto.tableVerticalMerges.pop();
+        esto.currentCellPosition = esto.tableCellPositions.pop();
+        devolver resultado;
     }
-    renderTableColumns(columns) {
-        let result = this.createElement("colgroup");
-        for (let col of columns) {
-            let colElem = this.createElement("col");
-            if (col.width)
+    renderTableColumns(columnas) {
+        deje que el resultado sea este.createElement("colgroup");
+        para (sea col de columnas) {
+            deje colElem = this.createElement("col");
+            si (ancho de columna)
                 colElem.style.width = col.width;
-            result.appendChild(colElem);
+            resultado.appendChild(colElem);
         }
-        return result;
+        devolver resultado;
     }
     renderTableRow(elem) {
-        let result = this.createElement("tr");
-        this.currentCellPosition.col = 0;
-        this.renderClass(elem, result);
-        this.renderChildren(elem, result);
-        this.renderStyleValues(elem.cssStyle, result);
-        this.currentCellPosition.row++;
-        return result;
+        deje que el resultado sea este.createElement("tr");
+        este.currentCellPosition.col = 0;
+        este.renderClass(elem, resultado);
+        este.renderChildren(elem, resultado);
+        este.renderStyleValues(elem.cssStyle, resultado);
+        esto.currentCellPosition.row++;
+        devolver resultado;
     }
     renderTableCell(elem) {
-        let result = this.createElement("td");
-        const key = this.currentCellPosition.col;
-        if (elem.verticalMerge) {
-            if (elem.verticalMerge == "restart") {
-                this.currentVerticalMerge[key] = result;
-                result.rowSpan = 1;
+        deje que el resultado sea este.createElement("td");
+        clave constante = this.currentCellPosition.col;
+        si (elem.verticalMerge) {
+            si (elem.verticalMerge == "reiniciar") {
+                this.currentVerticalMerge[clave] = resultado;
+                resultado.rowSpan = 1;
             }
-            else if (this.currentVerticalMerge[key]) {
-                this.currentVerticalMerge[key].rowSpan += 1;
-                result.style.display = "none";
+            de lo contrario si (this.currentVerticalMerge[clave]) {
+                este.currentVerticalMerge[clave].rowSpan += 1;
+                resultado.estilo.display = "ninguno";
             }
         }
-        else {
-            this.currentVerticalMerge[key] = null;
+        demás {
+            esto.currentVerticalMerge[clave] = null;
         }
-        this.renderClass(elem, result);
-        this.renderChildren(elem, result);
-        this.renderStyleValues(elem.cssStyle, result);
-        if (elem.span)
-            result.colSpan = elem.span;
-        this.currentCellPosition.col += result.colSpan;
-        return result;
+        este.renderClass(elem, resultado);
+        este.renderChildren(elem, resultado);
+        este.renderStyleValues(elem.cssStyle, resultado);
+        si (elem.span)
+            resultado.colSpan = elem.span;
+        este.currentCellPosition.col += resultado.colSpan;
+        devolver resultado;
     }
     renderVmlPicture(elem) {
-        var result = createElement("div");
-        this.renderChildren(elem, result);
-        return result;
+        var resultado = createElement("div");
+        este.renderChildren(elem, resultado);
+        devolver resultado;
     }
     renderVmlElement(elem) {
         var _a, _b;
-        var container = createSvgElement("svg");
-        container.setAttribute("style", elem.cssStyleText);
-        const result = createSvgElement(elem.tagName);
-        Object.entries(elem.attrs).forEach(([k, v]) => result.setAttribute(k, v));
-        if ((_a = elem.imageHref) === null || _a === void 0 ? void 0 : _a.id) {
-            (_b = this.document) === null || _b === void 0 ? void 0 : _b.loadDocumentImage(elem.imageHref.id, this.currentPart).then(x => result.setAttribute("href", x));
+        var contenedor = createSvgElement("svg");
+        contenedor.setAttribute("estilo", elem.cssStyleText);
+        constante resultado = createSvgElement(elem.tagName);
+        Objeto.entries(elem.attrs).forEach(([k, v]) => resultado.setAttribute(k, v));
+        si ((_a = elem.imageHref) === null || _a === void 0 ? void 0 : _a.id) {
+            (_b = este.documento) === null || _b === void 0 ? void 0 : _b.loadDocumentImage(elem.imageHref.id, este.currentPart).then(x => result.setAttribute("href", x));
         }
-        container.appendChild(result);
-        setTimeout(() => {
-            const bb = container.firstElementChild.getBBox();
-            container.setAttribute("width", `${Math.ceil(bb.x + bb.width)}`);
-            container.setAttribute("height", `${Math.ceil(bb.y + bb.height)}`);
+        contenedor.appendChild(resultado);
+        establecerTiempo de espera(() => {
+            constante bb = contenedor.firstElementChild.getBBox();
+            contenedor.setAttribute("ancho", `${Math.ceil(bb.x + bb.width)}`);
+            contenedor.setAttribute("altura", `${Math.ceil(bb.y + bb.height)}`);
         }, 0);
-        return container;
+        contenedor de retorno;
     }
     renderMmlRadical(elem) {
         var _a;
         const base = elem.children.find(el => el.type == dom_1.DomType.MmlBase);
-        if ((_a = elem.props) === null || _a === void 0 ? void 0 : _a.hideDegree) {
-            return createElementNS(ns.mathML, "msqrt", null, this.renderElements([base]));
+        si ((_a = elem.props) === nulo || _a === vacío 0 ? vacío 0 : _a.ocultarGrado) {
+            devolver createElementNS(ns.mathML, "msqrt", null, this.renderElements([base]));
         }
-        const degree = elem.children.find(el => el.type == dom_1.DomType.MmlDegree);
-        return createElementNS(ns.mathML, "mroot", null, this.renderElements([base, degree]));
+        constante grado = elem.children.find(el => el.type == dom_1.DomType.MmlDegree);
+        devolver createElementNS(ns.mathML, "mroot", null, this.renderElements([base, grado]));
     }
     renderMmlDelimiter(elem) {
         var _a, _b;
-        const children = [];
-        children.push(createElementNS(ns.mathML, "mo", null, [(_a = elem.props.beginChar) !== null && _a !== void 0 ? _a : '(']));
-        children.push(...this.renderElements(elem.children));
-        children.push(createElementNS(ns.mathML, "mo", null, [(_b = elem.props.endChar) !== null && _b !== void 0 ? _b : ')']));
-        return createElementNS(ns.mathML, "mrow", null, children);
+        const hijos = [];
+        niños.push(createElementNS(ns.mathML, "mo", null, [(_a = elem.props.beginChar) !== null && _a !== void 0 ? _a : '(']));
+        niños.push(...this.renderElements(elem.children));
+        niños.push(createElementNS(ns.mathML, "mo", null, [(_b = elem.props.endChar) !== null && _b !== void 0 ? _b : ')']));
+        devolver createElementNS(ns.mathML, "mrow", null, hijos);
     }
     renderMmlNary(elem) {
         var _a;
-        const children = [];
-        const grouped = (0, utils_1.keyBy)(elem.children, x => x.type);
-        const sup = grouped[dom_1.DomType.MmlSuperArgument];
-        const sub = grouped[dom_1.DomType.MmlSubArgument];
+        const hijos = [];
+        constante agrupada = (0, utils_1.keyBy)(elem.children, x => x.type);
+        const sup = agrupado[dom_1.DomType.MmlSuperArgument];
+        constante sub = agrupado[dom_1.DomType.MmlSubArgument];
         const supElem = sup ? createElementNS(ns.mathML, "mo", null, (0, utils_1.asArray)(this.renderElement(sup))) : null;
-        const subElem = sub ? createElementNS(ns.mathML, "mo", null, (0, utils_1.asArray)(this.renderElement(sub))) : null;
-        if ((_a = elem.props) === null || _a === void 0 ? void 0 : _a.char) {
-            const charElem = createElementNS(ns.mathML, "mo", null, [elem.props.char]);
-            if (supElem || subElem) {
-                children.push(createElementNS(ns.mathML, "munderover", null, [charElem, subElem, supElem]));
+        constante subElem = sub? createElementNS(ns.mathML, "mo", null, (0, utils_1.asArray)(this.renderElement(sub))): nulo;
+        si ((_a = elem.props) === nulo || _a === void 0 ? void 0 : _a.char) {
+            constante charElem = createElementNS(ns.mathML, "mo", null, [elem.props.char]);
+            si (supElem || subElem) {
+                niños.push(createElementNS(ns.mathML, "munderover", null, [charElem, subElem, supElem]));
             }
-            else if (supElem) {
-                children.push(createElementNS(ns.mathML, "mover", null, [charElem, supElem]));
+            de lo contrario si (supElem) {
+                niños.push(createElementNS(ns.mathML, "mover", null, [charElem, supElem]));
             }
-            else if (subElem) {
-                children.push(createElementNS(ns.mathML, "munder", null, [charElem, subElem]));
+            de lo contrario si (subElem) {
+                niños.push(createElementNS(ns.mathML, "munder", null, [charElem, subElem]));
             }
-            else {
-                children.push(charElem);
+            demás {
+                niños.push(charElem);
             }
         }
-        children.push(...this.renderElements(grouped[dom_1.DomType.MmlBase].children));
-        return createElementNS(ns.mathML, "mrow", null, children);
+        niños.push(...this.renderElements(grouped[dom_1.DomType.MmlBase].children));
+        devolver createElementNS(ns.mathML, "mrow", null, hijos);
     }
     renderMmlRun(elem) {
-        const result = createElementNS(ns.mathML, "ms");
-        this.renderClass(elem, result);
-        this.renderStyleValues(elem.cssStyle, result);
-        this.renderChildren(elem, result);
-        return result;
+        constante resultado = createElementNS(ns.mathML, "ms");
+        este.renderClass(elem, resultado);
+        este.renderStyleValues(elem.cssStyle, resultado);
+        este.renderChildren(elem, resultado);
+        devolver resultado;
     }
-    renderStyleValues(style, ouput) {
-        Object.assign(ouput.style, style);
+    renderStyleValues(estilo, salida) {
+        Objeto.asignar(salida.estilo, estilo);
     }
-    renderClass(input, ouput) {
-        if (input.className)
-            ouput.className = input.className;
-        if (input.styleName)
-            ouput.classList.add(this.processStyleName(input.styleName));
+    renderClass(entrada, salida) {
+        si (entrada.nombreClase)
+            salida.nombreClase = entrada.nombreClase;
+        si (entrada.nombreEstilo)
+            salida.classList.add(this.processStyleName(input.styleName));
     }
-    findStyle(styleName) {
+    findStyle(nombreDeEstilo) {
         var _a;
-        return styleName && ((_a = this.styleMap) === null || _a === void 0 ? void 0 : _a[styleName]);
+        devolver nombreEstilo && ((_a = this.styleMap) === null || _a === void 0 ? void 0 : _a[nombreEstilo]);
     }
-    numberingClass(id, lvl) {
-        return `${this.className}-num-${id}-${lvl}`;
+    clasenumeración(id, lvl) {
+        devuelve `${this.className}-num-${id}-${lvl}`;
     }
     tabStopClass() {
-        return `${this.className}-tab-stop`;
+        devuelve `${this.className}-tab-stop`;
     }
-    styleToString(selectors, values, cssText = null) {
-        let result = `${selectors} {\r\n`;
-        for (const key in values) {
-            result += `  ${key}: ${values[key]};\r\n`;
+    styleToString(selectores, valores, cssText = null) {
+        deje que el resultado sea `${selectores} {\r\n`;
+        para (clave constante en valores) {
+            resultado += ` ${clave}: ${valores[clave]};\r\n`;
         }
-        if (cssText)
-            result += cssText;
-        return result + "}\r\n";
+        si (texto CSS)
+            resultado += cssText;
+        devolver resultado + "}\r\n";
     }
-    numberingCounter(id, lvl) {
-        return `${this.className}-num-${id}-${lvl}`;
+    contadorDeNumeración(id, lvl) {
+        devuelve `${this.className}-num-${id}-${lvl}`;
     }
-    levelTextToContent(text, suff, id, numformat) {
+    nivelTextoContenido(texto, suff, id, formato numérico) {
         var _a;
-        const suffMap = {
+        constante suffMap = {
             "tab": "\\9",
-            "space": "\\a0",
+            "espacio": "\\a0",
         };
-        var result = text.replace(/%\d*/g, s => {
-            let lvl = parseInt(s.substring(1), 10) - 1;
-            return `"counter(${this.numberingCounter(id, lvl)}, ${numformat})"`;
+        var resultado = texto.reemplazar(/%\d*/g, s => {
+            sea ​​lvl = parseInt(s.substring(1), 10) - 1;
+            devuelve `"contador(${this.numberingCounter(id, lvl)}, ${numformat})"`;
         });
-        return `"${result}${(_a = suffMap[suff]) !== null && _a !== void 0 ? _a : ""}"`;
+        devolver `"${resultado}${(_a = suffMap[suff]) !== null && _a !== void 0 ? _a : ""}"`;
     }
-    numFormatToCssValue(format) {
+    numFormatToCssValue(formato) {
         var mapping = {
-            "none": "none",
-            "bullet": "disc",
+            "ninguno": "ninguno",
+            "bala": "disco",
             "decimal": "decimal",
-            "lowerLetter": "lower-alpha",
-            "upperLetter": "upper-alpha",
-            "lowerRoman": "lower-roman",
-            "upperRoman": "upper-roman",
+            "letraminúscula": "alfa inferior",
+            "letramayúscula": "alfa-mayúscula",
+            "lowerRoman": "bajo-romano",
+            "upperRoman": "alto-romano",
         };
-        return mapping[format] || format;
+        retorno mapping[formato] || formato;
     }
-    refreshTabStops() {
-        if (!this.options.experimental)
-            return;
-        clearTimeout(this.tabsTimeout);
-        this.tabsTimeout = setTimeout(() => {
-            const pixelToPoint = (0, javascript_1.computePixelToPoint)();
-            for (let tab of this.currentTabs) {
-                (0, javascript_1.updateTabStop)(tab.span, tab.stops, this.defaultTabSize, pixelToPoint);
+    actualizarTabStops() {
+        si (!este.opciones.experimental)
+            devolver;
+        clearTimeout(este.tabsTimeout);
+        esto.tabsTimeout = setTimeout(() => {
+            constante pixelToPoint = (0, javascript_1.computePixelToPoint)();
+            para (dejar pestaña de este.currentTabs) {
+                (0, javascript_1.updateTabStop)(tab.span, tab.stops, este.defaultTabSize, pixelToPoint);
             }
         }, 500);
     }
 }
-exports.HtmlRenderer = HtmlRenderer;
-function createElement(tagName, props, children) {
-    return createElementNS(undefined, tagName, props, children);
+exportaciones.HtmlRenderer = HtmlRenderer;
+función createElement(tagName, props, children) {
+    devolver createElementNS(indefinido, tagName, props, hijos);
 }
-function createSvgElement(tagName, props, children) {
-    return createElementNS(ns.svg, tagName, props, children);
+función createSvgElement(nombreDeEtiqueta, propiedades, hijos) {
+    devolver createElementNS(ns.svg, tagName, props, children);
 }
-function createElementNS(ns, tagName, props, children) {
-    var result = ns ? document.createElementNS(ns, tagName) : document.createElement(tagName);
-    Object.assign(result, props);
-    children && appendChildren(result, children);
-    return result;
+función createElementNS(ns, tagName, props, children) {
+    var resultado = ns ? document.createElementNS(ns, nombreDeEtiqueta) : document.createElement(nombreDeEtiqueta);
+    Objeto.assign(resultado,props);
+    niños && appendChildren(resultado, niños);
+    devolver resultado;
 }
-function removeAllElements(elem) {
+función removeAllElements(elem) {
     elem.innerHTML = '';
 }
-function appendChildren(elem, children) {
-    children.forEach(c => elem.appendChild((0, utils_1.isString)(c) ? document.createTextNode(c) : c));
+función appendChildren(elem, hijos) {
+    niños.forEach(c => elem.appendChild((0, utils_1.isString)(c) ? document.createTextNode(c) : c));
 }
-function createStyleElement(cssText) {
-    return createElement("style", { innerHTML: cssText });
+función createStyleElement(cssText) {
+    devolver createElement("estilo", { innerHTML: cssText });
 }
-function appendComment(elem, comment) {
-    elem.appendChild(document.createComment(comment));
+función appendComment(elem, comentario) {
+    elem.appendChild(documento.createComment(comentario));
 }
-function findParent(elem, type) {
-    var parent = elem.parent;
-    while (parent != null && parent.type != type)
-        parent = parent.parent;
-    return parent;
+función findParent(elem, tipo) {
+    var padre = elem.padre;
+    mientras (padre != null && padre.tipo != tipo)
+        padre = padre.padre;
+    devolver padre;
 }
 
 
@@ -3401,336 +3401,336 @@ function findParent(elem, type) {
 /*!***************************!*\
   !*** ./src/javascript.ts ***!
   \***************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.updateTabStop = exports.computePixelToPoint = void 0;
-const defaultTab = { pos: 0, leader: "none", style: "left" };
-const maxTabs = 50;
-function computePixelToPoint(container = document.body) {
-    const temp = document.createElement("div");
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.updateTabStop = exportaciones.computePixelToPoint = void 0;
+const default Tab = { pos: 0, leader: "ninguno", style: "izquierda" };
+constante maxTabs = 50;
+función computePixelToPoint(contenedor = documento.cuerpo) {
+    constante temp = document.createElement("div");
     temp.style.width = '100pt';
-    container.appendChild(temp);
-    const result = 100 / temp.offsetWidth;
-    container.removeChild(temp);
-    return result;
+    contenedor.appendChild(temp);
+    constante resultado = 100 / temp.offsetWidth;
+    contenedor.removeChild(temp);
+    devolver resultado;
 }
-exports.computePixelToPoint = computePixelToPoint;
-function updateTabStop(elem, tabs, defaultTabSize, pixelToPoint = 72 / 96) {
-    const p = elem.closest("p");
-    const ebb = elem.getBoundingClientRect();
-    const pbb = p.getBoundingClientRect();
-    const pcs = getComputedStyle(p);
-    const tabStops = (tabs === null || tabs === void 0 ? void 0 : tabs.length) > 0 ? tabs.map(t => ({
-        pos: lengthToPoint(t.position),
-        leader: t.leader,
-        style: t.style
+exportaciones.computePixelToPoint = computePixelToPoint;
+función updateTabStop(elem, pestañas, defaultTabSize, pixelToPoint = 72 / 96) {
+    constante p = elem.closest("p");
+    constante ebb = elem.getBoundingClientRect();
+    constante pbb = p.getBoundingClientRect();
+    constante pcs = getComputedStyle(p);
+    const tabStops = (pestañas === null || pestañas === void 0 ? void 0 : pestañas.length) > 0 ? pestañas.map(t => ({
+        pos: longitudAlPunto(t.posición),
+        líder: t.líder,
+        estilo: t.style
     })).sort((a, b) => a.pos - b.pos) : [defaultTab];
-    const lastTab = tabStops[tabStops.length - 1];
-    const pWidthPt = pbb.width * pixelToPoint;
-    const size = lengthToPoint(defaultTabSize);
-    let pos = lastTab.pos + size;
-    if (pos < pWidthPt) {
-        for (; pos < pWidthPt && tabStops.length < maxTabs; pos += size) {
-            tabStops.push(Object.assign(Object.assign({}, defaultTab), { pos: pos }));
+    constante lastTab = tabStops[tabStops.length - 1];
+    constante pWidthPt = pbb.width * pixelToPoint;
+    constante tamaño = lengthToPoint(defaultTabSize);
+    sea ​​pos = lastTab.pos + tamaño;
+    si (pos < pWidthPt) {
+        para (; pos < pWidthPt && tabStops.length < maxTabs; pos += tamaño) {
+            tabStops.push(Objeto.asignar(Objeto.asignar({}, defaultTab), { pos: pos }));
         }
     }
     const marginLeft = parseFloat(pcs.marginLeft);
-    const pOffset = pbb.left + marginLeft;
-    const left = (ebb.left - pOffset) * pixelToPoint;
+    constante pOffset = pbb.left + marginLeft;
+    constante izquierda = (ebb.left - pOffset) * pixelToPoint;
     const tab = tabStops.find(t => t.style != "clear" && t.pos > left);
-    if (tab == null)
-        return;
-    let width = 1;
-    if (tab.style == "right" || tab.style == "center") {
-        const tabStops = Array.from(p.querySelectorAll(`.${elem.className}`));
-        const nextIdx = tabStops.indexOf(elem) + 1;
-        const range = document.createRange();
-        range.setStart(elem, 1);
-        if (nextIdx < tabStops.length) {
-            range.setEndBefore(tabStops[nextIdx]);
+    si (tab == null)
+        devolver;
+    deje que el ancho sea 1;
+    si (tab.style == "derecha" || tab.style == "centro") {
+        constante tabStops = Array.from(p.querySelectorAll(`.${elem.className}`));
+        constante nextIdx = tabStops.indexOf(elem) + 1;
+        constante rango = documento.createRange();
+        rango.setStart(elem, 1);
+        si (nextIdx < tabStops.length) {
+            rango.setEndBefore(tabStops[nextIdx]);
         }
-        else {
-            range.setEndAfter(p);
+        demás {
+            rango.setEndAfter(p);
         }
-        const mul = tab.style == "center" ? 0.5 : 1;
-        const nextBB = range.getBoundingClientRect();
-        const offset = nextBB.left + mul * nextBB.width - (pbb.left - marginLeft);
-        width = tab.pos - offset * pixelToPoint;
+        const mul = tab.style == "centro" ? 0.5 : 1;
+        constante nextBB = rango.getBoundingClientRect();
+        constante offset = nextBB.left + mul * nextBB.width - (pbb.left - marginLeft);
+        ancho = tab.pos - desplazamiento * pixelToPoint;
     }
-    else {
-        width = tab.pos - left;
+    demás {
+        ancho = tab.pos - izquierda;
     }
-    elem.innerHTML = "&nbsp;";
-    elem.style.textDecoration = "inherit";
+    elem.innerHTML = "";
+    elem.style.textDecoration = "heredar";
     elem.style.wordSpacing = `${width.toFixed(0)}pt`;
-    switch (tab.leader) {
-        case "dot":
-        case "middleDot":
-            elem.style.textDecoration = "underline";
-            elem.style.textDecorationStyle = "dotted";
-            break;
-        case "hyphen":
-        case "heavy":
-        case "underscore":
-            elem.style.textDecoration = "underline";
-            break;
+    cambiar (tab.leader) {
+        caso "punto":
+        caso "puntomedio":
+            elem.style.textDecoration = "subrayado";
+            elem.style.textDecorationStyle = "punteado";
+            romper;
+        caso "guión":
+        caso "pesado":
+        caso "guión bajo":
+            elem.style.textDecoration = "subrayado";
+            romper;
     }
 }
-exports.updateTabStop = updateTabStop;
-function lengthToPoint(length) {
-    return parseFloat(length);
+exportaciones.updateTabStop = updateTabStop;
+función lengthToPoint(longitud) {
+    devolver parseFloat(longitud);
 }
 
 
 /***/ }),
 
-/***/ "./src/notes/elements.ts":
+/***/ "./src/notas/elementos.ts":
 /*!*******************************!*\
   !*** ./src/notes/elements.ts ***!
   \*******************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.WmlEndnote = exports.WmlFootnote = exports.WmlBaseNote = void 0;
-const dom_1 = __webpack_require__(/*! ../document/dom */ "./src/document/dom.ts");
-class WmlBaseNote {
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.WmlEndnote = exportaciones.WmlFootnote = exportaciones.WmlBaseNote = void 0;
+constante dom_1 = __webpack_require__(/*! ../documento/dom */ "./src/documento/dom.ts");
+clase WmlBaseNote {
     constructor() {
-        this.children = [];
-        this.cssStyle = {};
+        esto.niños = [];
+        este.cssStyle = {};
     }
 }
-exports.WmlBaseNote = WmlBaseNote;
-class WmlFootnote extends WmlBaseNote {
+exportaciones.WmlBaseNote = WmlBaseNote;
+clase WmlFootnote extiende WmlBaseNote {
     constructor() {
-        super(...arguments);
-        this.type = dom_1.DomType.Footnote;
+        super(...argumentos);
+        este.tipo = dom_1.DomType.Footnote;
     }
 }
-exports.WmlFootnote = WmlFootnote;
-class WmlEndnote extends WmlBaseNote {
+exportaciones.WmlFootnote = WmlFootnote;
+clase WmlEndnote extiende WmlBaseNote {
     constructor() {
-        super(...arguments);
-        this.type = dom_1.DomType.Endnote;
+        super(...argumentos);
+        este.tipo = dom_1.DomType.Endnote;
     }
 }
-exports.WmlEndnote = WmlEndnote;
+exportaciones.WmlEndnote = WmlEndnote;
 
 
 /***/ }),
 
-/***/ "./src/notes/parts.ts":
+/***/ "./src/notas/partes.ts":
 /*!****************************!*\
-  !*** ./src/notes/parts.ts ***!
+  !*** ./src/notas/partes.ts ***!
   \****************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.EndnotesPart = exports.FootnotesPart = exports.BaseNotePart = void 0;
-const part_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
-const elements_1 = __webpack_require__(/*! ./elements */ "./src/notes/elements.ts");
-class BaseNotePart extends part_1.Part {
-    constructor(pkg, path, parser) {
-        super(pkg, path);
-        this._documentParser = parser;
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.EndnotesPart = exportaciones.FootnotesPart = exportaciones.BaseNotePart = void 0;
+constante parte_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
+constante elementos_1 = __webpack_require__(/*! ./elementos */ "./src/notas/elementos.ts");
+clase BaseNotePart extiende part_1.Part {
+    constructor(pkg, ruta, analizador) {
+        super(pkg, ruta);
+        this._documentParser = analizador;
     }
 }
-exports.BaseNotePart = BaseNotePart;
-class FootnotesPart extends BaseNotePart {
-    constructor(pkg, path, parser) {
-        super(pkg, path, parser);
+exportaciones.BaseNotePart = BaseNotePart;
+clase FootnotesPart extiende BaseNotePart {
+    constructor(pkg, ruta, analizador) {
+        super(pkg, ruta, analizador);
     }
-    parseXml(root) {
-        this.notes = this._documentParser.parseNotes(root, "footnote", elements_1.WmlFootnote);
-    }
-}
-exports.FootnotesPart = FootnotesPart;
-class EndnotesPart extends BaseNotePart {
-    constructor(pkg, path, parser) {
-        super(pkg, path, parser);
-    }
-    parseXml(root) {
-        this.notes = this._documentParser.parseNotes(root, "endnote", elements_1.WmlEndnote);
+    parseXml(raíz) {
+        this.notes = this._documentParser.parseNotes(raíz, "nota al pie", elementos_1.WmlFootnote);
     }
 }
-exports.EndnotesPart = EndnotesPart;
+exportaciones.FootnotesPart = FootnotesPart;
+clase EndnotesPart extiende BaseNotePart {
+    constructor(pkg, ruta, analizador) {
+        super(pkg, ruta, analizador);
+    }
+    parseXml(raíz) {
+        this.notes = this._documentParser.parseNotes(root, "nota final", elementos_1.WmlEndnote);
+    }
+}
+exportaciones.EndnotesPart = EndnotesPart;
 
 
 /***/ }),
 
-/***/ "./src/numbering/numbering-part.ts":
-/*!*****************************************!*\
+/***/ "./src/numeración/parte-de-numeración.ts":
+/*!********************************************!*\
   !*** ./src/numbering/numbering-part.ts ***!
   \*****************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.NumberingPart = void 0;
-const part_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
-const numbering_1 = __webpack_require__(/*! ./numbering */ "./src/numbering/numbering.ts");
-class NumberingPart extends part_1.Part {
-    constructor(pkg, path, parser) {
-        super(pkg, path);
-        this._documentParser = parser;
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.NumberingPart = void 0;
+constante parte_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
+constante numeración_1 = __webpack_require__(/*! ./numeración */ "./src/numeración/numbering.ts");
+clase NumberingPart extiende part_1.Part {
+    constructor(pkg, ruta, analizador) {
+        super(pkg, ruta);
+        this._documentParser = analizador;
     }
-    parseXml(root) {
-        Object.assign(this, (0, numbering_1.parseNumberingPart)(root, this._package.xmlParser));
-        this.domNumberings = this._documentParser.parseNumberingFile(root);
+    parseXml(raíz) {
+        Objeto.assign(this, (0, numeración_1.parseNumberingPart)(raíz, this._package.xmlParser));
+        este.domNumberings = este._documentParser.parseNumberingFile(root);
     }
 }
-exports.NumberingPart = NumberingPart;
+exportaciones.NumberingPart = NumeraciónPart;
 
 
 /***/ }),
 
-/***/ "./src/numbering/numbering.ts":
+/***/ "./src/numeración/numeración.ts":
 /*!************************************!*\
   !*** ./src/numbering/numbering.ts ***!
   \************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.parseNumberingBulletPicture = exports.parseNumberingLevelOverrride = exports.parseNumberingLevel = exports.parseAbstractNumbering = exports.parseNumbering = exports.parseNumberingPart = void 0;
-const paragraph_1 = __webpack_require__(/*! ../document/paragraph */ "./src/document/paragraph.ts");
-const run_1 = __webpack_require__(/*! ../document/run */ "./src/document/run.ts");
-function parseNumberingPart(elem, xml) {
-    let result = {
-        numberings: [],
-        abstractNumberings: [],
-        bulletPictures: []
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.parseNumberingBulletPicture = exportaciones.parseNumberingLevelOverrride = exportaciones.parseNumberingLevel = exportaciones.parseAbstractNumbering = exportaciones.parseNumbering = exportaciones.parseNumberingPart = void 0;
+constante párrafo_1 = __webpack_require__(/*! ../documento/párrafo */ "./src/documento/párrafo.ts");
+constante run_1 = __webpack_require__(/*! ../documento/run */ "./src/documento/run.ts");
+función parseNumberingPart(elem, xml) {
+    deje que el resultado sea {
+        numeraciones: [],
+        resumenNumeraciones: [],
+        Imágenes de bala: []
     };
-    for (let e of xml.elements(elem)) {
-        switch (e.localName) {
-            case "num":
-                result.numberings.push(parseNumbering(e, xml));
-                break;
-            case "abstractNum":
-                result.abstractNumberings.push(parseAbstractNumbering(e, xml));
-                break;
-            case "numPicBullet":
-                result.bulletPictures.push(parseNumberingBulletPicture(e, xml));
-                break;
+    para (sea e de xml.elements(elem)) {
+        cambiar (e.nombrelocal) {
+            caso "num":
+                resultado.numeraciones.push(parseNumbering(e, xml));
+                romper;
+            caso "abstractNum":
+                resultado.abstractNumberings.push(parseAbstractNumbering(e, xml));
+                romper;
+            caso "numPicBullet":
+                resultado.bulletPictures.push(parseNumberingBulletPicture(e, xml));
+                romper;
         }
     }
-    return result;
+    devolver resultado;
 }
-exports.parseNumberingPart = parseNumberingPart;
-function parseNumbering(elem, xml) {
-    let result = {
+exportaciones.parseNumberingPart = parseNumberingPart;
+función parseNumbering(elem, xml) {
+    deje que el resultado sea {
         id: xml.attr(elem, 'numId'),
-        overrides: []
+        anulaciones: []
     };
-    for (let e of xml.elements(elem)) {
-        switch (e.localName) {
-            case "abstractNumId":
-                result.abstractId = xml.attr(e, "val");
-                break;
-            case "lvlOverride":
-                result.overrides.push(parseNumberingLevelOverrride(e, xml));
-                break;
+    para (sea e de xml.elements(elem)) {
+        cambiar (e.nombrelocal) {
+            caso "abstractNumId":
+                resultado.abstractId = xml.attr(e, "val");
+                romper;
+            caso "lvlOverride":
+                resultado.overrides.push(parseNumberingLevelOverrride(e, xml));
+                romper;
         }
     }
-    return result;
+    devolver resultado;
 }
-exports.parseNumbering = parseNumbering;
-function parseAbstractNumbering(elem, xml) {
-    let result = {
+exportaciones.parseNumbering = parseNumbering;
+función parseAbstractNumbering(elem, xml) {
+    deje que el resultado sea {
         id: xml.attr(elem, 'abstractNumId'),
-        levels: []
+        niveles: []
     };
-    for (let e of xml.elements(elem)) {
-        switch (e.localName) {
-            case "name":
-                result.name = xml.attr(e, "val");
-                break;
-            case "multiLevelType":
-                result.multiLevelType = xml.attr(e, "val");
-                break;
-            case "numStyleLink":
-                result.numberingStyleLink = xml.attr(e, "val");
-                break;
-            case "styleLink":
-                result.styleLink = xml.attr(e, "val");
-                break;
-            case "lvl":
-                result.levels.push(parseNumberingLevel(e, xml));
-                break;
+    para (sea e de xml.elements(elem)) {
+        cambiar (e.nombrelocal) {
+            caso "nombre":
+                resultado.nombre = xml.attr(e, "val");
+                romper;
+            caso "multiLevelType":
+                resultado.multiLevelType = xml.attr(e, "val");
+                romper;
+            caso "numStyleLink":
+                resultado.numberingStyleLink = xml.attr(e, "val");
+                romper;
+            caso "styleLink":
+                resultado.styleLink = xml.attr(e, "val");
+                romper;
+            caso "lvl":
+                resultado.levels.push(parseNumberingLevel(e, xml));
+                romper;
         }
     }
-    return result;
+    devolver resultado;
 }
-exports.parseAbstractNumbering = parseAbstractNumbering;
-function parseNumberingLevel(elem, xml) {
-    let result = {
-        level: xml.intAttr(elem, 'ilvl')
+exportaciones.parseAbstractNumbering = parseAbstractNumbering;
+función parseNumberingLevel(elem, xml) {
+    deje que el resultado sea {
+        nivel: xml.intAttr(elem, 'ilvl')
     };
-    for (let e of xml.elements(elem)) {
-        switch (e.localName) {
-            case "start":
-                result.start = xml.attr(e, "val");
-                break;
-            case "lvlRestart":
-                result.restart = xml.intAttr(e, "val");
-                break;
-            case "numFmt":
-                result.format = xml.attr(e, "val");
-                break;
-            case "lvlText":
-                result.text = xml.attr(e, "val");
-                break;
-            case "lvlJc":
-                result.justification = xml.attr(e, "val");
-                break;
-            case "lvlPicBulletId":
-                result.bulletPictureId = xml.attr(e, "val");
-                break;
-            case "pStyle":
-                result.paragraphStyle = xml.attr(e, "val");
-                break;
-            case "pPr":
-                result.paragraphProps = (0, paragraph_1.parseParagraphProperties)(e, xml);
-                break;
-            case "rPr":
-                result.runProps = (0, run_1.parseRunProperties)(e, xml);
-                break;
+    para (sea e de xml.elements(elem)) {
+        cambiar (e.nombrelocal) {
+            caso "inicio":
+                resultado.inicio = xml.attr(e, "val");
+                romper;
+            caso "lvlRestart":
+                resultado.reiniciar = xml.intAttr(e, "val");
+                romper;
+            caso "numFmt":
+                resultado.formato = xml.attr(e, "val");
+                romper;
+            caso "lvlText":
+                resultado.texto = xml.attr(e, "val");
+                romper;
+            caso "lvlJc":
+                resultado.justificación = xml.attr(e, "val");
+                romper;
+            caso "lvlPicBulletId":
+                resultado.bulletPictureId = xml.attr(e, "val");
+                romper;
+            caso "pStyle":
+                resultado.paragraphStyle = xml.attr(e, "val");
+                romper;
+            caso "pPr":
+                resultado.paragraphProps = (0, párrafo_1.parseParagraphProperties)(e, xml);
+                romper;
+            caso "rPr":
+                resultado.runProps = (0, run_1.parseRunProperties)(e, xml);
+                romper;
         }
     }
-    return result;
+    devolver resultado;
 }
-exports.parseNumberingLevel = parseNumberingLevel;
-function parseNumberingLevelOverrride(elem, xml) {
-    let result = {
-        level: xml.intAttr(elem, 'ilvl')
+exportaciones.parseNumberingLevel = parseNumberingLevel;
+función parseNumberingLevelOverrride(elem, xml) {
+    deje que el resultado sea {
+        nivel: xml.intAttr(elem, 'ilvl')
     };
-    for (let e of xml.elements(elem)) {
-        switch (e.localName) {
-            case "startOverride":
-                result.start = xml.intAttr(e, "val");
-                break;
-            case "lvl":
-                result.numberingLevel = parseNumberingLevel(e, xml);
-                break;
+    para (sea e de xml.elements(elem)) {
+        cambiar (e.nombrelocal) {
+            caso "startOverride":
+                resultado.inicio = xml.intAttr(e, "val");
+                romper;
+            caso "lvl":
+                resultado.numberingLevel = parseNumberingLevel(e, xml);
+                romper;
         }
     }
-    return result;
+    devolver resultado;
 }
-exports.parseNumberingLevelOverrride = parseNumberingLevelOverrride;
-function parseNumberingBulletPicture(elem, xml) {
+exportaciones.parseNumberingLevelOverrride = parseNumberingLevelOverrride;
+función parseNumberingBulletPicture(elem, xml) {
     var pict = xml.element(elem, "pict");
-    var shape = pict && xml.element(pict, "shape");
-    var imagedata = shape && xml.element(shape, "imagedata");
-    return imagedata ? {
+    var forma = pict && xml.elemento(pict, "forma");
+    var imagedata = forma && xml.element(forma, "imagedata");
+    devolver datos de imagen ? {
         id: xml.attr(elem, "numPicBulletId"),
-        referenceId: xml.attr(imagedata, "id"),
-        style: xml.attr(shape, "style")
-    } : null;
+        referenceId: xml.attr(datos de imagen, "id"),
+        estilo: xml.attr(forma, "estilo")
+    } : nulo;
 }
-exports.parseNumberingBulletPicture = parseNumberingBulletPicture;
+exportaciones.parseNumberingBulletPicture = parseNumberingBulletPicture;
 
 
 /***/ }),
@@ -3739,284 +3739,284 @@ exports.parseNumberingBulletPicture = parseNumberingBulletPicture;
 /*!**********************************!*\
   !*** ./src/parser/xml-parser.ts ***!
   \**********************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.XmlParser = exports.serializeXmlString = exports.parseXmlString = void 0;
-const common_1 = __webpack_require__(/*! ../document/common */ "./src/document/common.ts");
-function parseXmlString(xmlString, trimXmlDeclaration = false) {
-    if (trimXmlDeclaration)
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.XmlParser = exportaciones.serializeXmlString = exportaciones.parseXmlString = void 0;
+constante común_1 = __webpack_require__(/*! ../documento/common */ "./src/documento/common.ts");
+función parseXmlString(xmlString, trimXmlDeclaration = false) {
+    si (declaración trimXml)
         xmlString = xmlString.replace(/<[?].*[?]>/, "");
-    const result = new DOMParser().parseFromString(xmlString, "application/xml");
-    const errorText = hasXmlParserError(result);
-    if (errorText)
-        throw new Error(errorText);
-    return result;
+    const resultado = nuevo DOMParser().parseFromString(xmlString, "aplicacion/xml");
+    const errorText = hasXmlParserError(resultado);
+    si (errorTexto)
+        lanzar nuevo Error(errorText);
+    devolver resultado;
 }
 exports.parseXmlString = parseXmlString;
-function hasXmlParserError(doc) {
+función hasXmlParserError(doc) {
     var _a;
-    return (_a = doc.getElementsByTagName("parsererror")[0]) === null || _a === void 0 ? void 0 : _a.textContent;
+    devolver (_a = doc.getElementsByTagName("parsererror")[0]) === nulo || _a === vacío 0 ? vacío 0 : _a.textContent;
 }
-function serializeXmlString(elem) {
-    return new XMLSerializer().serializeToString(elem);
+función serializeXmlString(elem) {
+    devolver nuevo XMLSerializer().serializeToString(elem);
 }
-exports.serializeXmlString = serializeXmlString;
-class XmlParser {
-    elements(elem, localName = null) {
-        const result = [];
-        for (let i = 0, l = elem.childNodes.length; i < l; i++) {
+exportaciones.serializeXmlString = serializeXmlString;
+clase XmlParser {
+    elementos (elem, nombre local = nulo) {
+        const resultado = [];
+        para (sea i = 0, l = elem.childNodes.length; i < l; i++) {
             let c = elem.childNodes.item(i);
             if (c.nodeType == 1 && (localName == null || c.localName == localName))
-                result.push(c);
+                resultado.push(c);
         }
-        return result;
+        devolver resultado;
     }
-    element(elem, localName) {
-        for (let i = 0, l = elem.childNodes.length; i < l; i++) {
+    elemento(elem, nombrelocal) {
+        para (sea i = 0, l = elem.childNodes.length; i < l; i++) {
             let c = elem.childNodes.item(i);
             if (c.nodeType == 1 && c.localName == localName)
-                return c;
+                devolver c;
         }
-        return null;
+        devuelve nulo;
     }
     elementAttr(elem, localName, attrLocalName) {
         var el = this.element(elem, localName);
-        return el ? this.attr(el, attrLocalName) : undefined;
+        devolver el ? this.attr(el, attrLocalName) : indefinido;
     }
-    attrs(elem) {
-        return Array.from(elem.attributes);
+    atributos(elem) {
+        devuelve Array.from(elem.atributos);
     }
-    attr(elem, localName) {
-        for (let i = 0, l = elem.attributes.length; i < l; i++) {
-            let a = elem.attributes.item(i);
-            if (a.localName == localName)
-                return a.value;
+    attr(elem, nombrelocal) {
+        para (sea i = 0, l = elem.atributos.longitud; i < l; i++) {
+            sea ​​a = elem.atributos.item(i);
+            si (a.nombrelocal == nombrelocal)
+                devuelve un valor;
         }
-        return null;
+        devuelve nulo;
     }
-    intAttr(node, attrName, defaultValue = null) {
-        var val = this.attr(node, attrName);
-        return val ? parseInt(val) : defaultValue;
+    intAttr(nodo, nombreDeAttr, valorPredeterminado = nulo) {
+        var val = this.attr(nodo, attrName);
+        valor de retorno? parseInt(val): valor predeterminado;
     }
-    hexAttr(node, attrName, defaultValue = null) {
-        var val = this.attr(node, attrName);
-        return val ? parseInt(val, 16) : defaultValue;
+    hexAttr(nodo, nombreDeAtributo, valorPredeterminado = nulo) {
+        var val = this.attr(nodo, attrName);
+        valor de retorno? parseInt(val, 16): valor predeterminado;
     }
-    floatAttr(node, attrName, defaultValue = null) {
-        var val = this.attr(node, attrName);
-        return val ? parseFloat(val) : defaultValue;
+    floatAttr(nodo, nombreDeAtributo, valorPredeterminado = nulo) {
+        var val = this.attr(nodo, attrName);
+        devolver val ? parseFloat(val) : valorPredeterminado;
     }
-    boolAttr(node, attrName, defaultValue = null) {
-        return (0, common_1.convertBoolean)(this.attr(node, attrName), defaultValue);
+    boolAttr(nodo, nombreDeAtributo, valorPredeterminado = nulo) {
+        devuelve (0, common_1.convertBoolean)(this.attr(nodo, attrName), valor predeterminado);
     }
-    lengthAttr(node, attrName, usage = common_1.LengthUsage.Dxa) {
-        return (0, common_1.convertLength)(this.attr(node, attrName), usage);
+    lengthAttr(nodo, attrName, uso = common_1.LengthUsage.Dxa) {
+        devolver (0, common_1.convertLength)(this.attr(nodo, attrName), uso);
     }
 }
-exports.XmlParser = XmlParser;
-const globalXmlParser = new XmlParser();
-exports["default"] = globalXmlParser;
+exportaciones.XmlParser = XmlParser;
+constante globalXmlParser = nuevo XmlParser();
+exportaciones["predeterminado"] = globalXmlParser;
 
 
 /***/ }),
 
-/***/ "./src/settings/settings-part.ts":
+/***/ "./src/configuraciones/configuraciones-parte.ts":
 /*!***************************************!*\
-  !*** ./src/settings/settings-part.ts ***!
+  !*** ./src/configuraciones/configuraciones-part.ts ***!
   \***************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.SettingsPart = void 0;
-const part_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
-const settings_1 = __webpack_require__(/*! ./settings */ "./src/settings/settings.ts");
-class SettingsPart extends part_1.Part {
-    constructor(pkg, path) {
-        super(pkg, path);
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.SettingsPart = void 0;
+constante parte_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
+constante settings_1 = __webpack_require__(/*! ./settings */ "./src/settings/settings.ts");
+clase SettingsPart extiende part_1.Part {
+    constructor(pkg, ruta) {
+        super(pkg, ruta);
     }
-    parseXml(root) {
-        this.settings = (0, settings_1.parseSettings)(root, this._package.xmlParser);
+    parseXml(raíz) {
+        este.settings = (0, settings_1.parseSettings)(root, este._package.xmlParser);
     }
 }
-exports.SettingsPart = SettingsPart;
+exportaciones.SettingsPart = SettingsPart;
 
 
 /***/ }),
 
-/***/ "./src/settings/settings.ts":
+/***/ "./src/configuraciones/configuraciones.ts":
 /*!**********************************!*\
-  !*** ./src/settings/settings.ts ***!
+  !*** ./src/configuraciones/configuraciones.ts ***!
   \**********************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.parseNoteProperties = exports.parseSettings = void 0;
-function parseSettings(elem, xml) {
-    var result = {};
-    for (let el of xml.elements(elem)) {
-        switch (el.localName) {
-            case "defaultTabStop":
-                result.defaultTabStop = xml.lengthAttr(el, "val");
-                break;
-            case "footnotePr":
-                result.footnoteProps = parseNoteProperties(el, xml);
-                break;
-            case "endnotePr":
-                result.endnoteProps = parseNoteProperties(el, xml);
-                break;
-            case "autoHyphenation":
-                result.autoHyphenation = xml.boolAttr(el, "val");
-                break;
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.parseNoteProperties = exportaciones.parseSettings = void 0;
+función parseSettings(elem, xml) {
+    var resultado = {};
+    para (sea el de xml.elements(elem)) {
+        cambiar (el.nombrelocal) {
+            caso "defaultTabStop":
+                resultado.defaultTabStop = xml.lengthAttr(el, "val");
+                romper;
+            caso "footnotePr":
+                resultado.footnoteProps = parseNoteProperties(el, xml);
+                romper;
+            caso "endnotePr":
+                resultado.endnoteProps = parseNoteProperties(el, xml);
+                romper;
+            caso "autoHyphenation":
+                resultado.autoHyphenation = xml.boolAttr(el, "val");
+                romper;
         }
     }
-    return result;
+    devolver resultado;
 }
-exports.parseSettings = parseSettings;
-function parseNoteProperties(elem, xml) {
-    var result = {
-        defaultNoteIds: []
+exportaciones.parseSettings = parseSettings;
+función parseNoteProperties(elem, xml) {
+    var resultado = {
+        ID de nota predeterminados: []
     };
-    for (let el of xml.elements(elem)) {
-        switch (el.localName) {
-            case "numFmt":
-                result.nummeringFormat = xml.attr(el, "val");
-                break;
-            case "footnote":
-            case "endnote":
-                result.defaultNoteIds.push(xml.attr(el, "id"));
-                break;
+    para (sea el de xml.elements(elem)) {
+        cambiar (el.nombrelocal) {
+            caso "numFmt":
+                resultado.nummeringFormat = xml.attr(el, "val");
+                romper;
+            caso "nota a pie de página":
+            caso "nota final":
+                resultado.defaultNoteIds.push(xml.attr(el, "id"));
+                romper;
         }
     }
-    return result;
+    devolver resultado;
 }
-exports.parseNoteProperties = parseNoteProperties;
+exportaciones.parseNoteProperties = parseNoteProperties;
 
 
 /***/ }),
 
 /***/ "./src/styles/styles-part.ts":
-/*!***********************************!*\
+/*!**************************************!*\
   !*** ./src/styles/styles-part.ts ***!
   \***********************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.StylesPart = void 0;
-const part_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
-class StylesPart extends part_1.Part {
-    constructor(pkg, path, parser) {
-        super(pkg, path);
-        this._documentParser = parser;
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.StylesPart = void 0;
+constante parte_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
+clase StylesPart extiende part_1.Part {
+    constructor(pkg, ruta, analizador) {
+        super(pkg, ruta);
+        this._documentParser = analizador;
     }
-    parseXml(root) {
-        this.styles = this._documentParser.parseStylesFile(root);
+    parseXml(raíz) {
+        este.styles = este._documentParser.parseStylesFile(root);
     }
 }
-exports.StylesPart = StylesPart;
+exportaciones.StylesPart = StylesPart;
 
 
 /***/ }),
 
-/***/ "./src/theme/theme-part.ts":
+/***/ "./src/tema/parte-del-tema.ts":
 /*!*********************************!*\
   !*** ./src/theme/theme-part.ts ***!
   \*********************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.ThemePart = void 0;
-const part_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
-const theme_1 = __webpack_require__(/*! ./theme */ "./src/theme/theme.ts");
-class ThemePart extends part_1.Part {
-    constructor(pkg, path) {
-        super(pkg, path);
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.ThemePart = void 0;
+constante parte_1 = __webpack_require__(/*! ../common/part */ "./src/common/part.ts");
+constante tema_1 = __webpack_require__(/*! ./tema */ "./src/tema/tema.ts");
+clase ThemePart extiende part_1.Part {
+    constructor(pkg, ruta) {
+        super(pkg, ruta);
     }
-    parseXml(root) {
-        this.theme = (0, theme_1.parseTheme)(root, this._package.xmlParser);
+    parseXml(raíz) {
+        este.tema = (0, tema_1.parseTheme)(raíz, este._paquete.xmlParser);
     }
 }
-exports.ThemePart = ThemePart;
+exportaciones.ThemePart = ThemePart;
 
 
 /***/ }),
 
-/***/ "./src/theme/theme.ts":
+/***/ "./src/tema/tema.ts":
 /*!****************************!*\
   !*** ./src/theme/theme.ts ***!
   \****************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.parseFontInfo = exports.parseFontScheme = exports.parseColorScheme = exports.parseTheme = exports.DmlTheme = void 0;
-class DmlTheme {
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.parseFontInfo = exportaciones.parseFontScheme = exportaciones.parseColorScheme = exportaciones.parseTheme = exportaciones.DmlTheme = void 0;
+clase DmlTheme {
 }
-exports.DmlTheme = DmlTheme;
-function parseTheme(elem, xml) {
-    var result = new DmlTheme();
+exportaciones.DmlTheme = DmlTheme;
+función parseTheme(elem, xml) {
+    var resultado = nuevo DmlTheme();
     var themeElements = xml.element(elem, "themeElements");
-    for (let el of xml.elements(themeElements)) {
-        switch (el.localName) {
-            case "clrScheme":
-                result.colorScheme = parseColorScheme(el, xml);
-                break;
-            case "fontScheme":
-                result.fontScheme = parseFontScheme(el, xml);
-                break;
+    para (sea el de xml.elements(themeElements)) {
+        cambiar (el.nombrelocal) {
+            caso "clrScheme":
+                resultado.colorScheme = parseColorScheme(el, xml);
+                romper;
+            caso "fontScheme":
+                resultado.fontScheme = parseFontScheme(el, xml);
+                romper;
         }
     }
-    return result;
+    devolver resultado;
 }
-exports.parseTheme = parseTheme;
-function parseColorScheme(elem, xml) {
-    var result = {
-        name: xml.attr(elem, "name"),
-        colors: {}
+exportaciones.parseTheme = parseTheme;
+función parseColorScheme(elem, xml) {
+    var resultado = {
+        nombre: xml.attr(elem, "nombre"),
+        colores: {}
     };
-    for (let el of xml.elements(elem)) {
+    para (sea el de xml.elements(elem)) {
         var srgbClr = xml.element(el, "srgbClr");
         var sysClr = xml.element(el, "sysClr");
-        if (srgbClr) {
-            result.colors[el.localName] = xml.attr(srgbClr, "val");
+        si (srgbClr) {
+            resultado.colores[el.localName] = xml.attr(srgbClr, "val");
         }
-        else if (sysClr) {
-            result.colors[el.localName] = xml.attr(sysClr, "lastClr");
-        }
-    }
-    return result;
-}
-exports.parseColorScheme = parseColorScheme;
-function parseFontScheme(elem, xml) {
-    var result = {
-        name: xml.attr(elem, "name"),
-    };
-    for (let el of xml.elements(elem)) {
-        switch (el.localName) {
-            case "majorFont":
-                result.majorFont = parseFontInfo(el, xml);
-                break;
-            case "minorFont":
-                result.minorFont = parseFontInfo(el, xml);
-                break;
+        de lo contrario si (sysClr) {
+            resultado.colores[el.localName] = xml.attr(sysClr, "lastClr");
         }
     }
-    return result;
+    devolver resultado;
 }
-exports.parseFontScheme = parseFontScheme;
-function parseFontInfo(elem, xml) {
-    return {
-        latinTypeface: xml.elementAttr(elem, "latin", "typeface"),
-        eaTypeface: xml.elementAttr(elem, "ea", "typeface"),
-        csTypeface: xml.elementAttr(elem, "cs", "typeface"),
+exportaciones.parseColorScheme = parseColorScheme;
+función parseFontScheme(elem, xml) {
+    var resultado = {
+        nombre: xml.attr(elem, "nombre"),
+    };
+    para (sea el de xml.elements(elem)) {
+        cambiar (el.nombrelocal) {
+            caso "majorFont":
+                resultado.majorFont = parseFontInfo(el, xml);
+                romper;
+            caso "minorFont":
+                resultado.minorFont = parseFontInfo(el, xml);
+                romper;
+        }
+    }
+    devolver resultado;
+}
+exportaciones.parseFontScheme = parseFontScheme;
+función parseFontInfo(elem, xml) {
+    devolver {
+        latinTypeface: xml.elementAttr(elem, "latin", "tipo de letra"),
+        eaTypeface: xml.elementAttr(elem, "ea", "tipo de letra"),
+        csTypeface: xml.elementAttr(elem, "cs", "tipo de letra"),
     };
 }
-exports.parseFontInfo = parseFontInfo;
+exportaciones.parseFontInfo = parseFontInfo;
 
 
 /***/ }),
@@ -4025,92 +4025,92 @@ exports.parseFontInfo = parseFontInfo;
 /*!**********************!*\
   !*** ./src/utils.ts ***!
   \**********************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.asArray = exports.formatCssRules = exports.parseCssRules = exports.mergeDeep = exports.isString = exports.isObject = exports.blobToBase64 = exports.keyBy = exports.resolvePath = exports.splitPath = exports.escapeClassName = void 0;
-function escapeClassName(className) {
-    return className === null || className === void 0 ? void 0 : className.replace(/[ .]+/g, '-').replace(/[&]+/g, 'and').toLowerCase();
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.asArray = exportaciones.formatCssRules = exportaciones.parseCssRules = exportaciones.mergeDeep = exportaciones.isString = exportaciones.isObject = exportaciones.blobToBase64 = exportaciones.keyBy = exportaciones.resolvePath = exportaciones.splitPath = exportaciones.escapeClassName = void 0;
+función escapeClassName(nombreClase) {
+    devolver nombreClase === null || nombreClase === void 0 ? void 0 : nombreClase.replace(/[ .]+/g, '-').replace(/[&]+/g, 'and').toLowerCase();
 }
-exports.escapeClassName = escapeClassName;
-function splitPath(path) {
-    let si = path.lastIndexOf('/') + 1;
-    let folder = si == 0 ? "" : path.substring(0, si);
-    let fileName = si == 0 ? path : path.substring(si);
-    return [folder, fileName];
+exportaciones.escapeClassName = escapeClassName;
+función splitPath(ruta) {
+    sea ​​si = path.lastIndexOf('/') + 1;
+    deje que la carpeta = si == 0 ? "" : ruta.substring(0, si);
+    deje que fileName = si == 0 ? ruta: ruta.substring(si);
+    devolver [carpeta, nombre_archivo];
 }
-exports.splitPath = splitPath;
-function resolvePath(path, base) {
-    try {
-        const prefix = "http://docx/";
-        const url = new URL(path, prefix + base).toString();
-        return url.substring(prefix.length);
+exportaciones.splitPath = splitPath;
+función resolvePath(ruta, base) {
+    intentar {
+        const prefijo = "http://docx/";
+        const url = nueva URL(ruta, prefijo + base).toString();
+        devolver url.substring(prefijo.longitud);
     }
-    catch (_a) {
-        return `${base}${path}`;
+    atrapar (_a) {
+        devuelve `${base}${ruta}`;
     }
 }
-exports.resolvePath = resolvePath;
-function keyBy(array, by) {
-    return array.reduce((a, x) => {
-        a[by(x)] = x;
-        return a;
+exportaciones.resolvePath = resolvePath;
+función keyBy(matriz, por) {
+    devolver matriz.reduce((a, x) => {
+        a[por(x)] = x;
+        devolver un;
     }, {});
 }
-exports.keyBy = keyBy;
-function blobToBase64(blob) {
-    return new Promise((resolve, _) => {
-        const reader = new FileReader();
-        reader.onloadend = () => resolve(reader.result);
-        reader.readAsDataURL(blob);
+exportaciones.keyBy = keyBy;
+función blobToBase64(blob) {
+    devolver nueva Promesa((resolver, _) => {
+        const lector = nuevo FileReader();
+        lector.onloadend = () => resolver(lector.resultado);
+        lector.readAsDataURL(blob);
     });
 }
-exports.blobToBase64 = blobToBase64;
-function isObject(item) {
-    return item && typeof item === 'object' && !Array.isArray(item);
+exportaciones.blobToBase64 = blobToBase64;
+función isObject(item) {
+    devolver elemento && tipo de elemento === 'objeto' && !Array.isArray(elemento);
 }
-exports.isObject = isObject;
-function isString(item) {
-    return item && typeof item === 'string' || item instanceof String;
+exportaciones.isObject = esObjeto;
+función isString(item) {
+    devolver elemento && tipo de elemento === 'cadena' || elemento instancia de cadena;
 }
-exports.isString = isString;
-function mergeDeep(target, ...sources) {
+exportaciones.isString = isString;
+función mergeDeep(objetivo, ...fuentes) {
     var _a;
-    if (!sources.length)
-        return target;
-    const source = sources.shift();
-    if (isObject(target) && isObject(source)) {
-        for (const key in source) {
-            if (isObject(source[key])) {
-                const val = (_a = target[key]) !== null && _a !== void 0 ? _a : (target[key] = {});
-                mergeDeep(val, source[key]);
+    si (!fuentes.longitud)
+        objetivo de retorno;
+    const fuente = fuentes.shift();
+    si (isObject(objetivo) && isObject(fuente)) {
+        para (clave constante en la fuente) {
+            si (isObject(fuente[clave])) {
+                const val = (_a = objetivo[clave]) !== null && _a !== void 0 ? _a : (objetivo[clave] = {});
+                mergeDeep(val, fuente[clave]);
             }
-            else {
-                target[key] = source[key];
+            demás {
+                objetivo[clave] = fuente[clave];
             }
         }
     }
-    return mergeDeep(target, ...sources);
+    devolver mergeDeep(objetivo, ...fuentes);
 }
-exports.mergeDeep = mergeDeep;
-function parseCssRules(text) {
-    const result = {};
-    for (const rule of text.split(';')) {
-        const [key, val] = rule.split(':');
-        result[key] = val;
+exportaciones.mergeDeep = mergeDeep;
+función parseCssRules(texto) {
+    const resultado = {};
+    para (regla constante de texto.split(';')) {
+        const [clave, val] = regla.split(':');
+        resultado[clave] = val;
     }
-    return result;
+    devolver resultado;
 }
-exports.parseCssRules = parseCssRules;
-function formatCssRules(style) {
-    return Object.entries(style).map((k, v) => `${k}: ${v}`).join(';');
+exportaciones.parseCssRules = parseCssRules;
+función formatCssRules(estilo) {
+    devolver Objeto.entries(estilo).map((k, v) => `${k}: ${v}`).join(';');
 }
-exports.formatCssRules = formatCssRules;
-function asArray(val) {
-    return Array.isArray(val) ? val : [val];
+exportaciones.formatCssRules = formatCssRules;
+función asArray(val) {
+    devolver Array.isArray(val)? valor: [valor];
 }
-exports.asArray = asArray;
+exportaciones.asArray = asArray;
 
 
 /***/ }),
@@ -4119,105 +4119,105 @@ exports.asArray = asArray;
 /*!************************!*\
   !*** ./src/vml/vml.ts ***!
   \************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.parseVmlElement = exports.VmlElement = void 0;
-const common_1 = __webpack_require__(/*! ../document/common */ "./src/document/common.ts");
-const dom_1 = __webpack_require__(/*! ../document/dom */ "./src/document/dom.ts");
-const xml_parser_1 = __webpack_require__(/*! ../parser/xml-parser */ "./src/parser/xml-parser.ts");
-class VmlElement {
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.parseVmlElement = exportaciones.VmlElement = void 0;
+constante común_1 = __webpack_require__(/*! ../documento/common */ "./src/documento/common.ts");
+constante dom_1 = __webpack_require__(/*! ../documento/dom */ "./src/documento/dom.ts");
+constante xml_parser_1 = __webpack_require__(/*! ../parser/xml-parser */ "./src/parser/xml-parser.ts");
+clase VmlElement {
     constructor() {
-        this.type = dom_1.DomType.VmlElement;
-        this.attrs = {};
-        this.chidren = [];
+        este.tipo = dom_1.DomType.VmlElement;
+        esto.attrs = {};
+        esto.niños = [];
     }
 }
-exports.VmlElement = VmlElement;
-function parseVmlElement(elem) {
-    var result = new VmlElement();
-    switch (elem.localName) {
-        case "rect":
-            result.tagName = "rect";
-            Object.assign(result.attrs, { width: '100%', height: '100%' });
-            break;
-        case "oval":
-            result.tagName = "ellipse";
-            Object.assign(result.attrs, { cx: "50%", cy: "50%", rx: "50%", ry: "50%" });
-            break;
-        case "line":
-            result.tagName = "line";
-            break;
-        case "shape":
-            result.tagName = "g";
-            break;
-        default:
-            return null;
+exportaciones.VmlElement = VmlElement;
+función parseVmlElement(elem) {
+    resultado var = nuevo VmlElement();
+    cambiar (elem.nombrelocal) {
+        caso "rect":
+            resultado.tagName = "rect";
+            Objeto.assign(resultado.attrs, { ancho: '100%', alto: '100%' });
+            romper;
+        caso "ovalado":
+            resultado.tagName = "elipse";
+            Objeto.assign(resultado.attrs, { cx: "50%", cy: "50%", rx: "50%", ry: "50%" });
+            romper;
+        caso "línea":
+            resultado.tagName = "línea";
+            romper;
+        caso "forma":
+            resultado.tagName = "g";
+            romper;
+        por defecto:
+            devuelve nulo;
     }
-    for (const at of xml_parser_1.default.attrs(elem)) {
-        switch (at.localName) {
-            case "style":
-                result.cssStyleText = at.value;
-                break;
-            case "fillcolor":
-                result.attrs.fill = at.value;
-                break;
-            case "from":
-                const [x1, y1] = parsePoint(at.value);
-                Object.assign(result.attrs, { x1, y1 });
-                break;
-            case "to":
-                const [x2, y2] = parsePoint(at.value);
-                Object.assign(result.attrs, { x2, y2 });
-                break;
+    para (constante en de xml_parser_1.default.attrs(elem)) {
+        cambiar (en.nombrelocal) {
+            caso "estilo":
+                resultado.cssStyleText = en.valor;
+                romper;
+            caso "color de relleno":
+                resultado.attrs.fill = en.valor;
+                romper;
+            caso "de":
+                constante [x1, y1] = parsePoint(at.value);
+                Objeto.assign(resultado.attrs, { x1, y1 });
+                romper;
+            caso "a":
+                constante [x2, y2] = parsePoint(at.value);
+                Objeto.assign(resultado.attrs, { x2, y2 });
+                romper;
         }
     }
-    for (const el of xml_parser_1.default.elements(elem)) {
-        switch (el.localName) {
-            case "stroke":
-                Object.assign(result.attrs, parseStroke(el));
-                break;
-            case "fill":
-                Object.assign(result.attrs, parseFill(el));
-                break;
-            case "imagedata":
-                result.tagName = "image";
-                Object.assign(result.attrs, { width: '100%', height: '100%' });
-                result.imageHref = {
+    para (const el de xml_parser_1.default.elements(elem)) {
+        cambiar (el.nombrelocal) {
+            caso "accidente cerebrovascular":
+                Objeto.assign(resultado.attrs, parseStroke(el));
+                romper;
+            caso "rellenar":
+                Objeto.assign(resultado.attrs, parseFill(el));
+                romper;
+            caso "datos de imagen":
+                resultado.tagName = "imagen";
+                Objeto.assign(resultado.attrs, { ancho: '100%', alto: '100%' });
+                resultado.imageHref = {
                     id: xml_parser_1.default.attr(el, "id"),
-                    title: xml_parser_1.default.attr(el, "title"),
+                    título: xml_parser_1.default.attr(el, "título"),
                 };
-                break;
-            default:
-                const child = parseVmlElement(el);
-                child && result.chidren.push(child);
-                break;
+                romper;
+            por defecto:
+                constante hijo = parseVmlElement(el);
+                niño && resultado.chidren.push(niño);
+                romper;
         }
     }
-    return result;
+    devolver resultado;
 }
-exports.parseVmlElement = parseVmlElement;
-function parseStroke(el) {
+exportaciones.parseVmlElement = parseVmlElement;
+función parseStroke(el) {
     var _a;
-    return {
-        'stroke': xml_parser_1.default.attr(el, "color"),
-        'stroke-width': (_a = xml_parser_1.default.lengthAttr(el, "weight", common_1.LengthUsage.Emu)) !== null && _a !== void 0 ? _a : '1px'
+    devolver {
+        'trazo': xml_parser_1.default.attr(el, "color"),
+        'ancho de trazo': (_a = xml_parser_1.default.lengthAttr(el, "peso", common_1.LengthUsage.Emu)) !== null && _a !== void 0 ? _a : '1px'
     };
 }
-function parseFill(el) {
-    return {};
+función parseFill(el) {
+    devolver {};
 }
-function parsePoint(val) {
-    return val.split(",");
+función parsePoint(val) {
+    devolver val.split(",");
 }
-function convertPath(path) {
-    return path.replace(/([mlxe])|([-\d]+)|([,])/g, (m) => {
-        if (/[-\d]/.test(m))
-            return (0, common_1.convertLength)(m, common_1.LengthUsage.VmlEmu);
-        if (/[ml,]/.test(m))
-            return m;
-        return '';
+función convertPath(ruta) {
+    ruta de retorno.reemplazar(/([mlxe])|([-\d]+)|([,])/g, (m) => {
+        si (/[-\d]/.test(m))
+            devuelve (0, común_1.convertLength)(m, común_1.LengthUsage.VmlEmu);
+        si (/[ml,]/.test(m))
+            devolver m;
+        devolver '';
     });
 }
 
@@ -4228,294 +4228,294 @@ function convertPath(path) {
 /*!******************************!*\
   !*** ./src/word-document.ts ***!
   \******************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__módulo_de_paquete_web_no_utilizado, exportaciones, __paquete_web_require__) => {
 
 
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.deobfuscate = exports.WordDocument = void 0;
-const relationship_1 = __webpack_require__(/*! ./common/relationship */ "./src/common/relationship.ts");
+Object.defineProperty(exportaciones, "__esModule", ({ valor: verdadero }));
+exportaciones.deofuscar = exportaciones.WordDocument = void 0;
+constante relación_1 = __webpack_require__(/*! ./common/relationship */ "./src/common/relationship.ts");
 const font_table_1 = __webpack_require__(/*! ./font-table/font-table */ "./src/font-table/font-table.ts");
-const open_xml_package_1 = __webpack_require__(/*! ./common/open-xml-package */ "./src/common/open-xml-package.ts");
+constante open_xml_package_1 = __webpack_require__(/*! ./common/open-xml-package */ "./src/common/open-xml-package.ts");
 const document_part_1 = __webpack_require__(/*! ./document/document-part */ "./src/document/document-part.ts");
-const utils_1 = __webpack_require__(/*! ./utils */ "./src/utils.ts");
-const numbering_part_1 = __webpack_require__(/*! ./numbering/numbering-part */ "./src/numbering/numbering-part.ts");
-const styles_part_1 = __webpack_require__(/*! ./styles/styles-part */ "./src/styles/styles-part.ts");
-const parts_1 = __webpack_require__(/*! ./header-footer/parts */ "./src/header-footer/parts.ts");
+constante utils_1 = __webpack_require__(/*! ./utils */ "./src/utils.ts");
+const numeración_parte_1 = __webpack_require__(/*! ./numeración/numeración-parte */ "./src/numeración/numeración-parte.ts");
+constante estilos_parte_1 = __webpack_require__(/*! ./estilos/estilos-parte */ "./src/estilos/estilos-parte.ts");
+const partes_1 = __webpack_require__(/*! ./encabezado-pie/partes */ "./src/encabezado-pie/partes.ts");
 const extended_props_part_1 = __webpack_require__(/*! ./document-props/extended-props-part */ "./src/document-props/extended-props-part.ts");
-const core_props_part_1 = __webpack_require__(/*! ./document-props/core-props-part */ "./src/document-props/core-props-part.ts");
+constante core_props_part_1 = __webpack_require__(/*! ./document-props/core-props-part */ "./src/document-props/core-props-part.ts");
 const theme_part_1 = __webpack_require__(/*! ./theme/theme-part */ "./src/theme/theme-part.ts");
-const parts_2 = __webpack_require__(/*! ./notes/parts */ "./src/notes/parts.ts");
-const settings_part_1 = __webpack_require__(/*! ./settings/settings-part */ "./src/settings/settings-part.ts");
-const custom_props_part_1 = __webpack_require__(/*! ./document-props/custom-props-part */ "./src/document-props/custom-props-part.ts");
-const topLevelRels = [
-    { type: relationship_1.RelationshipTypes.OfficeDocument, target: "word/document.xml" },
-    { type: relationship_1.RelationshipTypes.ExtendedProperties, target: "docProps/app.xml" },
-    { type: relationship_1.RelationshipTypes.CoreProperties, target: "docProps/core.xml" },
-    { type: relationship_1.RelationshipTypes.CustomProperties, target: "docProps/custom.xml" },
+constante partes_2 = __webpack_require__(/*! ./notas/partes */ "./src/notas/partes.ts");
+constante settings_part_1 = __webpack_require__(/*! ./settings/settings-part */ "./src/settings/settings-part.ts");
+constante custom_props_part_1 = __webpack_require__(/*! ./document-props/custom-props-part */ "./src/document-props/custom-props-part.ts");
+constante topLevelRels = [
+    { tipo: relación_1.RelationshipTypes.OfficeDocument, destino: "word/document.xml" },
+    { tipo: relación_1.RelationshipTypes.ExtendedProperties, destino: "docProps/app.xml" },
+    { tipo: relación_1.RelationshipTypes.CoreProperties, destino: "docProps/core.xml" },
+    { tipo: relación_1.RelationshipTypes.CustomProperties, destino: "docProps/custom.xml" },
 ];
-class WordDocument {
+clase WordDocument {
     constructor() {
-        this.parts = [];
-        this.partsMap = {};
+        esto.partes = [];
+        este.partsMap = {};
     }
-    static load(blob, parser, options) {
-        var d = new WordDocument();
-        d._options = options;
-        d._parser = parser;
-        return open_xml_package_1.OpenXmlPackage.load(blob, options)
-            .then(pkg => {
-            d._package = pkg;
-            return d._package.loadRelationships();
-        }).then(rels => {
+    carga estática(blob, analizador, opciones) {
+        var d = nuevo WordDocument();
+        d._opciones = opciones;
+        d._parser = analizador;
+        devolver open_xml_package_1.OpenXmlPackage.load(blob, opciones)
+            .then(paquete => {
+            d._paquete = paquete;
+            devolver d._package.loadRelationships();
+        }). entonces(rels => {
             d.rels = rels;
-            const tasks = topLevelRels.map(rel => {
+            constante tareas = topLevelRels.map(rel => {
                 var _a;
-                const r = (_a = rels.find(x => x.type === rel.type)) !== null && _a !== void 0 ? _a : rel;
-                return d.loadRelationshipPart(r.target, r.type);
+                constante r = (_a = rels.find(x => x.type === rel.type)) !== nulo && _a !== vacío 0 ? _a : rel;
+                devuelve d.loadRelationshipPart(r.objetivo, r.tipo);
             });
-            return Promise.all(tasks);
-        }).then(() => d);
+            devolver Promise.all(tareas);
+        }). entonces(() => d);
     }
-    save(type = "blob") {
-        return this._package.save(type);
+    guardar(tipo = "blob") {
+        devuelve este._paquete.save(tipo);
     }
-    loadRelationshipPart(path, type) {
-        if (this.partsMap[path])
-            return Promise.resolve(this.partsMap[path]);
-        if (!this._package.get(path))
-            return Promise.resolve(null);
-        let part = null;
-        switch (type) {
-            case relationship_1.RelationshipTypes.OfficeDocument:
+    loadRelationshipPart(ruta, tipo) {
+        si (this.partsMap[ruta])
+            devuelve Promise.resolve(this.partsMap[ruta]);
+        si (!this._package.get(ruta))
+            devolver Promesa.resolve(null);
+        deje que parte = nulo;
+        interruptor (tipo) {
+            caso relación_1.RelationshipTypes.OfficeDocument:
                 this.documentPart = part = new document_part_1.DocumentPart(this._package, path, this._parser);
-                break;
-            case relationship_1.RelationshipTypes.FontTable:
-                this.fontTablePart = part = new font_table_1.FontTablePart(this._package, path);
-                break;
-            case relationship_1.RelationshipTypes.Numbering:
-                this.numberingPart = part = new numbering_part_1.NumberingPart(this._package, path, this._parser);
-                break;
-            case relationship_1.RelationshipTypes.Styles:
-                this.stylesPart = part = new styles_part_1.StylesPart(this._package, path, this._parser);
-                break;
-            case relationship_1.RelationshipTypes.Theme:
-                this.themePart = part = new theme_part_1.ThemePart(this._package, path);
-                break;
-            case relationship_1.RelationshipTypes.Footnotes:
-                this.footnotesPart = part = new parts_2.FootnotesPart(this._package, path, this._parser);
-                break;
-            case relationship_1.RelationshipTypes.Endnotes:
-                this.endnotesPart = part = new parts_2.EndnotesPart(this._package, path, this._parser);
-                break;
-            case relationship_1.RelationshipTypes.Footer:
-                part = new parts_1.FooterPart(this._package, path, this._parser);
-                break;
-            case relationship_1.RelationshipTypes.Header:
-                part = new parts_1.HeaderPart(this._package, path, this._parser);
-                break;
-            case relationship_1.RelationshipTypes.CoreProperties:
-                this.corePropsPart = part = new core_props_part_1.CorePropsPart(this._package, path);
-                break;
-            case relationship_1.RelationshipTypes.ExtendedProperties:
-                this.extendedPropsPart = part = new extended_props_part_1.ExtendedPropsPart(this._package, path);
-                break;
-            case relationship_1.RelationshipTypes.CustomProperties:
-                part = new custom_props_part_1.CustomPropsPart(this._package, path);
-                break;
-            case relationship_1.RelationshipTypes.Settings:
-                this.settingsPart = part = new settings_part_1.SettingsPart(this._package, path);
-                break;
+                romper;
+            caso relación_1.RelationshipTypes.FontTable:
+                este.fontTablePart = parte = new font_table_1.FontTablePart(este._paquete, ruta);
+                romper;
+            caso relación_1.Tipos de relación.Numeración:
+                this.numberingPart = parte = new numbering_part_1.NumberingPart(this._package, path, this._parser);
+                romper;
+            caso relación_1.RelationshipTypes.Styles:
+                este.stylesPart = parte = new styles_part_1.StylesPart(este._paquete, ruta, este._parser);
+                romper;
+            caso relación_1.RelationshipTypes.Theme:
+                este.themePart = parte = new theme_part_1.ThemePart(este._paquete, ruta);
+                romper;
+            caso relación_1.RelationshipTypes.Footnotes:
+                this.footnotesPart = parte = new parts_2.FootnotesPart(this._package, path, this._parser);
+                romper;
+            caso relación_1.RelationshipTypes.Endnotes:
+                este.endnotesPart = parte = new parts_2.EndnotesPart(este._paquete, ruta, este._parser);
+                romper;
+            caso relación_1.RelationshipTypes.Footer:
+                parte = nuevas partes_1.FooterPart(este._paquete, ruta, este._parser);
+                romper;
+            caso relación_1.RelationshipTypes.Header:
+                parte = new partes_1.HeaderPart(este._paquete, ruta, este._parser);
+                romper;
+            caso relación_1.RelationshipTypes.CoreProperties:
+                este.corePropsPart = parte = new core_props_part_1.CorePropsPart(este._paquete, ruta);
+                romper;
+            caso relación_1.RelationshipTypes.ExtendedProperties:
+                este.extendedPropsPart = parte = new extended_props_part_1.ExtendedPropsPart(este._paquete, ruta);
+                romper;
+            caso relación_1.RelationshipTypes.CustomProperties:
+                parte = nueva custom_props_part_1.CustomPropsPart(este._paquete, ruta);
+                romper;
+            caso relación_1.RelationshipTypes.Settings:
+                este.settingsPart = parte = new settings_part_1.SettingsPart(este._paquete, ruta);
+                romper;
         }
-        if (part == null)
-            return Promise.resolve(null);
-        this.partsMap[path] = part;
-        this.parts.push(part);
-        return part.load().then(() => {
-            if (part.rels == null || part.rels.length == 0)
-                return part;
-            const [folder] = (0, utils_1.splitPath)(part.path);
-            const rels = part.rels.map(rel => {
-                return this.loadRelationshipPart((0, utils_1.resolvePath)(rel.target, folder), rel.type);
+        si (parte == nulo)
+            devolver Promesa.resolve(null);
+        this.partsMap[ruta] = parte;
+        esto.partes.push(parte);
+        devolver parte.load().then(() => {
+            si (parte.rels == null || parte.rels.length == 0)
+                parte de retorno;
+            const [carpeta] = (0, utils_1.splitPath)(part.path);
+            const rels = parte.rels.map(rel => {
+                devuelve esto.loadRelationshipPart((0, utils_1.resolvePath)(rel.target, carpeta), rel.type);
             });
-            return Promise.all(rels).then(() => part);
+            devuelve Promise.all(rels).then(() => parte);
         });
     }
-    loadDocumentImage(id, part) {
-        return this.loadResource(part !== null && part !== void 0 ? part : this.documentPart, id, "blob")
-            .then(x => this.blobToURL(x));
+    cargarDocumentoImage(id, parte) {
+        devuelve esto.loadResource(parte !== null && parte !== void 0 ? parte : esto.documentPart, id, "blob")
+            .then(x => este.blobToURL(x));
     }
-    loadNumberingImage(id) {
-        return this.loadResource(this.numberingPart, id, "blob")
-            .then(x => this.blobToURL(x));
+    cargarNumberingImage(id) {
+        devuelve esto.loadResource(esto.numberingPart, id, "blob")
+            .then(x => este.blobToURL(x));
     }
-    loadFont(id, key) {
-        return this.loadResource(this.fontTablePart, id, "uint8array")
-            .then(x => x ? this.blobToURL(new Blob([deobfuscate(x, key)])) : x);
+    loadFont(id, clave) {
+        devuelve esto.loadResource(esto.fontTablePart, id, "uint8array")
+            .then(x => x ? this.blobToURL(new Blob([desofuscar(x, clave)])) : x);
     }
     blobToURL(blob) {
-        if (!blob)
-            return null;
-        if (this._options.useBase64URL) {
-            return (0, utils_1.blobToBase64)(blob);
+        si (!blob)
+            devuelve nulo;
+        si (esto._opciones.useBase64URL) {
+            devolver (0, utils_1.blobToBase64)(blob);
         }
-        return URL.createObjectURL(blob);
+        devolver URL.createObjectURL(blob);
     }
-    findPartByRelId(id, basePart = null) {
+    findPartByRelId(id, basePart = nulo) {
         var _a;
         var rel = ((_a = basePart.rels) !== null && _a !== void 0 ? _a : this.rels).find(r => r.id == id);
-        const folder = basePart ? (0, utils_1.splitPath)(basePart.path)[0] : '';
-        return rel ? this.partsMap[(0, utils_1.resolvePath)(rel.target, folder)] : null;
+        carpeta constante = basePart? (0, utils_1.splitPath)(basePart.path)[0] : '';
+        devolver rel ? this.partsMap[(0, utils_1.resolvePath)(rel.target, carpeta)] : null;
     }
-    getPathById(part, id) {
+    getPathById(parte, id) {
         const rel = part.rels.find(x => x.id == id);
-        const [folder] = (0, utils_1.splitPath)(part.path);
-        return rel ? (0, utils_1.resolvePath)(rel.target, folder) : null;
+        const [carpeta] = (0, utils_1.splitPath)(part.path);
+        devolver rel ? (0, utils_1.resolvePath)(rel.target, carpeta) : null;
     }
-    loadResource(part, id, outputType) {
-        const path = this.getPathById(part, id);
-        return path ? this._package.load(path, outputType) : Promise.resolve(null);
+    loadResource(parte, id, tipoSalida) {
+        constante path = this.getPathById(parte, id);
+        ruta de retorno ? this._package.load(path, outputType) : Promise.resolve(null);
     }
 }
-exports.WordDocument = WordDocument;
-function deobfuscate(data, guidKey) {
-    const len = 16;
-    const trimmed = guidKey.replace(/{|}|-/g, "");
-    const numbers = new Array(len);
-    for (let i = 0; i < len; i++)
-        numbers[len - i - 1] = parseInt(trimmed.substr(i * 2, 2), 16);
-    for (let i = 0; i < 32; i++)
-        data[i] = data[i] ^ numbers[i % len];
-    return data;
+exportaciones.WordDocument = WordDocument;
+función desofuscar(datos, guidKey) {
+    constante len = 16;
+    constante recortada = guidKey.replace(/{|}|-/g, "");
+    const números = nuevo Array(len);
+    para (sea i = 0; i < len; i++)
+        números[len - i - 1] = parseInt(trimmed.substr(i * 2, 2), 16);
+    para (sea i = 0; i < 32; i++)
+        datos[i] = datos[i] ^ números[i % len];
+    devolver datos;
 }
-exports.deobfuscate = deobfuscate;
+exportaciones.deofuscar = desofuscar;
 
 
 /***/ }),
 
-/***/ "data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 20 100%27 preserveAspectRatio=%27none%27%3E%3Cpath d=%27m0,75 l5,0 l5,25 l10,-100%27 stroke=%27black%27 fill=%27none%27 vector-effect=%27non-scaling-stroke%27/%3E%3C/svg%3E":
-/*!********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 20 100%27 preserveAspectRatio=%27none%27%3E%3Cpath d=%27m0,75 l5,0 l5,25 l10,-100%27 stroke=%27black%27 fill=%27none%27 vector-effect=%27non-scaling-stroke%27/%3E%3C/svg%3E ***!
-  \********************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module) => {
+/***/ "datos:imagen/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 20 100%27 preserveAspectRatio=%27none%27%3E%3Cpath d=%27m0,75 l5,0 l5,25 l10,-100%27 trazo=%27negro%27 relleno=%27none%27 efecto-vectorial=%27trazo-sin-escalado%27/%3E%3C/svg%3E":
+/*!*** ...
+  !*** datos:imagen/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 20 100%27 preserveAspectRatio=%27none%27%3E%3Cpath d=%27m0,75 l5,0 l5,25 l10,-100%27 trazo=%27negro%27 relleno=%27none%27 efecto-vectorial=%27trazo-sin-escalado%27/%3E%3C/svg%3E ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((módulo) => {
 
-module.exports = "data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 20 100%27 preserveAspectRatio=%27none%27%3E%3Cpath d=%27m0,75 l5,0 l5,25 l10,-100%27 stroke=%27black%27 fill=%27none%27 vector-effect=%27non-scaling-stroke%27/%3E%3C/svg%3E";
+módulo.exportaciones = "datos:imagen/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 20 100%27 preserveAspectRatio=%27none%27%3E%3Cpath d=%27m0,75 l5,0 l5,25 l10,-100%27 trazo=%27negro%27 relleno=%27none%27 efecto-vectorial=%27trazo-sin-escalado%27/%3E%3C/svg%3E";
 
 /***/ }),
 
 /***/ "jszip":
-/*!**************************************************************************************!*\
-  !*** external {"root":"JSZip","commonjs":"jszip","commonjs2":"jszip","amd":"jszip"} ***!
-  \**************************************************************************************/
-/***/ ((module) => {
+/*!******************************************************************************************!*\
+  !*** externo {"raíz":"JSZip","commonjs":"jszip","commonjs2":"jszip","amd":"jszip"} ***!
+  \***************************************************************************************/
+/***/ ((módulo) => {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_jszip__;
+módulo.exportaciones = __WEBPACK_EXTERNAL_MODULE_jszip__;
 
 /***/ })
 
-/******/ 	});
+/******/ });
 /************************************************************************/
-/******/ 	// The module cache
-/******/ 	var __webpack_module_cache__ = {};
+/******/ // La caché del módulo
+/******/ var __webpack_module_cache__ = {};
 /******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/ 		// Check if module is in cache
-/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
-/******/ 		if (cachedModule !== undefined) {
-/******/ 			return cachedModule.exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			id: moduleId,
-/******/ 			// no module.loaded needed
-/******/ 			exports: {}
-/******/ 		};
+/******/ // La función require
+/******/ función __webpack_require__(moduleId) {
+/******/ // Verificar si el módulo está en caché
+/******/ var cachedModule = __webpack_module_cache__[moduleId];
+/******/ si (cachedModule !== indefinido) {
+/******/ devolver cachedModule.exports;
+/******/ }
+/******/ // Crea un nuevo módulo (y colócalo en el caché)
+/******/ var módulo = __webpack_module_cache__[moduleId] = {
+/******/ id: móduloId,
+/******/ // no se necesita módulo cargado
+/******/ exporta: {}
+/******/ };
 /******/
-/******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ // Ejecutar la función del módulo
+/******/ __webpack_modules__[moduleId](módulo, módulo.exports, __webpack_require__);
 /******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
+/******/ // Devuelve las exportaciones del módulo
+/******/ devolver módulo.exports;
+/******/ }
 /******/
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = __webpack_modules__;
-/******/
-/************************************************************************/
-/******/ 	/* webpack/runtime/compat get default export */
-/******/ 	(() => {
-/******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = (module) => {
-/******/ 			var getter = module && module.__esModule ?
-/******/ 				() => (module['default']) :
-/******/ 				() => (module);
-/******/ 			__webpack_require__.d(getter, { a: getter });
-/******/ 			return getter;
-/******/ 		};
-/******/ 	})();
-/******/
-/******/ 	/* webpack/runtime/define property getters */
-/******/ 	(() => {
-/******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = (exports, definition) => {
-/******/ 			for(var key in definition) {
-/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
-/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
-/******/ 				}
-/******/ 			}
-/******/ 		};
-/******/ 	})();
-/******/
-/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-/******/ 	})();
-/******/
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
-/******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = (exports) => {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
-/******/
-/******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	(() => {
-/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
-/******/
-/******/ 		// object to store loaded and loading chunks
-/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-/******/ 		var installedChunks = {
-/******/ 			"docx-preview": 0
-/******/ 		};
-/******/
-/******/ 		// no chunk on demand loading
-/******/
-/******/ 		// no prefetching
-/******/
-/******/ 		// no preloaded
-/******/
-/******/ 		// no HMR
-/******/
-/******/ 		// no HMR manifest
-/******/
-/******/ 		// no on chunks loaded
-/******/
-/******/ 		// no jsonp function
-/******/ 	})();
+/******/ // exponer el objeto de módulos (__webpack_modules__)
+/******/ __webpack_require__.m = __webpack_modules__;
 /******/
 /************************************************************************/
+/******/ /* webpack/runtime/compat obtener la exportación predeterminada */
+/******/ (() => {
+/******/ // Función getDefaultExport para compatibilidad con módulos que no son de Harmony
+/******/ __webpack_require__.n = (módulo) => {
+/******/ var getter = módulo && módulo.__esModule ?
+/******/ () => (módulo['predeterminado']) :
+/******/ () => (módulo);
+/******/ __webpack_require__.d(obtenedor, { a: obtenedor });
+/******/ devolver captador;
+/******/ };
+/******/ })();
 /******/
-/******/ 	// startup
-/******/ 	// Load entry module and return exports
-/******/ 	// This entry module is referenced by other modules so it can't be inlined
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/docx-preview.ts");
+/******/ /* webpack/runtime/define captadores de propiedades */
+/******/ (() => {
+/******/ // define funciones getter para exportaciones de armonía
+/******/ __webpack_require__.d = (exportaciones, definición) => {
+/******/ for(var clave en definición) {
+/******/ if(__webpack_require__.o(definición, clave) && !__webpack_require__.o(exportaciones, clave)) {
+/******/ Object.defineProperty(exportaciones, clave, { enumerable: verdadero, obtener: definición[clave] });
+/******/ }
+/******/ }
+/******/ };
+/******/ })();
 /******/
-/******/ 	return __webpack_exports__;
+/******/ /* webpack/runtime/hasOwnProperty abreviatura */
+/******/ (() => {
+/******/ __webpack_require__.o = (obj, prop) => (Objeto.prototipo.hasOwnProperty.call(obj, prop))
+/******/ })();
+/******/
+/******/ /* webpack/runtime/make objeto de espacio de nombres */
+/******/ (() => {
+/******/ // define __esModule en las exportaciones
+/******/ __webpack_require__.r = (exportaciones) => {
+/******/ si (tipo de Símbolo !== 'indefinido' && Símbolo.toStringTag) {
+/******/ Object.defineProperty(exportaciones, Symbol.toStringTag, { valor: 'Módulo' });
+/******/ }
+/******/ Object.defineProperty(exportaciones, '__esModule', { valor: verdadero });
+/******/ };
+/******/ })();
+/******/
+/******/ /* carga del fragmento webpack/runtime/jsonp */
+/******/ (() => {
+/******/ __webpack_require__.b = document.baseURI || self.location.href;
+/******/
+/******/ // objeto para almacenar fragmentos cargados y en carga
+/******/ // indefinido = fragmento no cargado, nulo = fragmento precargado/precargado
+/******/ // [resolver, rechazar, Promesa] = carga de fragmento, 0 = fragmento cargado
+/******/ var installChunks = {
+/******/ "vista previa del docx": 0
+/******/ };
+/******/
+/******/ // no se carga ningún fragmento bajo demanda
+/******/
+/******/ // sin precarga
+/******/
+/******/ // sin precargado
+/******/
+/******/ // sin HMR
+/******/
+/******/ // no hay manifiesto HMR
+/******/
+/******/ // no hay fragmentos cargados
+/******/
+/******/ // sin función jsonp
+/******/ })();
+/******/
+/************************************************************************/
+/******/
+/******/ // puesta en marcha
+/******/ // Cargar módulo de entrada y devolver exportaciones
+/******/ // Este módulo de entrada es referenciado por otros módulos, por lo que no se puede incluir en línea.
+/******/ var __webpack_exports__ = __webpack_require__("./src/docx-preview.ts");
+/******/
+/******/ devolver __webpack_exports__;
 /******/ })()
 ;
 });
