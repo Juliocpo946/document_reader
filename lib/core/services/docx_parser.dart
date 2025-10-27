@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:io';
 import 'package:archive/archive.dart';
 import 'package:xml/xml.dart';
@@ -11,7 +12,7 @@ class DocxParser {
 
       if (documentXml.content is! List<int>) return [];
 
-      final xmlString = String.fromCharCodes(documentXml.content as List<int>);
+      final xmlString = utf8.decode(documentXml.content as List<int>);
       final document = XmlDocument.parse(xmlString);
 
       return _parseDocument(document);

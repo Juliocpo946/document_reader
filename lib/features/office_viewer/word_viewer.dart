@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../core/models/document_model.dart';
-import '../../core/services/docx_parser.dart';
+import '../../core/services/docx_parser.dart' as docx_parser;
 
 class WordViewer extends StatefulWidget {
   final Document document;
@@ -12,8 +12,8 @@ class WordViewer extends StatefulWidget {
 }
 
 class _WordViewerState extends State<WordViewer> {
-  final DocxParser _parser = DocxParser();
-  List<DocxElement>? _elements;
+  final docx_parser.DocxParser _parser = docx_parser.DocxParser();
+  List<docx_parser.DocxElement>? _elements;
   bool _isLoading = true;
   String? _error;
 
@@ -80,21 +80,21 @@ class _WordViewerState extends State<WordViewer> {
     );
   }
 
-  Widget _buildElement(DocxElement element) {
+  Widget _buildElement(docx_parser.DocxElement element) {
     switch (element.type) {
-      case ElementType.paragraph:
+      case docx_parser.ElementType.paragraph:
         return _buildParagraph(element);
-      case ElementType.table:
+      case docx_parser.ElementType.table:
         return _buildTable(element);
     }
   }
 
-  Widget _buildParagraph(DocxElement element) {
+  Widget _buildParagraph(docx_parser.DocxElement element) {
     if (element.text == null || element.text!.isEmpty) {
       return const SizedBox(height: 8);
     }
 
-    final style = element.style ?? TextStyle();
+    final style = element.style ?? docx_parser.TextStyle();
     final textTheme = Theme.of(context).textTheme;
 
     TextStyle textStyle;
@@ -118,8 +118,17 @@ class _WordViewerState extends State<WordViewer> {
     );
   }
 
-  Widget _buildTable(DocxElement element) {
+  Widget _buildTable(docx_parser.DocxElement element) {
     if (element.tableData == null || element.tableData!.isEmpty) {
+      return const SizedBox.shrink();
+    }
+
+    final int maxColumns = element.tableData!.fold<int>(
+      0,
+          (max, row) => row.length > max ? row.length : max,
+    );
+
+    if (maxColumns == 0) {
       return const SizedBox.shrink();
     }
 
@@ -135,12 +144,13 @@ class _WordViewerState extends State<WordViewer> {
             ),
             children: element.tableData!.map((row) {
               return TableRow(
-                children: row.map((cell) {
+                children: List.generate(maxColumns, (index) {
+                  final cellValue = index < row.length ? row[index] : '';
                   return Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: Text(cell),
+                    child: Text(cellValue),
                   );
-                }).toList(),
+                }),
               );
             }).toList(),
           ),

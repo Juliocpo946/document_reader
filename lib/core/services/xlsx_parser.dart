@@ -22,7 +22,7 @@ class XlsxParser {
             if (value == null) {
               rowData.add('');
             } else if (value is TextCellValue) {
-              rowData.add(value.value);
+              rowData.add(value.value.text ?? '');
             } else if (value is IntCellValue) {
               rowData.add(value.value.toString());
             } else if (value is DoubleCellValue) {

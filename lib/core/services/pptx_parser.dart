@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:io';
 import 'package:archive/archive.dart';
 import 'package:xml/xml.dart';
@@ -20,7 +21,7 @@ class PptxParser {
       for (final slideFile in slideFiles) {
         if (slideFile.content is! List<int>) continue;
 
-        final xmlString = String.fromCharCodes(slideFile.content as List<int>);
+        final xmlString = utf8.decode(slideFile.content as List<int>);
         final document = XmlDocument.parse(xmlString);
 
         slides.add(_parseSlide(document, slides.length + 1));
